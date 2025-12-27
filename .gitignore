@@ -1,0 +1,37 @@
+# Raw data (copyrighted/pirated PDFs)
+/corpus/*.pdf
+/corpus/**/*.pdf
+
+# Extracted text (derived from copyrighted sources)
+/corpus/extracted/
+/corpus/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model cache (large)
+/models/
+*.pt
+*.bin
+
+# Outputs (regenerable)
+/outputs/embeddings/*.npy
