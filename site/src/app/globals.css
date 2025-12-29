@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: var(--font-cormorant), Georgia, serif;
+  min-height: 100vh;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
