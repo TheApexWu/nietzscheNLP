@@ -1,0 +1,1393 @@
+{
+  "mean_original_english": 0.8329952359199524,
+  "mean_normalized_english": 0.8358325958251953,
+  "improvement": 0.00283735990524292,
+  "per_aphorism": [
+    {
+      "number": 4,
+      "original_sim": 0.6155047416687012,
+      "normalized_sim": 0.6155047416687012,
+      "improvement": 0.0
+    },
+    {
+      "number": 8,
+      "original_sim": 0.9206556081771851,
+      "normalized_sim": 0.9223823547363281,
+      "improvement": 0.0017267465591430664
+    },
+    {
+      "number": 13,
+      "original_sim": 0.9077573418617249,
+      "normalized_sim": 0.9077573418617249,
+      "improvement": 0.0
+    },
+    {
+      "number": 14,
+      "original_sim": 0.9129934906959534,
+      "normalized_sim": 0.9129934906959534,
+      "improvement": 0.0
+    },
+    {
+      "number": 17,
+      "original_sim": 0.7319268584251404,
+      "normalized_sim": 0.7724050283432007,
+      "improvement": 0.0404781699180603
+    },
+    {
+      "number": 18,
+      "original_sim": 0.8312907814979553,
+      "normalized_sim": 0.8287373781204224,
+      "improvement": -0.002553403377532959
+    },
+    {
+      "number": 20,
+      "original_sim": 0.91542649269104,
+      "normalized_sim": 0.91542649269104,
+      "improvement": 0.0
+    },
+    {
+      "number": 22,
+      "original_sim": 0.9032846093177795,
+      "normalized_sim": 0.9045573472976685,
+      "improvement": 0.001272737979888916
+    },
+    {
+      "number": 23,
+      "original_sim": 0.9245479106903076,
+      "normalized_sim": 0.9245479106903076,
+      "improvement": 0.0
+    },
+    {
+      "number": 24,
+      "original_sim": 0.8736574649810791,
+      "normalized_sim": 0.8736574649810791,
+      "improvement": 0.0
+    },
+    {
+      "number": 25,
+      "original_sim": 0.7703285813331604,
+      "normalized_sim": 0.7703285813331604,
+      "improvement": 0.0
+    },
+    {
+      "number": 26,
+      "original_sim": 0.8327170610427856,
+      "normalized_sim": 0.8386310338973999,
+      "improvement": 0.005913972854614258
+    },
+    {
+      "number": 27,
+      "original_sim": 0.8827688694000244,
+      "normalized_sim": 0.8791420459747314,
+      "improvement": -0.0036268234252929688
+    },
+    {
+      "number": 28,
+      "original_sim": 0.9349920749664307,
+      "normalized_sim": 0.939048707485199,
+      "improvement": 0.0040566325187683105
+    },
+    {
+      "number": 29,
+      "original_sim": 0.8265241384506226,
+      "normalized_sim": 0.8265241384506226,
+      "improvement": 0.0
+    },
+    {
+      "number": 30,
+      "original_sim": 0.7920772433280945,
+      "normalized_sim": 0.7778079509735107,
+      "improvement": -0.01426929235458374
+    },
+    {
+      "number": 31,
+      "original_sim": 0.8816550970077515,
+      "normalized_sim": 0.8827680945396423,
+      "improvement": 0.0011129975318908691
+    },
+    {
+      "number": 32,
+      "original_sim": 0.8946623802185059,
+      "normalized_sim": 0.9018123149871826,
+      "improvement": 0.007149934768676758
+    },
+    {
+      "number": 33,
+      "original_sim": 0.8963158130645752,
+      "normalized_sim": 0.8896901607513428,
+      "improvement": -0.006625652313232422
+    },
+    {
+      "number": 34,
+      "original_sim": 0.8911515474319458,
+      "normalized_sim": 0.8911515474319458,
+      "improvement": 0.0
+    },
+    {
+      "number": 35,
+      "original_sim": 0.9433936476707458,
+      "normalized_sim": 0.9433936476707458,
+      "improvement": 0.0
+    },
+    {
+      "number": 36,
+      "original_sim": 0.919835090637207,
+      "normalized_sim": 0.919835090637207,
+      "improvement": 0.0
+    },
+    {
+      "number": 37,
+      "original_sim": 0.8167931437492371,
+      "normalized_sim": 0.8167931437492371,
+      "improvement": 0.0
+    },
+    {
+      "number": 38,
+      "original_sim": 0.8907231092453003,
+      "normalized_sim": 0.8909443616867065,
+      "improvement": 0.00022125244140625
+    },
+    {
+      "number": 39,
+      "original_sim": 0.7494029998779297,
+      "normalized_sim": 0.7494029998779297,
+      "improvement": 0.0
+    },
+    {
+      "number": 43,
+      "original_sim": 0.9518494606018066,
+      "normalized_sim": 0.9518494606018066,
+      "improvement": 0.0
+    },
+    {
+      "number": 44,
+      "original_sim": 0.9127061367034912,
+      "normalized_sim": 0.9127061367034912,
+      "improvement": 0.0
+    },
+    {
+      "number": 45,
+      "original_sim": 0.8989756107330322,
+      "normalized_sim": 0.8989756107330322,
+      "improvement": 0.0
+    },
+    {
+      "number": 46,
+      "original_sim": 0.91816246509552,
+      "normalized_sim": 0.91816246509552,
+      "improvement": 0.0
+    },
+    {
+      "number": 47,
+      "original_sim": 0.8899980783462524,
+      "normalized_sim": 0.8899980783462524,
+      "improvement": 0.0
+    },
+    {
+      "number": 48,
+      "original_sim": 0.9352967739105225,
+      "normalized_sim": 0.9352967739105225,
+      "improvement": 0.0
+    },
+    {
+      "number": 49,
+      "original_sim": 0.8543112277984619,
+      "normalized_sim": 0.8543112277984619,
+      "improvement": 0.0
+    },
+    {
+      "number": 52,
+      "original_sim": 0.8579039573669434,
+      "normalized_sim": 0.8637626767158508,
+      "improvement": 0.005858719348907471
+    },
+    {
+      "number": 53,
+      "original_sim": 0.9592570066452026,
+      "normalized_sim": 0.955485999584198,
+      "improvement": -0.0037710070610046387
+    },
+    {
+      "number": 55,
+      "original_sim": 0.8539788722991943,
+      "normalized_sim": 0.8605809211730957,
+      "improvement": 0.006602048873901367
+    },
+    {
+      "number": 56,
+      "original_sim": 0.8532068729400635,
+      "normalized_sim": 0.8532068729400635,
+      "improvement": 0.0
+    },
+    {
+      "number": 57,
+      "original_sim": 0.8380779027938843,
+      "normalized_sim": 0.838436484336853,
+      "improvement": 0.00035858154296875
+    },
+    {
+      "number": 59,
+      "original_sim": 0.7151727676391602,
+      "normalized_sim": 0.713570237159729,
+      "improvement": -0.0016025304794311523
+    },
+    {
+      "number": 60,
+      "original_sim": 0.8131005167961121,
+      "normalized_sim": 0.82622230052948,
+      "improvement": 0.01312178373336792
+    },
+    {
+      "number": 61,
+      "original_sim": 0.9325238466262817,
+      "normalized_sim": 0.9325238466262817,
+      "improvement": 0.0
+    },
+    {
+      "number": 62,
+      "original_sim": 0.8822064995765686,
+      "normalized_sim": 0.8517284393310547,
+      "improvement": -0.030478060245513916
+    },
+    {
+      "number": 63,
+      "original_sim": 0.8810321688652039,
+      "normalized_sim": 0.8810321688652039,
+      "improvement": 0.0
+    },
+    {
+      "number": 64,
+      "original_sim": 0.7881340384483337,
+      "normalized_sim": 0.7881340384483337,
+      "improvement": 0.0
+    },
+    {
+      "number": 65,
+      "original_sim": 0.8817030191421509,
+      "normalized_sim": 0.8817030191421509,
+      "improvement": 0.0
+    },
+    {
+      "number": 66,
+      "original_sim": 0.780670702457428,
+      "normalized_sim": 0.780670702457428,
+      "improvement": 0.0
+    },
+    {
+      "number": 67,
+      "original_sim": 0.8802059292793274,
+      "normalized_sim": 0.8802059292793274,
+      "improvement": 0.0
+    },
+    {
+      "number": 68,
+      "original_sim": 0.9196267127990723,
+      "normalized_sim": 0.9325699806213379,
+      "improvement": 0.012943267822265625
+    },
+    {
+      "number": 69,
+      "original_sim": 0.8534492254257202,
+      "normalized_sim": 0.8534492254257202,
+      "improvement": 0.0
+    },
+    {
+      "number": 71,
+      "original_sim": 0.8247787952423096,
+      "normalized_sim": 0.8247787952423096,
+      "improvement": 0.0
+    },
+    {
+      "number": 72,
+      "original_sim": 0.5291242003440857,
+      "normalized_sim": 0.5291242003440857,
+      "improvement": 0.0
+    },
+    {
+      "number": 73,
+      "original_sim": 0.677080512046814,
+      "normalized_sim": 0.677080512046814,
+      "improvement": 0.0
+    },
+    {
+      "number": 74,
+      "original_sim": 0.9252277612686157,
+      "normalized_sim": 0.9252277612686157,
+      "improvement": 0.0
+    },
+    {
+      "number": 75,
+      "original_sim": 0.7439589500427246,
+      "normalized_sim": 0.7439589500427246,
+      "improvement": 0.0
+    },
+    {
+      "number": 76,
+      "original_sim": 0.8383005261421204,
+      "normalized_sim": 0.8383005261421204,
+      "improvement": 0.0
+    },
+    {
+      "number": 77,
+      "original_sim": 0.87378990650177,
+      "normalized_sim": 0.8827551603317261,
+      "improvement": 0.008965253829956055
+    },
+    {
+      "number": 78,
+      "original_sim": 0.8330432772636414,
+      "normalized_sim": 0.8330432772636414,
+      "improvement": 0.0
+    },
+    {
+      "number": 79,
+      "original_sim": 0.8837104439735413,
+      "normalized_sim": 0.8837104439735413,
+      "improvement": 0.0
+    },
+    {
+      "number": 80,
+      "original_sim": 0.7662325501441956,
+      "normalized_sim": 0.7662325501441956,
+      "improvement": 0.0
+    },
+    {
+      "number": 83,
+      "original_sim": 0.7619049549102783,
+      "normalized_sim": 0.7619049549102783,
+      "improvement": 0.0
+    },
+    {
+      "number": 84,
+      "original_sim": 0.8362600803375244,
+      "normalized_sim": 0.8362600803375244,
+      "improvement": 0.0
+    },
+    {
+      "number": 86,
+      "original_sim": 0.652606725692749,
+      "normalized_sim": 0.652606725692749,
+      "improvement": 0.0
+    },
+    {
+      "number": 87,
+      "original_sim": 0.8278146386146545,
+      "normalized_sim": 0.8278146386146545,
+      "improvement": 0.0
+    },
+    {
+      "number": 88,
+      "original_sim": 0.8287306427955627,
+      "normalized_sim": 0.8287306427955627,
+      "improvement": 0.0
+    },
+    {
+      "number": 89,
+      "original_sim": 0.8374724984169006,
+      "normalized_sim": 0.841029703617096,
+      "improvement": 0.0035572052001953125
+    },
+    {
+      "number": 92,
+      "original_sim": 0.7563132643699646,
+      "normalized_sim": 0.7563132643699646,
+      "improvement": 0.0
+    },
+    {
+      "number": 93,
+      "original_sim": 0.6920796632766724,
+      "normalized_sim": 0.6920796632766724,
+      "improvement": 0.0
+    },
+    {
+      "number": 94,
+      "original_sim": 0.7487289905548096,
+      "normalized_sim": 0.7487289905548096,
+      "improvement": 0.0
+    },
+    {
+      "number": 95,
+      "original_sim": 0.8045583963394165,
+      "normalized_sim": 0.8045583963394165,
+      "improvement": 0.0
+    },
+    {
+      "number": 96,
+      "original_sim": 0.8114194869995117,
+      "normalized_sim": 0.8114194869995117,
+      "improvement": 0.0
+    },
+    {
+      "number": 97,
+      "original_sim": 0.9225759506225586,
+      "normalized_sim": 0.9225759506225586,
+      "improvement": 0.0
+    },
+    {
+      "number": 98,
+      "original_sim": 0.8291005492210388,
+      "normalized_sim": 0.8931396007537842,
+      "improvement": 0.06403905153274536
+    },
+    {
+      "number": 99,
+      "original_sim": 0.8431668281555176,
+      "normalized_sim": 0.8431668281555176,
+      "improvement": 0.0
+    },
+    {
+      "number": 100,
+      "original_sim": 0.6723859310150146,
+      "normalized_sim": 0.6723859310150146,
+      "improvement": 0.0
+    },
+    {
+      "number": 102,
+      "original_sim": 0.8490457534790039,
+      "normalized_sim": 0.8490457534790039,
+      "improvement": 0.0
+    },
+    {
+      "number": 103,
+      "original_sim": 0.8392379283905029,
+      "normalized_sim": 0.8392379283905029,
+      "improvement": 0.0
+    },
+    {
+      "number": 107,
+      "original_sim": 0.8612976670265198,
+      "normalized_sim": 0.8612976670265198,
+      "improvement": 0.0
+    },
+    {
+      "number": 108,
+      "original_sim": 0.8203366994857788,
+      "normalized_sim": 0.8879156708717346,
+      "improvement": 0.06757897138595581
+    },
+    {
+      "number": 109,
+      "original_sim": 0.6937867403030396,
+      "normalized_sim": 0.7318947911262512,
+      "improvement": 0.03810805082321167
+    },
+    {
+      "number": 114,
+      "original_sim": 0.8990656137466431,
+      "normalized_sim": 0.8990656137466431,
+      "improvement": 0.0
+    },
+    {
+      "number": 116,
+      "original_sim": 0.8315845131874084,
+      "normalized_sim": 0.8763633370399475,
+      "improvement": 0.04477882385253906
+    },
+    {
+      "number": 117,
+      "original_sim": 0.6894270181655884,
+      "normalized_sim": 0.6894270181655884,
+      "improvement": 0.0
+    },
+    {
+      "number": 119,
+      "original_sim": 0.7365353107452393,
+      "normalized_sim": 0.7365353107452393,
+      "improvement": 0.0
+    },
+    {
+      "number": 123,
+      "original_sim": 0.9357719421386719,
+      "normalized_sim": 0.9388140439987183,
+      "improvement": 0.0030421018600463867
+    },
+    {
+      "number": 126,
+      "original_sim": 0.8769473433494568,
+      "normalized_sim": 0.8769473433494568,
+      "improvement": 0.0
+    },
+    {
+      "number": 127,
+      "original_sim": 0.810719907283783,
+      "normalized_sim": 0.810719907283783,
+      "improvement": 0.0
+    },
+    {
+      "number": 128,
+      "original_sim": 0.9217656850814819,
+      "normalized_sim": 0.9217656850814819,
+      "improvement": 0.0
+    },
+    {
+      "number": 129,
+      "original_sim": 0.9479584693908691,
+      "normalized_sim": 0.9479584693908691,
+      "improvement": 0.0
+    },
+    {
+      "number": 130,
+      "original_sim": 0.8876140117645264,
+      "normalized_sim": 0.8876140117645264,
+      "improvement": 0.0
+    },
+    {
+      "number": 131,
+      "original_sim": 0.9135572910308838,
+      "normalized_sim": 0.9135572910308838,
+      "improvement": 0.0
+    },
+    {
+      "number": 132,
+      "original_sim": 0.8275852203369141,
+      "normalized_sim": 0.8275852203369141,
+      "improvement": 0.0
+    },
+    {
+      "number": 133,
+      "original_sim": 0.852516770362854,
+      "normalized_sim": 0.852516770362854,
+      "improvement": 0.0
+    },
+    {
+      "number": 134,
+      "original_sim": 0.8242077827453613,
+      "normalized_sim": 0.8242077827453613,
+      "improvement": 0.0
+    },
+    {
+      "number": 135,
+      "original_sim": 0.8669687509536743,
+      "normalized_sim": 0.8669687509536743,
+      "improvement": 0.0
+    },
+    {
+      "number": 136,
+      "original_sim": 0.6430462598800659,
+      "normalized_sim": 0.6430462598800659,
+      "improvement": 0.0
+    },
+    {
+      "number": 137,
+      "original_sim": 0.8396201133728027,
+      "normalized_sim": 0.8396201133728027,
+      "improvement": 0.0
+    },
+    {
+      "number": 139,
+      "original_sim": 0.8969922065734863,
+      "normalized_sim": 0.8969922065734863,
+      "improvement": 0.0
+    },
+    {
+      "number": 140,
+      "original_sim": 0.3285163938999176,
+      "normalized_sim": 0.3452455401420593,
+      "improvement": 0.016729146242141724
+    },
+    {
+      "number": 142,
+      "original_sim": 0.9470229148864746,
+      "normalized_sim": 0.9470229148864746,
+      "improvement": 0.0
+    },
+    {
+      "number": 143,
+      "original_sim": 0.6931896209716797,
+      "normalized_sim": 0.6789894700050354,
+      "improvement": -0.014200150966644287
+    },
+    {
+      "number": 144,
+      "original_sim": 0.8430471420288086,
+      "normalized_sim": 0.8495767712593079,
+      "improvement": 0.006529629230499268
+    },
+    {
+      "number": 146,
+      "original_sim": 0.8150103092193604,
+      "normalized_sim": 0.8150103092193604,
+      "improvement": 0.0
+    },
+    {
+      "number": 147,
+      "original_sim": 0.8223257064819336,
+      "normalized_sim": 0.8223257064819336,
+      "improvement": 0.0
+    },
+    {
+      "number": 148,
+      "original_sim": 0.5598928928375244,
+      "normalized_sim": 0.5628677606582642,
+      "improvement": 0.002974867820739746
+    },
+    {
+      "number": 149,
+      "original_sim": 0.7732524275779724,
+      "normalized_sim": 0.7732524275779724,
+      "improvement": 0.0
+    },
+    {
+      "number": 150,
+      "original_sim": 0.8940541744232178,
+      "normalized_sim": 0.8940541744232178,
+      "improvement": 0.0
+    },
+    {
+      "number": 152,
+      "original_sim": 0.9059929251670837,
+      "normalized_sim": 0.9059929251670837,
+      "improvement": 0.0
+    },
+    {
+      "number": 154,
+      "original_sim": 0.8413392305374146,
+      "normalized_sim": 0.8413392305374146,
+      "improvement": 0.0
+    },
+    {
+      "number": 156,
+      "original_sim": 0.7910944223403931,
+      "normalized_sim": 0.7910944223403931,
+      "improvement": 0.0
+    },
+    {
+      "number": 157,
+      "original_sim": 0.9334816336631775,
+      "normalized_sim": 0.9334816336631775,
+      "improvement": 0.0
+    },
+    {
+      "number": 158,
+      "original_sim": 0.9105791449546814,
+      "normalized_sim": 0.9105791449546814,
+      "improvement": 0.0
+    },
+    {
+      "number": 159,
+      "original_sim": 0.8129739165306091,
+      "normalized_sim": 0.8687186241149902,
+      "improvement": 0.055744707584381104
+    },
+    {
+      "number": 160,
+      "original_sim": 0.7246147990226746,
+      "normalized_sim": 0.7246147990226746,
+      "improvement": 0.0
+    },
+    {
+      "number": 161,
+      "original_sim": 0.6609793901443481,
+      "normalized_sim": 0.6609793901443481,
+      "improvement": 0.0
+    },
+    {
+      "number": 162,
+      "original_sim": 0.9028849601745605,
+      "normalized_sim": 0.9028849601745605,
+      "improvement": 0.0
+    },
+    {
+      "number": 163,
+      "original_sim": 0.8886812925338745,
+      "normalized_sim": 0.8886812925338745,
+      "improvement": 0.0
+    },
+    {
+      "number": 164,
+      "original_sim": 0.925692081451416,
+      "normalized_sim": 0.925692081451416,
+      "improvement": 0.0
+    },
+    {
+      "number": 167,
+      "original_sim": 0.7331093549728394,
+      "normalized_sim": 0.7331093549728394,
+      "improvement": 0.0
+    },
+    {
+      "number": 169,
+      "original_sim": 0.9052245616912842,
+      "normalized_sim": 0.9052245616912842,
+      "improvement": 0.0
+    },
+    {
+      "number": 170,
+      "original_sim": 0.655875563621521,
+      "normalized_sim": 0.655875563621521,
+      "improvement": 0.0
+    },
+    {
+      "number": 171,
+      "original_sim": 0.603402853012085,
+      "normalized_sim": 0.603402853012085,
+      "improvement": 0.0
+    },
+    {
+      "number": 172,
+      "original_sim": 0.814846396446228,
+      "normalized_sim": 0.814846396446228,
+      "improvement": 0.0
+    },
+    {
+      "number": 173,
+      "original_sim": 0.8242702484130859,
+      "normalized_sim": 0.8242702484130859,
+      "improvement": 0.0
+    },
+    {
+      "number": 174,
+      "original_sim": 0.8556042313575745,
+      "normalized_sim": 0.8556042313575745,
+      "improvement": 0.0
+    },
+    {
+      "number": 175,
+      "original_sim": 0.7502987384796143,
+      "normalized_sim": 0.7502987384796143,
+      "improvement": 0.0
+    },
+    {
+      "number": 176,
+      "original_sim": 0.6776004433631897,
+      "normalized_sim": 0.6776004433631897,
+      "improvement": 0.0
+    },
+    {
+      "number": 177,
+      "original_sim": 0.6785258650779724,
+      "normalized_sim": 0.6785258650779724,
+      "improvement": 0.0
+    },
+    {
+      "number": 178,
+      "original_sim": 0.8260886073112488,
+      "normalized_sim": 0.8294292688369751,
+      "improvement": 0.0033406615257263184
+    },
+    {
+      "number": 179,
+      "original_sim": 0.788479208946228,
+      "normalized_sim": 0.788479208946228,
+      "improvement": 0.0
+    },
+    {
+      "number": 180,
+      "original_sim": 0.9282740950584412,
+      "normalized_sim": 0.9327237606048584,
+      "improvement": 0.004449665546417236
+    },
+    {
+      "number": 181,
+      "original_sim": 0.5188522338867188,
+      "normalized_sim": 0.5188522338867188,
+      "improvement": 0.0
+    },
+    {
+      "number": 182,
+      "original_sim": 0.4967750608921051,
+      "normalized_sim": 0.4967750608921051,
+      "improvement": 0.0
+    },
+    {
+      "number": 183,
+      "original_sim": 0.7983897924423218,
+      "normalized_sim": 0.7983897924423218,
+      "improvement": 0.0
+    },
+    {
+      "number": 184,
+      "original_sim": 0.7543835639953613,
+      "normalized_sim": 0.759913444519043,
+      "improvement": 0.005529880523681641
+    },
+    {
+      "number": 186,
+      "original_sim": 0.9044528603553772,
+      "normalized_sim": 0.9031062126159668,
+      "improvement": -0.0013466477394104004
+    },
+    {
+      "number": 187,
+      "original_sim": 0.830107569694519,
+      "normalized_sim": 0.8484447002410889,
+      "improvement": 0.018337130546569824
+    },
+    {
+      "number": 189,
+      "original_sim": 0.835870623588562,
+      "normalized_sim": 0.835870623588562,
+      "improvement": 0.0
+    },
+    {
+      "number": 190,
+      "original_sim": 0.9007537961006165,
+      "normalized_sim": 0.8996992111206055,
+      "improvement": -0.0010545849800109863
+    },
+    {
+      "number": 192,
+      "original_sim": 0.8790067434310913,
+      "normalized_sim": 0.8790067434310913,
+      "improvement": 0.0
+    },
+    {
+      "number": 193,
+      "original_sim": 0.8830587267875671,
+      "normalized_sim": 0.8830587267875671,
+      "improvement": 0.0
+    },
+    {
+      "number": 194,
+      "original_sim": 0.7629942893981934,
+      "normalized_sim": 0.7629942893981934,
+      "improvement": 0.0
+    },
+    {
+      "number": 195,
+      "original_sim": 0.9145747423171997,
+      "normalized_sim": 0.9145747423171997,
+      "improvement": 0.0
+    },
+    {
+      "number": 196,
+      "original_sim": 0.8186219930648804,
+      "normalized_sim": 0.8559040427207947,
+      "improvement": 0.03728204965591431
+    },
+    {
+      "number": 197,
+      "original_sim": 0.8392351865768433,
+      "normalized_sim": 0.8453534841537476,
+      "improvement": 0.006118297576904297
+    },
+    {
+      "number": 198,
+      "original_sim": 0.818640947341919,
+      "normalized_sim": 0.818640947341919,
+      "improvement": 0.0
+    },
+    {
+      "number": 199,
+      "original_sim": 0.7055642008781433,
+      "normalized_sim": 0.6861080527305603,
+      "improvement": -0.019456148147583008
+    },
+    {
+      "number": 200,
+      "original_sim": 0.8672760725021362,
+      "normalized_sim": 0.8672760725021362,
+      "improvement": 0.0
+    },
+    {
+      "number": 202,
+      "original_sim": 0.7651047110557556,
+      "normalized_sim": 0.8139441013336182,
+      "improvement": 0.04883939027786255
+    },
+    {
+      "number": 203,
+      "original_sim": 0.911626935005188,
+      "normalized_sim": 0.9143153429031372,
+      "improvement": 0.0026884078979492188
+    },
+    {
+      "number": 204,
+      "original_sim": 0.8682045340538025,
+      "normalized_sim": 0.8802441358566284,
+      "improvement": 0.012039601802825928
+    },
+    {
+      "number": 205,
+      "original_sim": 0.8884491920471191,
+      "normalized_sim": 0.8956513404846191,
+      "improvement": 0.0072021484375
+    },
+    {
+      "number": 206,
+      "original_sim": 0.8522418141365051,
+      "normalized_sim": 0.8491154313087463,
+      "improvement": -0.003126382827758789
+    },
+    {
+      "number": 207,
+      "original_sim": 0.842334508895874,
+      "normalized_sim": 0.8364675045013428,
+      "improvement": -0.00586700439453125
+    },
+    {
+      "number": 208,
+      "original_sim": 0.9112256169319153,
+      "normalized_sim": 0.9206357598304749,
+      "improvement": 0.00941014289855957
+    },
+    {
+      "number": 209,
+      "original_sim": 0.8774228692054749,
+      "normalized_sim": 0.8774228692054749,
+      "improvement": 0.0
+    },
+    {
+      "number": 210,
+      "original_sim": 0.8798520565032959,
+      "normalized_sim": 0.8946714401245117,
+      "improvement": 0.01481938362121582
+    },
+    {
+      "number": 212,
+      "original_sim": 0.9529014825820923,
+      "normalized_sim": 0.9529014825820923,
+      "improvement": 0.0
+    },
+    {
+      "number": 213,
+      "original_sim": 0.9267643690109253,
+      "normalized_sim": 0.9267643690109253,
+      "improvement": 0.0
+    },
+    {
+      "number": 214,
+      "original_sim": 0.8016896843910217,
+      "normalized_sim": 0.8016896843910217,
+      "improvement": 0.0
+    },
+    {
+      "number": 215,
+      "original_sim": 0.9101485013961792,
+      "normalized_sim": 0.9102710485458374,
+      "improvement": 0.00012254714965820312
+    },
+    {
+      "number": 216,
+      "original_sim": 0.8517388105392456,
+      "normalized_sim": 0.8517388105392456,
+      "improvement": 0.0
+    },
+    {
+      "number": 218,
+      "original_sim": 0.9393395781517029,
+      "normalized_sim": 0.9425499439239502,
+      "improvement": 0.0032103657722473145
+    },
+    {
+      "number": 219,
+      "original_sim": 0.8311059474945068,
+      "normalized_sim": 0.8240426778793335,
+      "improvement": -0.00706326961517334
+    },
+    {
+      "number": 220,
+      "original_sim": 0.8285220861434937,
+      "normalized_sim": 0.8280705809593201,
+      "improvement": -0.000451505184173584
+    },
+    {
+      "number": 221,
+      "original_sim": 0.7566613554954529,
+      "normalized_sim": 0.7566613554954529,
+      "improvement": 0.0
+    },
+    {
+      "number": 222,
+      "original_sim": 0.9006035327911377,
+      "normalized_sim": 0.9006035327911377,
+      "improvement": 0.0
+    },
+    {
+      "number": 223,
+      "original_sim": 0.8283655643463135,
+      "normalized_sim": 0.836621880531311,
+      "improvement": 0.008256316184997559
+    },
+    {
+      "number": 224,
+      "original_sim": 0.9041742086410522,
+      "normalized_sim": 0.9041742086410522,
+      "improvement": 0.0
+    },
+    {
+      "number": 225,
+      "original_sim": 0.8886997699737549,
+      "normalized_sim": 0.8887519836425781,
+      "improvement": 5.221366882324219e-05
+    },
+    {
+      "number": 226,
+      "original_sim": 0.9283419847488403,
+      "normalized_sim": 0.9283419847488403,
+      "improvement": 0.0
+    },
+    {
+      "number": 227,
+      "original_sim": 0.7761033773422241,
+      "normalized_sim": 0.7816965579986572,
+      "improvement": 0.0055931806564331055
+    },
+    {
+      "number": 228,
+      "original_sim": 0.9239646792411804,
+      "normalized_sim": 0.9239646792411804,
+      "improvement": 0.0
+    },
+    {
+      "number": 229,
+      "original_sim": 0.8101189136505127,
+      "normalized_sim": 0.8685922026634216,
+      "improvement": 0.058473289012908936
+    },
+    {
+      "number": 230,
+      "original_sim": 0.7937984466552734,
+      "normalized_sim": 0.7937984466552734,
+      "improvement": 0.0
+    },
+    {
+      "number": 231,
+      "original_sim": 0.8352246284484863,
+      "normalized_sim": 0.8476879596710205,
+      "improvement": 0.01246333122253418
+    },
+    {
+      "number": 232,
+      "original_sim": 0.8204841613769531,
+      "normalized_sim": 0.8204841613769531,
+      "improvement": 0.0
+    },
+    {
+      "number": 233,
+      "original_sim": 0.8883720636367798,
+      "normalized_sim": 0.8883720636367798,
+      "improvement": 0.0
+    },
+    {
+      "number": 234,
+      "original_sim": 0.8771546483039856,
+      "normalized_sim": 0.8665311932563782,
+      "improvement": -0.010623455047607422
+    },
+    {
+      "number": 236,
+      "original_sim": 0.8171213865280151,
+      "normalized_sim": 0.8171213865280151,
+      "improvement": 0.0
+    },
+    {
+      "number": 237,
+      "original_sim": 0.683066189289093,
+      "normalized_sim": 0.6879940032958984,
+      "improvement": 0.00492781400680542
+    },
+    {
+      "number": 238,
+      "original_sim": 0.8214014768600464,
+      "normalized_sim": 0.8289175033569336,
+      "improvement": 0.007516026496887207
+    },
+    {
+      "number": 239,
+      "original_sim": 0.8557665348052979,
+      "normalized_sim": 0.8557665348052979,
+      "improvement": 0.0
+    },
+    {
+      "number": 240,
+      "original_sim": 0.9183530807495117,
+      "normalized_sim": 0.9183530807495117,
+      "improvement": 0.0
+    },
+    {
+      "number": 241,
+      "original_sim": 0.9051787853240967,
+      "normalized_sim": 0.9051787853240967,
+      "improvement": 0.0
+    },
+    {
+      "number": 242,
+      "original_sim": 0.8834403157234192,
+      "normalized_sim": 0.8834403157234192,
+      "improvement": 0.0
+    },
+    {
+      "number": 243,
+      "original_sim": 0.8510640263557434,
+      "normalized_sim": 0.8571264743804932,
+      "improvement": 0.006062448024749756
+    },
+    {
+      "number": 244,
+      "original_sim": 0.9222182631492615,
+      "normalized_sim": 0.9222182631492615,
+      "improvement": 0.0
+    },
+    {
+      "number": 245,
+      "original_sim": 0.8479804396629333,
+      "normalized_sim": 0.8475193977355957,
+      "improvement": -0.0004610419273376465
+    },
+    {
+      "number": 246,
+      "original_sim": 0.8679419159889221,
+      "normalized_sim": 0.8679419159889221,
+      "improvement": 0.0
+    },
+    {
+      "number": 248,
+      "original_sim": 0.9150703549385071,
+      "normalized_sim": 0.9294562935829163,
+      "improvement": 0.01438593864440918
+    },
+    {
+      "number": 249,
+      "original_sim": 0.7293268442153931,
+      "normalized_sim": 0.7293268442153931,
+      "improvement": 0.0
+    },
+    {
+      "number": 250,
+      "original_sim": 0.933021605014801,
+      "normalized_sim": 0.933704674243927,
+      "improvement": 0.0006830692291259766
+    },
+    {
+      "number": 252,
+      "original_sim": 0.9347118139266968,
+      "normalized_sim": 0.9397290945053101,
+      "improvement": 0.005017280578613281
+    },
+    {
+      "number": 254,
+      "original_sim": 0.9291704297065735,
+      "normalized_sim": 0.9345203638076782,
+      "improvement": 0.005349934101104736
+    },
+    {
+      "number": 255,
+      "original_sim": 0.9190050363540649,
+      "normalized_sim": 0.9190050363540649,
+      "improvement": 0.0
+    },
+    {
+      "number": 256,
+      "original_sim": 0.9253599047660828,
+      "normalized_sim": 0.9167525172233582,
+      "improvement": -0.00860738754272461
+    },
+    {
+      "number": 257,
+      "original_sim": 0.8807842135429382,
+      "normalized_sim": 0.894472599029541,
+      "improvement": 0.013688385486602783
+    },
+    {
+      "number": 258,
+      "original_sim": 0.9534974098205566,
+      "normalized_sim": 0.9534974098205566,
+      "improvement": 0.0
+    },
+    {
+      "number": 259,
+      "original_sim": 0.9045014381408691,
+      "normalized_sim": 0.9015763998031616,
+      "improvement": -0.0029250383377075195
+    },
+    {
+      "number": 260,
+      "original_sim": 0.8623371124267578,
+      "normalized_sim": 0.873108983039856,
+      "improvement": 0.010771870613098145
+    },
+    {
+      "number": 261,
+      "original_sim": 0.7089251279830933,
+      "normalized_sim": 0.7089251279830933,
+      "improvement": 0.0
+    },
+    {
+      "number": 262,
+      "original_sim": 0.8473604321479797,
+      "normalized_sim": 0.8539512157440186,
+      "improvement": 0.006590783596038818
+    },
+    {
+      "number": 263,
+      "original_sim": 0.8348658084869385,
+      "normalized_sim": 0.8478925824165344,
+      "improvement": 0.013026773929595947
+    },
+    {
+      "number": 264,
+      "original_sim": 0.8536070585250854,
+      "normalized_sim": 0.861984133720398,
+      "improvement": 0.0083770751953125
+    },
+    {
+      "number": 266,
+      "original_sim": 0.6290035247802734,
+      "normalized_sim": 0.6227796077728271,
+      "improvement": -0.006223917007446289
+    },
+    {
+      "number": 267,
+      "original_sim": 0.8865026235580444,
+      "normalized_sim": 0.8842177391052246,
+      "improvement": -0.0022848844528198242
+    },
+    {
+      "number": 268,
+      "original_sim": 0.7336762547492981,
+      "normalized_sim": 0.7336762547492981,
+      "improvement": 0.0
+    },
+    {
+      "number": 269,
+      "original_sim": 0.8884985446929932,
+      "normalized_sim": 0.8832967877388,
+      "improvement": -0.005201756954193115
+    },
+    {
+      "number": 270,
+      "original_sim": 0.8897982239723206,
+      "normalized_sim": 0.8897982239723206,
+      "improvement": 0.0
+    },
+    {
+      "number": 271,
+      "original_sim": 0.87491774559021,
+      "normalized_sim": 0.87491774559021,
+      "improvement": 0.0
+    },
+    {
+      "number": 272,
+      "original_sim": 0.6955441236495972,
+      "normalized_sim": 0.6943477988243103,
+      "improvement": -0.0011963248252868652
+    },
+    {
+      "number": 273,
+      "original_sim": 0.8268396854400635,
+      "normalized_sim": 0.8268396854400635,
+      "improvement": 0.0
+    },
+    {
+      "number": 274,
+      "original_sim": 0.855453372001648,
+      "normalized_sim": 0.8702128529548645,
+      "improvement": 0.014759480953216553
+    },
+    {
+      "number": 276,
+      "original_sim": 0.8129666447639465,
+      "normalized_sim": 0.8129666447639465,
+      "improvement": 0.0
+    },
+    {
+      "number": 277,
+      "original_sim": 0.8623722195625305,
+      "normalized_sim": 0.8623722195625305,
+      "improvement": 0.0
+    },
+    {
+      "number": 278,
+      "original_sim": 0.8566715717315674,
+      "normalized_sim": 0.8710061311721802,
+      "improvement": 0.014334559440612793
+    },
+    {
+      "number": 279,
+      "original_sim": 0.7977030873298645,
+      "normalized_sim": 0.7977030873298645,
+      "improvement": 0.0
+    },
+    {
+      "number": 280,
+      "original_sim": 0.8118202686309814,
+      "normalized_sim": 0.8193809986114502,
+      "improvement": 0.00756072998046875
+    },
+    {
+      "number": 281,
+      "original_sim": 0.8275225162506104,
+      "normalized_sim": 0.8236215114593506,
+      "improvement": -0.0039010047912597656
+    },
+    {
+      "number": 282,
+      "original_sim": 0.8524613380432129,
+      "normalized_sim": 0.8524613380432129,
+      "improvement": 0.0
+    },
+    {
+      "number": 283,
+      "original_sim": 0.7870543003082275,
+      "normalized_sim": 0.7870543003082275,
+      "improvement": 0.0
+    },
+    {
+      "number": 284,
+      "original_sim": 0.7568960785865784,
+      "normalized_sim": 0.7554141283035278,
+      "improvement": -0.0014819502830505371
+    },
+    {
+      "number": 286,
+      "original_sim": 0.8577988147735596,
+      "normalized_sim": 0.8625087738037109,
+      "improvement": 0.004709959030151367
+    },
+    {
+      "number": 287,
+      "original_sim": 0.6231947541236877,
+      "normalized_sim": 0.6231947541236877,
+      "improvement": 0.0
+    },
+    {
+      "number": 288,
+      "original_sim": 0.8009250164031982,
+      "normalized_sim": 0.7969857454299927,
+      "improvement": -0.003939270973205566
+    },
+    {
+      "number": 289,
+      "original_sim": 0.8625726699829102,
+      "normalized_sim": 0.8625726699829102,
+      "improvement": 0.0
+    },
+    {
+      "number": 290,
+      "original_sim": 0.847506046295166,
+      "normalized_sim": 0.847506046295166,
+      "improvement": 0.0
+    },
+    {
+      "number": 292,
+      "original_sim": 0.9607505798339844,
+      "normalized_sim": 0.9607505798339844,
+      "improvement": 0.0
+    },
+    {
+      "number": 293,
+      "original_sim": 0.9201616048812866,
+      "normalized_sim": 0.9290685057640076,
+      "improvement": 0.008906900882720947
+    },
+    {
+      "number": 294,
+      "original_sim": 0.8572275638580322,
+      "normalized_sim": 0.8572275638580322,
+      "improvement": 0.0
+    },
+    {
+      "number": 295,
+      "original_sim": 0.9283538460731506,
+      "normalized_sim": 0.9283538460731506,
+      "improvement": 0.0
+    },
+    {
+      "number": 296,
+      "original_sim": 0.7992241382598877,
+      "normalized_sim": 0.7992241382598877,
+      "improvement": 0.0
+    }
+  ]
+}

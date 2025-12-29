@@ -1,0 +1,185 @@
+[
+  {
+    "phrase": "il ne cherche le vrai que pour faire le bien",
+    "expected_aphorism": 35,
+    "found_in_count": 1,
+    "total_translators": 6,
+    "consistent": false,
+    "missing_from": [
+      "Walter Kaufman",
+      "Gutenberg",
+      "RJ Hollingdale",
+      "Helen Zimmern",
+      "Judith Norman"
+    ],
+    "versions": [
+      "il ne cherche le vrai que pour faire le bien"
+    ],
+    "translators": {
+      "Marion Faber": {
+        "aphorism": 35,
+        "found": "il ne cherche le vrai que pour faire le bien"
+      }
+    }
+  },
+  {
+    "phrase": "sans gêne",
+    "expected_aphorism": 214,
+    "found_in_count": 0,
+    "consistent": null,
+    "translators": {}
+  },
+  {
+    "phrase": "l'art pour l'art",
+    "expected_aphorism": 254,
+    "found_in_count": 2,
+    "total_translators": 6,
+    "consistent": false,
+    "missing_from": [
+      "Walter Kaufman",
+      "Helen Zimmern",
+      "Marion Faber",
+      "Judith Norman"
+    ],
+    "versions": [
+      "l'art pour l'art"
+    ],
+    "translators": {
+      "Gutenberg": {
+        "aphorism": 254,
+        "found": "l'art pour l'art"
+      },
+      "RJ Hollingdale": {
+        "aphorism": 296,
+        "found": "l'art pour l'art"
+      }
+    }
+  },
+  {
+    "phrase": "ressentiment",
+    "expected_aphorism": null,
+    "found_in_count": 0,
+    "consistent": null,
+    "translators": {}
+  },
+  {
+    "phrase": "par excellence",
+    "expected_aphorism": null,
+    "found_in_count": 4,
+    "total_translators": 6,
+    "consistent": false,
+    "missing_from": [
+      "Helen Zimmern",
+      "Gutenberg"
+    ],
+    "versions": [
+      "par excellence"
+    ],
+    "translators": {
+      "Judith Norman": {
+        "aphorism": 50,
+        "found": "par excellence"
+      },
+      "Marion Faber": {
+        "aphorism": 48,
+        "found": "par excellence"
+      },
+      "RJ Hollingdale": {
+        "aphorism": 48,
+        "found": "par excellence"
+      },
+      "Walter Kaufman": {
+        "aphorism": 52,
+        "found": "par excellence"
+      }
+    }
+  },
+  {
+    "phrase": "bon sens",
+    "expected_aphorism": null,
+    "found_in_count": 0,
+    "consistent": null,
+    "translators": {}
+  },
+  {
+    "phrase": "raison d'être",
+    "expected_aphorism": null,
+    "found_in_count": 0,
+    "consistent": null,
+    "translators": {}
+  },
+  {
+    "phrase": "presto",
+    "expected_aphorism": 28,
+    "found_in_count": 6,
+    "total_translators": 6,
+    "consistent": true,
+    "missing_from": [],
+    "versions": [
+      "presto"
+    ],
+    "translators": {
+      "Gutenberg": {
+        "aphorism": 213,
+        "found": "presto"
+      },
+      "Helen Zimmern": {
+        "aphorism": 213,
+        "found": "presto"
+      },
+      "Judith Norman": {
+        "aphorism": 213,
+        "found": "presto"
+      },
+      "Marion Faber": {
+        "aphorism": 244,
+        "found": "presto"
+      },
+      "RJ Hollingdale": {
+        "aphorism": 213,
+        "found": "presto"
+      },
+      "Walter Kaufman": {
+        "aphorism": 213,
+        "found": "presto"
+      }
+    }
+  },
+  {
+    "phrase": "tempo",
+    "expected_aphorism": 28,
+    "found_in_count": 6,
+    "total_translators": 6,
+    "consistent": true,
+    "missing_from": [],
+    "versions": [
+      "tempo"
+    ],
+    "translators": {
+      "Gutenberg": {
+        "aphorism": 262,
+        "found": "Tempo"
+      },
+      "Helen Zimmern": {
+        "aphorism": 284,
+        "found": "tempo"
+      },
+      "Judith Norman": {
+        "aphorism": 285,
+        "found": "tempo"
+      },
+      "Marion Faber": {
+        "aphorism": 285,
+        "found": "tempo"
+      },
+      "RJ Hollingdale": {
+        "aphorism": 296,
+        "found": "tempo"
+      },
+      "Walter Kaufman": {
+        "aphorism": 287,
+        "found": "tempo"
+      }
+    }
+  }
+]
