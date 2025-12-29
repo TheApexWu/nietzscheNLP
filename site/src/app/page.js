@@ -6,6 +6,7 @@ const SimilarityChart = dynamic(() => import('../components/SimilarityChart'), {
 const DivergenceChart = dynamic(() => import('../components/DivergenceChart'), { ssr: false })
 const HeatmapChart = dynamic(() => import('../components/HeatmapChart'), { ssr: false })
 const UMAPChart = dynamic(() => import('../components/UMAPChart'), { ssr: false })
+const MethodologyButton = dynamic(() => import('../components/MethodologyButton'), { ssr: false })
 
 export default function Home() {
   return (
@@ -46,6 +47,8 @@ export default function Home() {
         <p>
           What I found was stranger than I expected.
         </p>
+
+        <MethodologyButton />
       </section>
 
       <section className="section">
@@ -69,9 +72,10 @@ export default function Home() {
         </p>
 
         <p>
-          This aphorism showed the <em>second highest divergence</em> among all five translators
-          in my analysis. The passage about untranslatability was itself the hardest to translate
-          consistently. Either this is a beautiful confirmation or a suspicious coincidence.
+          This aphorism showed the <em>third-highest divergence</em> among all five translators
+          in my analysis. The passage about untranslatability was itself one of the hardest to translate
+          consistently. A permutation test confirms this isn't cherry-picked: p=0.014, ranking 3rd
+          of 231 aphorisms. Either this is a beautiful confirmation or a suspicious coincidence.
           I choose to find it beautiful.
         </p>
       </section>
@@ -223,18 +227,18 @@ export default function Home() {
         <div className="divergence-list">
           <div className="divergence-item">
             <span className="section-num">§35</span>
-            <span className="variance">σ = 0.305</span>
+            <span className="variance">σ = 0.304</span>
             <p>Voltaire, truth-seeking, embedded French phrases</p>
-          </div>
-          <div className="divergence-item highlight">
-            <span className="section-num">§28</span>
-            <span className="variance">σ = 0.288</span>
-            <p><em>The meta-aphorism on translation itself</em></p>
           </div>
           <div className="divergence-item">
             <span className="section-num">§59</span>
-            <span className="variance">σ = 0.281</span>
+            <span className="variance">σ = 0.275</span>
             <p>Human superficiality as survival instinct</p>
+          </div>
+          <div className="divergence-item highlight">
+            <span className="section-num">§28</span>
+            <span className="variance">σ = 0.265</span>
+            <p><em>The meta-aphorism on translation itself</em></p>
           </div>
           <div className="divergence-item">
             <span className="section-num">§102</span>
@@ -298,7 +302,7 @@ export default function Home() {
 
         <p>
           The model sees "Werth" and "Wert" as different words. I built a normalizer,
-          about fifty substitution rules, that improved German-English alignment by 0.002-0.003
+          ninety-five substitution rules, that improved German-English alignment by 0.002-0.003
           across all translators. Small, but the rankings stayed stable. Hollingdale still wins.
         </p>
 
