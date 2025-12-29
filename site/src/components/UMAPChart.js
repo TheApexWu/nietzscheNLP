@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { ScatterChart, Scatter, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, Legend } from 'recharts'
+import { ScatterChart, Scatter, XAxis, YAxis, ResponsiveContainer, Cell } from 'recharts'
 
 // Generate synthetic UMAP-like clusters based on actual findings
 // Each translator forms a distinct cluster, German at center
@@ -43,26 +43,7 @@ const COLORS = {
   Zimmern: '#4a6a8b',
 }
 
-const CustomTooltip = ({ active, payload }) => {
-  if (active && payload && payload.length) {
-    const item = payload[0].payload
-    return (
-      <div style={{
-        background: '#2d2418',
-        border: `2px solid ${item.color}`,
-        borderRadius: '6px',
-        padding: '10px 14px',
-        color: '#fdf6e3'
-      }}>
-        <p style={{ margin: 0, fontWeight: 600 }}>{item.translator}</p>
-        <p style={{ margin: '4px 0 0', fontSize: '0.85rem', color: '#d4c4a8' }}>
-          Aphorism §{item.aphorism}
-        </p>
-      </div>
-    )
-  }
-  return null
-}
+// Tooltip removed - aphorism numbers without actual quotes aren't useful
 
 export default function UMAPChart() {
   const [data, setData] = useState([])
@@ -100,8 +81,6 @@ export default function UMAPChart() {
             tick={false}
             axisLine={{ stroke: '#e6d5b8' }}
           />
-          <Tooltip content={<CustomTooltip />} />
-
           {Object.entries(groupedData).map(([translator, points]) => (
             <Scatter
               key={translator}

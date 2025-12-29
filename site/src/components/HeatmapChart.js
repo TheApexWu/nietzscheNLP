@@ -35,23 +35,24 @@ export default function HeatmapChart() {
       padding: '1rem'
     }}>
       {/* Column headers */}
-      <div style={{ display: 'flex', marginLeft: cellSize + 10 }}>
+      <div style={{ display: 'flex', marginLeft: cellSize + 10, marginTop: 40 }}>
         {translators.map((t, i) => (
           <div
             key={t}
             style={{
               width: cellSize,
-              height: 80,
+              height: 100,
               display: 'flex',
               alignItems: 'flex-end',
-              justifyContent: 'center',
+              justifyContent: 'flex-start',
               paddingBottom: 8,
               transform: 'rotate(-45deg)',
-              transformOrigin: 'center bottom',
+              transformOrigin: 'left bottom',
               fontSize: '0.85rem',
               fontWeight: hoveredCell?.col === i ? 600 : 400,
               color: hoveredCell?.col === i ? '#722f37' : '#2d2418',
-              transition: 'all 0.2s ease'
+              transition: 'all 0.2s ease',
+              whiteSpace: 'nowrap'
             }}
           >
             {t}

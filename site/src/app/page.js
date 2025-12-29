@@ -379,7 +379,7 @@ export default function Home() {
       </section>
 
       <footer className="page-footer">
-        <a href="https://amadeuswoo.substack.com" className="back-link">← Substack</a>
+        <a href="https://amadeuswoo.com" className="back-link">← Home</a>
         <a
           href="https://github.com/TheApexWu/nietzcheNLP"
           target="_blank"
