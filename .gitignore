@@ -1,6 +1,11 @@
 # Raw data (copyrighted/pirated PDFs)
-/corpus/*.pdf
-/corpus/**/*.pdf
+*.pdf
+
+# Progress log
+.progress_log.md
+
+# Research notes
+docs/DOMAIN_ADAPTATION_RESEARCH.md
 
 # Extracted text (derived from copyrighted sources)
 /corpus/extracted/
