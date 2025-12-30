@@ -40,3 +40,14 @@ Thumbs.db
 
 # Outputs (regenerable)
 /outputs/embeddings/*.npy
+/outputs/visualizations/
+
+# Session context (private)
+site/CLAUDE.md
+CLAUDE.md
+
+# Notebooks (experimental)
+notebooks/
+
+# Large data files
+*.npy
