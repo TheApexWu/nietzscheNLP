@@ -1,0 +1,735 @@
+{
+  "terms_analyzed": 21,
+  "terms_found": 14,
+  "analysis": {
+    "Übermensch": {
+      "english_options": [
+        "overman",
+        "superman",
+        "beyond-man",
+        "super-man",
+        "over-man"
+      ],
+      "aphorisms_found": 0,
+      "consistent": 0,
+      "inconsistent": 0,
+      "consistency_rate": null,
+      "examples": []
+    },
+    "Wille zur Macht": {
+      "english_options": [
+        "will to power"
+      ],
+      "aphorisms_found": 8,
+      "consistent": 8,
+      "inconsistent": 0,
+      "consistency_rate": 1.0,
+      "examples": []
+    },
+    "das Vornehme": {
+      "english_options": [
+        "noble",
+        "aristocratic",
+        "distinguished",
+        "exalted"
+      ],
+      "aphorisms_found": 40,
+      "consistent": 30,
+      "inconsistent": 10,
+      "consistency_rate": 0.75,
+      "examples": [
+        {
+          "aphorism": 14,
+          "variations": {
+            "Helen Zimmern": [
+              "aristocratic"
+            ],
+            "Marion Faber": [
+              "aristocratic"
+            ],
+            "RJ Hollingdale": [
+              "noble"
+            ],
+            "Walter Kaufman": [
+              "noble"
+            ]
+          }
+        },
+        {
+          "aphorism": 32,
+          "variations": {
+            "Helen Zimmern": [
+              "aristocratic",
+              "distinguished"
+            ],
+            "Judith Norman": [
+              "aristocratic"
+            ],
+            "Marion Faber": [
+              "aristocratic"
+            ],
+            "RJ Hollingdale": [
+              "aristocratic"
+            ],
+            "Walter Kaufman": [
+              "aristocratic"
+            ]
+          }
+        },
+        {
+          "aphorism": 163,
+          "variations": {
+            "Helen Zimmern": [
+              "noble"
+            ],
+            "RJ Hollingdale": [
+              "exalted"
+            ]
+          }
+        }
+      ]
+    },
+    "das Gemeine": {
+      "english_options": [
+        "common",
+        "vulgar",
+        "base",
+        "low"
+      ],
+      "aphorisms_found": 83,
+      "consistent": 42,
+      "inconsistent": 41,
+      "consistency_rate": 0.506,
+      "examples": [
+        {
+          "aphorism": 14,
+          "variations": {
+            "Helen Zimmern": [
+              "base",
+              "low"
+            ],
+            "Marion Faber": [
+              "low"
+            ],
+            "RJ Hollingdale": [
+              "low"
+            ],
+            "Walter Kaufman": [
+              "base",
+              "low"
+            ]
+          }
+        },
+        {
+          "aphorism": 20,
+          "variations": {
+            "Helen Zimmern": [
+              "common"
+            ],
+            "Judith Norman": [
+              "common"
+            ],
+            "Marion Faber": [
+              "low"
+            ],
+            "RJ Hollingdale": [
+              "common"
+            ],
+            "Walter Kaufman": [
+              "common"
+            ]
+          }
+        },
+        {
+          "aphorism": 22,
+          "variations": {
+            "Helen Zimmern": [
+              "vulgar"
+            ],
+            "Marion Faber": [
+              "low"
+            ],
+            "RJ Hollingdale": [
+              "vulgar"
+            ]
+          }
+        }
+      ]
+    },
+    "Ressentiment": {
+      "english_options": [
+        "ressentiment",
+        "resentment"
+      ],
+      "aphorisms_found": 0,
+      "consistent": 0,
+      "inconsistent": 0,
+      "consistency_rate": null,
+      "examples": []
+    },
+    "Sklavenmoral": {
+      "english_options": [
+        "slave morality",
+        "slave-morality"
+      ],
+      "aphorisms_found": 0,
+      "consistent": 0,
+      "inconsistent": 0,
+      "consistency_rate": null,
+      "examples": []
+    },
+    "Herrenmoral": {
+      "english_options": [
+        "master morality",
+        "master-morality",
+        "noble morality"
+      ],
+      "aphorisms_found": 0,
+      "consistent": 0,
+      "inconsistent": 0,
+      "consistency_rate": null,
+      "examples": []
+    },
+    "Geist": {
+      "english_options": [
+        "spirit",
+        "mind",
+        "intellect"
+      ],
+      "aphorisms_found": 74,
+      "consistent": 26,
+      "inconsistent": 48,
+      "consistency_rate": 0.351,
+      "examples": [
+        {
+          "aphorism": 23,
+          "variations": {
+            "Gutenberg": [
+              "mind"
+            ],
+            "Helen Zimmern": [
+              "spirit",
+              "intellect"
+            ],
+            "Judith Norman": [
+              "spirit"
+            ],
+            "Marion Faber": [
+              "spirit"
+            ],
+            "RJ Hollingdale": [
+              "spirit",
+              "mind"
+            ],
+            "Walter Kaufman": [
+              "spirit",
+              "intellect"
+            ]
+          }
+        },
+        {
+          "aphorism": 34,
+          "variations": {
+            "Gutenberg": [
+              "mind"
+            ],
+            "Helen Zimmern": [
+              "spirit"
+            ],
+            "Judith Norman": [
+              "spirit"
+            ],
+            "Marion Faber": [
+              "spirit",
+              "intellect"
+            ],
+            "RJ Hollingdale": [
+              "mind"
+            ],
+            "Walter Kaufman": [
+              "spirit"
+            ]
+          }
+        },
+        {
+          "aphorism": 44,
+          "variations": {
+            "Gutenberg": [
+              "mind"
+            ],
+            "Helen Zimmern": [
+              "spirit"
+            ],
+            "Judith Norman": [
+              "spirit"
+            ],
+            "Marion Faber": [
+              "spirit"
+            ],
+            "RJ Hollingdale": [
+              "spirit"
+            ],
+            "Walter Kaufman": [
+              "spirit",
+              "mind"
+            ]
+          }
+        }
+      ]
+    },
+    "freier Geist": {
+      "english_options": [
+        "free spirit",
+        "free-spirit",
+        "free mind"
+      ],
+      "aphorisms_found": 17,
+      "consistent": 15,
+      "inconsistent": 2,
+      "consistency_rate": 0.882,
+      "examples": [
+        {
+          "aphorism": 46,
+          "variations": {
+            "Helen Zimmern": [
+              "free-spirit"
+            ],
+            "Judith Norman": [
+              "free-spirit"
+            ],
+            "Marion Faber": [
+              "free spirit"
+            ],
+            "RJ Hollingdale": [
+              "free-spirit"
+            ]
+          }
+        },
+        {
+          "aphorism": 239,
+          "variations": {
+            "Helen Zimmern": [
+              "free spirit"
+            ],
+            "RJ Hollingdale": [
+              "free-spirit"
+            ]
+          }
+        }
+      ]
+    },
+    "Herde": {
+      "english_options": [
+        "herd",
+        "flock",
+        "mob"
+      ],
+      "aphorisms_found": 16,
+      "consistent": 15,
+      "inconsistent": 1,
+      "consistency_rate": 0.938,
+      "examples": [
+        {
+          "aphorism": 190,
+          "variations": {
+            "Marion Faber": [
+              "herd"
+            ],
+            "RJ Hollingdale": [
+              "mob"
+            ]
+          }
+        }
+      ]
+    },
+    "Herdentier": {
+      "english_options": [
+        "herd animal",
+        "herd-animal",
+        "gregarious animal"
+      ],
+      "aphorisms_found": 8,
+      "consistent": 4,
+      "inconsistent": 4,
+      "consistency_rate": 0.5,
+      "examples": [
+        {
+          "aphorism": 203,
+          "variations": {
+            "Helen Zimmern": [
+              "gregarious animal"
+            ],
+            "Judith Norman": [
+              "herd animal"
+            ],
+            "RJ Hollingdale": [
+              "herd animal"
+            ],
+            "Walter Kaufman": [
+              "herd animal"
+            ]
+          }
+        },
+        {
+          "aphorism": 199,
+          "variations": {
+            "Marion Faber": [
+              "herd animal"
+            ],
+            "RJ Hollingdale": [
+              "herd-animal"
+            ],
+            "Walter Kaufman": [
+              "herd-animal"
+            ]
+          }
+        },
+        {
+          "aphorism": 202,
+          "variations": {
+            "Marion Faber": [
+              "herd animal"
+            ],
+            "RJ Hollingdale": [
+              "herd-animal"
+            ],
+            "Walter Kaufman": [
+              "herd animal"
+            ]
+          }
+        }
+      ]
+    },
+    "Instinkt": {
+      "english_options": [
+        "instinct"
+      ],
+      "aphorisms_found": 33,
+      "consistent": 33,
+      "inconsistent": 0,
+      "consistency_rate": 1.0,
+      "examples": []
+    },
+    "Trieb": {
+      "english_options": [
+        "drive",
+        "instinct",
+        "impulse"
+      ],
+      "aphorisms_found": 43,
+      "consistent": 25,
+      "inconsistent": 18,
+      "consistency_rate": 0.581,
+      "examples": [
+        {
+          "aphorism": 8,
+          "variations": {
+            "Helen Zimmern": [
+              "impulse"
+            ],
+            "Judith Norman": [
+              "drive"
+            ]
+          }
+        },
+        {
+          "aphorism": 13,
+          "variations": {
+            "Helen Zimmern": [
+              "instinct"
+            ],
+            "Judith Norman": [
+              "drive"
+            ],
+            "Marion Faber": [
+              "instinct"
+            ],
+            "RJ Hollingdale": [
+              "drive"
+            ],
+            "Walter Kaufman": [
+              "instinct"
+            ]
+          }
+        },
+        {
+          "aphorism": 23,
+          "variations": {
+            "Helen Zimmern": [
+              "impulse"
+            ],
+            "Judith Norman": [
+              "drive"
+            ],
+            "Marion Faber": [
+              "drive",
+              "instinct"
+            ],
+            "RJ Hollingdale": [
+              "drive",
+              "impulse"
+            ],
+            "Walter Kaufman": [
+              "drive",
+              "impulse"
+            ]
+          }
+        }
+      ]
+    },
+    "Wert": {
+      "english_options": [
+        "value",
+        "worth"
+      ],
+      "aphorisms_found": 44,
+      "consistent": 26,
+      "inconsistent": 18,
+      "consistency_rate": 0.591,
+      "examples": [
+        {
+          "aphorism": 34,
+          "variations": {
+            "Gutenberg": [
+              "worth"
+            ],
+            "Helen Zimmern": [
+              "worth"
+            ],
+            "RJ Hollingdale": [
+              "worth"
+            ],
+            "Walter Kaufman": [
+              "value",
+              "worth"
+            ]
+          }
+        },
+        {
+          "aphorism": 203,
+          "variations": {
+            "Gutenberg": [
+              "worth"
+            ],
+            "Helen Zimmern": [
+              "value"
+            ],
+            "Judith Norman": [
+              "value"
+            ],
+            "Marion Faber": [
+              "value"
+            ],
+            "RJ Hollingdale": [
+              "value"
+            ],
+            "Walter Kaufman": [
+              "value"
+            ]
+          }
+        },
+        {
+          "aphorism": 212,
+          "variations": {
+            "Gutenberg": [
+              "worth"
+            ],
+            "Helen Zimmern": [
+              "worth"
+            ],
+            "Judith Norman": [
+              "value"
+            ],
+            "Marion Faber": [
+              "value"
+            ],
+            "RJ Hollingdale": [
+              "value"
+            ],
+            "Walter Kaufman": [
+              "value",
+              "worth"
+            ]
+          }
+        }
+      ]
+    },
+    "Umwertung": {
+      "english_options": [
+        "revaluation",
+        "transvaluation",
+        "re-evaluation"
+      ],
+      "aphorisms_found": 2,
+      "consistent": 0,
+      "inconsistent": 2,
+      "consistency_rate": 0.0,
+      "examples": [
+        {
+          "aphorism": 203,
+          "variations": {
+            "Helen Zimmern": [
+              "transvaluation"
+            ],
+            "Judith Norman": [
+              "revaluation"
+            ],
+            "Marion Faber": [
+              "revaluation"
+            ],
+            "RJ Hollingdale": [
+              "revaluation"
+            ],
+            "Walter Kaufman": [
+              "revaluation"
+            ]
+          }
+        },
+        {
+          "aphorism": 46,
+          "variations": {
+            "Judith Norman": [
+              "revaluation"
+            ],
+            "Marion Faber": [
+              "re-evaluation"
+            ],
+            "RJ Hollingdale": [
+              "revaluation"
+            ],
+            "Walter Kaufman": [
+              "revaluation"
+            ]
+          }
+        }
+      ]
+    },
+    "Tugend": {
+      "english_options": [
+        "virtue"
+      ],
+      "aphorisms_found": 33,
+      "consistent": 33,
+      "inconsistent": 0,
+      "consistency_rate": 1.0,
+      "examples": []
+    },
+    "Selbstüberwindung": {
+      "english_options": [
+        "self-overcoming",
+        "self-conquest",
+        "self-mastery"
+      ],
+      "aphorisms_found": 4,
+      "consistent": 3,
+      "inconsistent": 1,
+      "consistency_rate": 0.75,
+      "examples": [
+        {
+          "aphorism": 61,
+          "variations": {
+            "RJ Hollingdale": [
+              "self-mastery"
+            ],
+            "Walter Kaufman": [
+              "self-overcoming"
+            ]
+          }
+        }
+      ]
+    },
+    "Nihilismus": {
+      "english_options": [
+        "nihilism"
+      ],
+      "aphorisms_found": 0,
+      "consistent": 0,
+      "inconsistent": 0,
+      "consistency_rate": null,
+      "examples": []
+    },
+    "Perspektivismus": {
+      "english_options": [
+        "perspectivism",
+        "perspectivalism"
+      ],
+      "aphorisms_found": 0,
+      "consistent": 0,
+      "inconsistent": 0,
+      "consistency_rate": null,
+      "examples": []
+    },
+    "Décadence": {
+      "english_options": [
+        "decadence",
+        "décadence"
+      ],
+      "aphorisms_found": 0,
+      "consistent": 0,
+      "inconsistent": 0,
+      "consistency_rate": null,
+      "examples": []
+    },
+    "Rangordnung": {
+      "english_options": [
+        "order of rank",
+        "rank-ordering",
+        "hierarchy"
+      ],
+      "aphorisms_found": 17,
+      "consistent": 4,
+      "inconsistent": 13,
+      "consistency_rate": 0.235,
+      "examples": [
+        {
+          "aphorism": 59,
+          "variations": {
+            "Helen Zimmern": [
+              "order of rank"
+            ],
+            "Judith Norman": [
+              "order of rank"
+            ],
+            "Marion Faber": [
+              "hierarchy"
+            ]
+          }
+        },
+        {
+          "aphorism": 224,
+          "variations": {
+            "Helen Zimmern": [
+              "order of rank"
+            ],
+            "Marion Faber": [
+              "hierarchy"
+            ],
+            "RJ Hollingdale": [
+              "order of rank"
+            ],
+            "Walter Kaufman": [
+              "order of rank"
+            ]
+          }
+        },
+        {
+          "aphorism": 260,
+          "variations": {
+            "Helen Zimmern": [
+              "order of rank"
+            ],
+            "Marion Faber": [
+              "hierarchy"
+            ],
+            "RJ Hollingdale": [
+              "order of rank"
+            ],
+            "Walter Kaufman": [
+              "order of rank"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

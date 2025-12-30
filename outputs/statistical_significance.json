@@ -1,13 +1,13 @@
 {
   "aphorism": 28,
-  "divergence": 0.2644753158092499,
-  "rank": 3,
+  "divergence": 0.031299807131290436,
+  "rank": 118,
   "total_aphorisms": 231,
-  "percentile": 98.7012987012987,
-  "z_score": 4.425063133239746,
-  "p_value": 0.0141,
-  "mean_divergence": 0.04898662492632866,
-  "std_divergence": 0.04869731143116951,
+  "percentile": 48.917748917748916,
+  "z_score": -0.3579513728618622,
+  "p_value": 0.5012,
+  "mean_divergence": 0.04797720909118652,
+  "std_divergence": 0.046591248363256454,
   "significant_bh": [],
   "all_divergences": [
     [
@@ -64,7 +64,7 @@
     ],
     [
       28,
-      0.2644753158092499
+      0.031299807131290436
     ],
     [
       29,
