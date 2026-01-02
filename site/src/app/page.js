@@ -9,7 +9,6 @@ const UMAPChart = dynamic(() => import('../components/UMAPChart'), { ssr: false 
 const MethodologyButton = dynamic(() => import('../components/MethodologyButton'), { ssr: false })
 const QuoteComparison = dynamic(() => import('../components/QuoteComparison'), { ssr: false })
 const AphorismExplorer = dynamic(() => import('../components/AphorismExplorer'), { ssr: false })
-const TranslatorClassifier = dynamic(() => import('../components/TranslatorClassifier'), { ssr: false })
 const KeyTermAnalysis = dynamic(() => import('../components/KeyTermAnalysis'), { ssr: false })
 
 export default function Home() {
@@ -218,8 +217,6 @@ export default function Home() {
           dimensionality reduction algorithm can separate them visually. Whatever
           "voice" means, it shows up in vector space.
         </p>
-
-        <TranslatorClassifier />
       </section>
 
       <section className="section">
