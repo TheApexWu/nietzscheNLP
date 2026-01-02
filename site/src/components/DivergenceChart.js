@@ -4,16 +4,16 @@ import { useState } from 'react'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, ReferenceLine } from 'recharts'
 
 const data = [
-  { section: '§35', variance: 0.305, topic: 'Voltaire, truth-seeking, embedded French' },
-  { section: '§28', variance: 0.288, topic: 'Meta-aphorism about translation itself', highlight: true },
-  { section: '§59', variance: 0.281, topic: 'Human superficiality as survival instinct' },
-  { section: '§102', variance: 0.233, topic: 'Discovering reciprocated love (short)' },
-  { section: '§83', variance: 0.226, topic: 'Instinct — house fire aphorism' },
-  { section: '§4', variance: 0.218, topic: 'Danger of philosophy' },
-  { section: '§12', variance: 0.212, topic: 'Soul atomism critique' },
-  { section: '§52', variance: 0.205, topic: 'Philosophers and their prejudices' },
-  { section: '§203', variance: 0.198, topic: 'The herd instinct' },
-  { section: '§269', variance: 0.191, topic: 'What is noble' },
+  { section: '§21', variance: 0.368, topic: 'The causa sui paradox' },
+  { section: '§1', variance: 0.331, topic: 'The will to truth' },
+  { section: '§38', variance: 0.319, topic: 'French phrases, cultural critique' },
+  { section: '§82', variance: 0.276, topic: 'Short aphorism, high ambiguity' },
+  { section: '§130', variance: 0.250, topic: 'Purpose of punishment' },
+  { section: '§59', variance: 0.246, topic: 'Human superficiality as survival' },
+  { section: '§57', variance: 0.244, topic: 'Life as will to power' },
+  { section: '§74', variance: 0.242, topic: 'Very short, cryptic' },
+  { section: '§3', variance: 0.233, topic: 'Consciousness and instinct' },
+  { section: '§33', variance: 0.229, topic: 'Against immediate certainties' },
 ]
 
 const CustomTooltip = ({ active, payload }) => {
@@ -22,7 +22,7 @@ const CustomTooltip = ({ active, payload }) => {
     return (
       <div style={{
         background: '#2d2418',
-        border: item.highlight ? '2px solid #f4a623' : '1px solid #c9784a',
+        border: '1px solid #c9784a',
         borderRadius: '6px',
         padding: '12px 16px',
         color: '#fdf6e3',
@@ -32,7 +32,7 @@ const CustomTooltip = ({ active, payload }) => {
         <p style={{ margin: '8px 0', fontFamily: 'monospace', color: '#f4a623' }}>
           σ = {item.variance.toFixed(3)}
         </p>
-        <p style={{ margin: 0, fontSize: '0.9rem', color: '#d4c4a8', fontStyle: item.highlight ? 'italic' : 'normal' }}>
+        <p style={{ margin: 0, fontSize: '0.9rem', color: '#d4c4a8' }}>
           {item.topic}
         </p>
       </div>
@@ -85,9 +85,7 @@ export default function DivergenceChart() {
             {data.map((entry, index) => (
               <Cell
                 key={entry.section}
-                fill={entry.highlight ? '#f4a623' : hoveredIndex === index ? '#c9784a' : '#d4a574'}
-                stroke={entry.highlight ? '#722f37' : 'none'}
-                strokeWidth={entry.highlight ? 2 : 0}
+                fill={hoveredIndex === index ? '#c9784a' : '#d4a574'}
                 style={{ cursor: 'pointer', transition: 'fill 0.3s ease' }}
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}

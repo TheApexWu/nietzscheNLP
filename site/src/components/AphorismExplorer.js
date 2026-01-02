@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 
 export default function AphorismExplorer() {
   const [data, setData] = useState(null)
-  const [selectedNum, setSelectedNum] = useState(28)
+  const [selectedNum, setSelectedNum] = useState(1)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -45,9 +45,9 @@ export default function AphorismExplorer() {
           value={selectedNum}
           onChange={(e) => setSelectedNum(Number(e.target.value))}
         >
-          {data.aphorisms.map(a => (
+          {data.aphorisms.slice().sort((a, b) => a.number - b.number).map(a => (
             <option key={a.number} value={a.number}>
-              §{a.number} {a.divergence > 0.2 ? '⚡' : ''} {a.divergence > 0.25 ? '⚡' : ''}
+              §{a.number} {a.divergence > 0.2 ? '*' : ''}{a.divergence > 0.25 ? '*' : ''}
             </option>
           ))}
         </select>
@@ -92,7 +92,7 @@ export default function AphorismExplorer() {
       )}
 
       <p className="explorer-note">
-        ⚡ = high divergence aphorism. First 50 aphorisms available.
+        Top 25 most divergent aphorisms. * = high, ** = very high.
         Full dataset on <a href="https://github.com/TheApexWu/nietzcheNLP" target="_blank" rel="noopener noreferrer">GitHub</a>.
       </p>
 

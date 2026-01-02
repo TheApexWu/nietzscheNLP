@@ -230,29 +230,29 @@ export default function Home() {
 
         <div className="divergence-list">
           <div className="divergence-item highlight">
-            <span className="section-num">§35</span>
-            <span className="variance">σ = 0.304</span>
-            <p>Voltaire, truth-seeking, <em>embedded French phrases</em></p>
+            <span className="section-num">§21</span>
+            <span className="variance">σ = 0.368</span>
+            <p>The <em>causa sui</em> paradox</p>
           </div>
           <div className="divergence-item">
-            <span className="section-num">§59</span>
-            <span className="variance">σ = 0.275</span>
-            <p>Human superficiality as survival instinct</p>
+            <span className="section-num">§1</span>
+            <span className="variance">σ = 0.331</span>
+            <p>The will to truth</p>
           </div>
           <div className="divergence-item">
-            <span className="section-num">§83</span>
-            <span className="variance">σ = 0.221</span>
-            <p>Instinct and the house fire</p>
+            <span className="section-num">§38</span>
+            <span className="variance">σ = 0.319</span>
+            <p>French phrases, cultural critique</p>
           </div>
           <div className="divergence-item">
-            <span className="section-num">§52</span>
-            <span className="variance">σ = 0.209</span>
-            <p>Very short, high ambiguity</p>
+            <span className="section-num">§82</span>
+            <span className="variance">σ = 0.276</span>
+            <p>Short aphorism, high ambiguity</p>
           </div>
           <div className="divergence-item">
-            <span className="section-num">§4</span>
-            <span className="variance">σ = 0.196</span>
-            <p>Falseness as condition of life</p>
+            <span className="section-num">§130</span>
+            <span className="variance">σ = 0.250</span>
+            <p>Purpose of punishment</p>
           </div>
         </div>
 
@@ -385,9 +385,8 @@ export default function Home() {
         </p>
 
         <p>
-          And yes, I checked whether §28—Nietzsche's claim about the untranslatable—was itself
-          hard to translate consistently. It would have been poetically fitting. The data says
-          otherwise. Some ironies are too perfect to be true.
+          As for §28, where Nietzsche writes about tempo and the untranslatable, translators
+          largely agree. It ranks as one of the least divergent passages in the book (0.024), how poetically fitting. 
         </p>
       </section>
 
