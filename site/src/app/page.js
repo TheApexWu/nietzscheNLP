@@ -1,6 +1,7 @@
 'use client'
 
 import dynamic from 'next/dynamic'
+import styles from './page.module.css'
 
 const SimilarityChart = dynamic(() => import('../components/SimilarityChart'), { ssr: false })
 const DivergenceChart = dynamic(() => import('../components/DivergenceChart'), { ssr: false })
@@ -13,20 +14,20 @@ const KeyTermAnalysis = dynamic(() => import('../components/KeyTermAnalysis'), {
 
 export default function Home() {
   return (
-    <div className="nietzsche-page">
-      <div className="sun-decor" />
+    <div className={styles.nietzschePage}>
+      <div className={styles.sunDecor} />
 
-      <header className="hero">
-        <span className="hero-tag">Computational Philology</span>
+      <header className={styles.hero}>
+        <span className={styles.heroTag}>Computational Philology</span>
         <h1>Beyond Good and Evil,<br /><em>Beyond Translation</em></h1>
-        <p className="subtitle">
+        <p className={styles.subtitle}>
           Sentence embeddings, five translators, and discovering that the patterns
           you expect aren't always the patterns you find.
         </p>
       </header>
 
-      <section className="section">
-        <p className="lead">
+      <section className={styles.section}>
+        <p className={styles.lead}>
           I have read Beyond Good and Evil in four translations. Not because I am thorough,
           but because I kept switching, unsatisfied. Kaufmann felt like a professor standing
           between me and the text, footnoting away the danger. Hollingdale felt closer, rawer.
@@ -54,14 +55,14 @@ export default function Home() {
         <MethodologyButton />
       </section>
 
-      <section className="section">
-        <div className="epigraph">
+      <section className={styles.section}>
+        <div className={styles.epigraph}>
           <blockquote>
             "Was sich am schlechtesten aus einer Sprache in die andere übersetzen lässt,
             ist das <strong>tempo</strong> ihres Stils..."
           </blockquote>
           <cite>— BGE §28</cite>
-          <p className="translation">
+          <p className={styles.epigraphTranslation}>
             "That which translates worst from one language into another is the <strong>tempo</strong> of its style..."
           </p>
         </div>
@@ -74,32 +75,25 @@ export default function Home() {
           the tempo has captured nothing.
         </p>
 
-        <p>
-          As for whether §28 itself shows high divergence—Nietzsche's claim about tempo being
-          untranslatable, rendered by five translators with different tempos—the data is less
-          poetic than I'd hoped. The aphorisms that diverge most are those with embedded French
-          phrases, dense philosophical terms, or very short lengths that leave room for interpretation.
-        </p>
-
         <QuoteComparison />
       </section>
 
-      <section className="stats">
-        <div className="stat">
-          <span className="stat-value">231</span>
-          <span className="stat-label">Aphorisms Aligned</span>
+      <section className={styles.stats}>
+        <div className={styles.stat}>
+          <span className={styles.statValue}>231</span>
+          <span className={styles.statLabel}>Aphorisms Aligned</span>
         </div>
-        <div className="stat">
-          <span className="stat-value">5</span>
-          <span className="stat-label">Translators</span>
+        <div className={styles.stat}>
+          <span className={styles.statValue}>5</span>
+          <span className={styles.statLabel}>Translators</span>
         </div>
-        <div className="stat">
-          <span className="stat-value">0.806</span>
-          <span className="stat-label">Max Fidelity</span>
+        <div className={styles.stat}>
+          <span className={styles.statValue}>0.806</span>
+          <span className={styles.statLabel}>Max Fidelity</span>
         </div>
       </section>
 
-      <section className="section">
+      <section className={styles.section}>
         <h2>The Translators and Their Projects</h2>
 
         <p>
@@ -108,7 +102,7 @@ export default function Home() {
           numbers requires understanding the people.
         </p>
 
-        <div className="translator-card">
+        <div className={styles.translatorCard}>
           <h3>Helen Zimmern, 1906</h3>
           <p>
             The first major English translation, and it shows. Zimmern knew Nietzsche personally,
@@ -120,19 +114,19 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="translator-card">
+        <div className={styles.translatorCard}>
           <h3>Walter Kaufmann, 1966</h3>
           <p>
             The academic standard for fifty years. Kaufmann's project was rehabilitation: rescuing
             Nietzsche from the Nazis, proving he was a serious philosopher, not a proto-fascist lunatic.
             The translation reflects this mission. Careful. Scholarly. Heavily footnoted. Sometimes
             you feel Kaufmann interpreting before you can interpret for yourself. The embeddings
-            place him close to Hollingdale (0.886 similarity), which makes sense: same era, same
+            place him close to Hollingdale (0.887 similarity), which makes sense: same era, same
             academic context, probably reading each other's work.
           </p>
         </div>
 
-        <div className="translator-card">
+        <div className={styles.translatorCard}>
           <h3>R.J. Hollingdale, 1973</h3>
           <p>
             My favorite, and the embeddings agree. Hollingdale was self-taught, not a professor
@@ -145,7 +139,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="translator-card">
+        <div className={styles.translatorCard}>
           <h3>Marion Faber, 1998</h3>
           <p>
             Oxford World's Classics. Faber aimed for accuracy over style. The result is reliable
@@ -154,7 +148,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="translator-card">
+        <div className={styles.translatorCard}>
           <h3>Judith Norman, 2002</h3>
           <p>
             The Cambridge edition, co-edited with Rolf-Peter Horstmann. Norman takes interpretive
@@ -165,7 +159,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section finding-highlight">
+      <section className={`${styles.section} ${styles.findingHighlight}`}>
         <h2>The Semantic Centroid</h2>
 
         <p>
@@ -173,7 +167,7 @@ export default function Home() {
           emerged as the gravitational center: Hollingdale.
         </p>
 
-        <div className="data-card">
+        <div className={styles.dataCard}>
           <h3>Similarity to Original German</h3>
           <SimilarityChart />
         </div>
@@ -193,7 +187,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="section viz-section">
+      <section className={styles.vizSection}>
         <h2>The Fingerprint</h2>
 
         <p>
@@ -202,11 +196,11 @@ export default function Home() {
           classify who translated what without being told.
         </p>
 
-        <div className="viz-container">
+        <div className={styles.vizContainer}>
           <UMAPChart />
         </div>
 
-        <p className="viz-caption">
+        <p className={styles.vizCaption}>
           Hover over the legend to isolate each cluster. German sits at center.
           Kaufmann and Hollingdale cluster nearby. Norman and Zimmern drift further.
         </p>
@@ -219,7 +213,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="section">
+      <section className={styles.section}>
         <h2>Where They Diverge</h2>
 
         <p>
@@ -228,30 +222,30 @@ export default function Home() {
           had to make choices no dictionary could dictate.
         </p>
 
-        <div className="divergence-list">
-          <div className="divergence-item highlight">
-            <span className="section-num">§21</span>
-            <span className="variance">σ = 0.368</span>
+        <div className={styles.divergenceList}>
+          <div className={styles.divergenceItemHighlight}>
+            <span className={styles.sectionNum}>§21</span>
+            <span className={styles.variance}>σ = 0.368</span>
             <p>The <em>causa sui</em> paradox</p>
           </div>
-          <div className="divergence-item">
-            <span className="section-num">§1</span>
-            <span className="variance">σ = 0.331</span>
+          <div className={styles.divergenceItem}>
+            <span className={styles.sectionNum}>§1</span>
+            <span className={styles.variance}>σ = 0.331</span>
             <p>The will to truth</p>
           </div>
-          <div className="divergence-item">
-            <span className="section-num">§38</span>
-            <span className="variance">σ = 0.319</span>
+          <div className={styles.divergenceItem}>
+            <span className={styles.sectionNum}>§38</span>
+            <span className={styles.variance}>σ = 0.319</span>
             <p>French phrases, cultural critique</p>
           </div>
-          <div className="divergence-item">
-            <span className="section-num">§82</span>
-            <span className="variance">σ = 0.276</span>
+          <div className={styles.divergenceItem}>
+            <span className={styles.sectionNum}>§82</span>
+            <span className={styles.variance}>σ = 0.276</span>
             <p>Short aphorism, high ambiguity</p>
           </div>
-          <div className="divergence-item">
-            <span className="section-num">§130</span>
-            <span className="variance">σ = 0.250</span>
+          <div className={styles.divergenceItem}>
+            <span className={styles.sectionNum}>§130</span>
+            <span className={styles.variance}>σ = 0.250</span>
             <p>Purpose of punishment</p>
           </div>
         </div>
@@ -263,14 +257,14 @@ export default function Home() {
           where Nietzsche writes about language itself, prove hardest to render consistently.
         </p>
 
-        <div className="viz-container">
+        <div className={styles.vizContainer}>
           <DivergenceChart />
         </div>
 
         <AphorismExplorer />
       </section>
 
-      <section className="section">
+      <section className={styles.section}>
         <h2>The Orthography Problem</h2>
 
         <p>
@@ -278,31 +272,31 @@ export default function Home() {
           19th century spellings that modern embedding models do not fully recognize:
         </p>
 
-        <div className="spelling-table">
-          <div className="spell-row header">
+        <div className={styles.spellingTable}>
+          <div className={styles.spellRowHeader}>
             <span>Archaic</span>
             <span>Modern</span>
             <span>Embedding Sim.</span>
           </div>
-          <div className="spell-row">
-            <span className="archaic">giebt</span>
-            <span className="modern">gibt</span>
-            <span className="sim">~0.52</span>
+          <div className={styles.spellRow}>
+            <span className={styles.archaic}>giebt</span>
+            <span className={styles.modern}>gibt</span>
+            <span className={styles.sim}>~0.52</span>
           </div>
-          <div className="spell-row">
-            <span className="archaic">Werth</span>
-            <span className="modern">Wert</span>
-            <span className="sim">~0.53</span>
+          <div className={styles.spellRow}>
+            <span className={styles.archaic}>Werth</span>
+            <span className={styles.modern}>Wert</span>
+            <span className={styles.sim}>~0.53</span>
           </div>
-          <div className="spell-row">
-            <span className="archaic">Theil</span>
-            <span className="modern">Teil</span>
-            <span className="sim">~0.55</span>
+          <div className={styles.spellRow}>
+            <span className={styles.archaic}>Theil</span>
+            <span className={styles.modern}>Teil</span>
+            <span className={styles.sim}>~0.55</span>
           </div>
-          <div className="spell-row">
-            <span className="archaic">seyn</span>
-            <span className="modern">sein</span>
-            <span className="sim">~0.48</span>
+          <div className={styles.spellRow}>
+            <span className={styles.archaic}>seyn</span>
+            <span className={styles.modern}>sein</span>
+            <span className={styles.sim}>~0.48</span>
           </div>
         </div>
 
@@ -319,20 +313,20 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="section viz-section">
+      <section className={styles.vizSection}>
         <h2>The Full Matrix</h2>
 
-        <div className="viz-container">
+        <div className={styles.vizContainer}>
           <HeatmapChart />
         </div>
 
-        <p className="viz-caption">
+        <p className={styles.vizCaption}>
           Hover to see exact similarity scores. The Kaufmann-Hollingdale cluster (0.887)
           is the tightest. Norman-Zimmern (0.811) are most distant from each other.
         </p>
       </section>
 
-      <section className="section">
+      <section className={styles.section}>
         <h2>What This Actually Measures</h2>
 
         <p>
@@ -357,12 +351,12 @@ export default function Home() {
 
         <KeyTermAnalysis />
 
-        <div className="epigraph small">
+        <div className={styles.epigraphSmall}>
           <blockquote>
             "Der Wille zur Wahrheit... wer hat uns eigentlich diese Frage gestellt?"
           </blockquote>
           <cite>— BGE §1</cite>
-          <p className="translation">"The will to truth... who among us has actually posed this question?"</p>
+          <p className={styles.epigraphTranslation}>"The will to truth... who among us has actually posed this question?"</p>
         </div>
 
         <p>
@@ -374,7 +368,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="section closing">
+      <section className={styles.closing}>
         <h2>What I Learned</h2>
 
         <p>
@@ -386,414 +380,21 @@ export default function Home() {
 
         <p>
           As for §28, where Nietzsche writes about tempo and the untranslatable, translators
-          largely agree. It ranks as one of the least divergent passages in the book (0.024), how poetically fitting. 
+          largely agree. It ranks as one of the least divergent passages in the book (0.024), how poetically fitting.
         </p>
       </section>
 
-      <footer className="page-footer">
-        <a href="https://amadeuswoo.com" className="back-link">← Home</a>
+      <footer className={styles.pageFooter}>
+        <a href="https://amadeuswoo.com" className={styles.backLink}>← Home</a>
         <a
           href="https://github.com/TheApexWu/nietzcheNLP"
           target="_blank"
           rel="noopener noreferrer"
-          className="github-link"
+          className={styles.githubLink}
         >
           View Code
         </a>
       </footer>
-
-      <style jsx>{`
-        .nietzsche-page {
-          --sun-gold: #f4a623;
-          --sun-light: #ffeaa7;
-          --warm-cream: #fdf6e3;
-          --warm-white: #fffef9;
-          --terra-cotta: #c9784a;
-          --deep-wine: #722f37;
-          --text-dark: #2d2418;
-          --text-mid: #5c4a37;
-          --text-light: #8b7355;
-          --border-warm: #e6d5b8;
-
-          background: linear-gradient(180deg, var(--warm-white) 0%, var(--warm-cream) 100%);
-          color: var(--text-dark);
-          min-height: 100vh;
-          font-family: var(--font-cormorant), Georgia, serif;
-          position: relative;
-          overflow-x: hidden;
-        }
-
-        .sun-decor {
-          position: fixed;
-          top: -150px;
-          right: -150px;
-          width: 400px;
-          height: 400px;
-          background: radial-gradient(circle, var(--sun-gold) 0%, var(--sun-light) 40%, transparent 70%);
-          border-radius: 50%;
-          opacity: 0.4;
-          pointer-events: none;
-          z-index: 0;
-        }
-
-        .hero {
-          max-width: 800px;
-          margin: 0 auto;
-          padding: 6rem 2rem 4rem;
-          text-align: center;
-          position: relative;
-          z-index: 1;
-        }
-
-        .hero-tag {
-          display: inline-block;
-          font-family: var(--font-jetbrains), monospace;
-          font-size: 0.7rem;
-          letter-spacing: 0.2em;
-          text-transform: uppercase;
-          color: var(--terra-cotta);
-          border: 1px solid var(--terra-cotta);
-          padding: 0.5rem 1.25rem;
-          margin-bottom: 2rem;
-        }
-
-        .hero h1 {
-          font-size: clamp(2.5rem, 7vw, 4rem);
-          font-weight: 400;
-          line-height: 1.15;
-          color: var(--text-dark);
-          margin-bottom: 1.5rem;
-        }
-
-        .hero h1 em {
-          font-style: italic;
-          color: var(--deep-wine);
-        }
-
-        .subtitle {
-          font-size: 1.15rem;
-          color: var(--text-mid);
-          max-width: 600px;
-          margin: 0 auto;
-          line-height: 1.7;
-        }
-
-        .section {
-          max-width: 720px;
-          margin: 0 auto;
-          padding: 2.5rem 2rem;
-          position: relative;
-          z-index: 1;
-        }
-
-        .section h2 {
-          font-size: 1.5rem;
-          font-weight: 600;
-          color: var(--text-dark);
-          margin-bottom: 1.5rem;
-          border-bottom: 2px solid var(--sun-gold);
-          padding-bottom: 0.5rem;
-          display: inline-block;
-        }
-
-        .section p {
-          font-size: 1.05rem;
-          line-height: 1.85;
-          color: var(--text-mid);
-          margin-bottom: 1.25rem;
-        }
-
-        .lead {
-          font-size: 1.15rem !important;
-          line-height: 1.9 !important;
-          color: var(--text-dark) !important;
-        }
-
-        .translator-card {
-          background: var(--warm-cream);
-          border-left: 3px solid var(--sun-gold);
-          padding: 1.25rem 1.5rem;
-          margin: 1.5rem 0;
-          border-radius: 0 8px 8px 0;
-        }
-
-        .translator-card h3 {
-          font-size: 1.1rem;
-          color: var(--deep-wine);
-          margin-bottom: 0.5rem;
-          font-weight: 600;
-        }
-
-        .translator-card p {
-          font-size: 0.95rem;
-          margin: 0;
-          line-height: 1.75;
-        }
-
-        .epigraph {
-          background: linear-gradient(135deg, var(--sun-light) 0%, var(--warm-cream) 100%);
-          border-left: 4px solid var(--sun-gold);
-          padding: 2rem;
-          margin: 2rem 0;
-          border-radius: 0 8px 8px 0;
-        }
-
-        .epigraph blockquote {
-          font-size: 1.25rem;
-          font-style: italic;
-          color: var(--text-dark);
-          margin-bottom: 0.75rem;
-          line-height: 1.6;
-        }
-
-        .epigraph cite {
-          font-family: var(--font-jetbrains), monospace;
-          font-size: 0.85rem;
-          color: var(--terra-cotta);
-          display: block;
-          margin-bottom: 1rem;
-        }
-
-        .epigraph .translation {
-          font-size: 1rem;
-          color: var(--text-mid);
-          margin: 0;
-          font-style: normal;
-        }
-
-        .epigraph.small {
-          padding: 1.5rem;
-        }
-
-        .epigraph.small blockquote {
-          font-size: 1.1rem;
-        }
-
-        .stats {
-          display: flex;
-          justify-content: center;
-          gap: 4rem;
-          padding: 2.5rem 2rem;
-          margin: 1.5rem auto;
-          max-width: 700px;
-          border-top: 1px solid var(--border-warm);
-          border-bottom: 1px solid var(--border-warm);
-          position: relative;
-          z-index: 1;
-        }
-
-        .stat {
-          text-align: center;
-        }
-
-        .stat-value {
-          display: block;
-          font-family: var(--font-jetbrains), monospace;
-          font-size: 2.25rem;
-          font-weight: 600;
-          color: var(--sun-gold);
-        }
-
-        .stat-label {
-          font-size: 0.8rem;
-          color: var(--text-light);
-          text-transform: uppercase;
-          letter-spacing: 0.1em;
-        }
-
-        .finding-highlight {
-          background: var(--warm-cream);
-          border-radius: 12px;
-          margin: 2rem auto;
-          padding: 2.5rem;
-        }
-
-        .data-card {
-          background: var(--warm-white);
-          border: 1px solid var(--border-warm);
-          border-radius: 8px;
-          padding: 1.5rem;
-          margin: 2rem 0;
-        }
-
-        .data-card h3 {
-          font-size: 0.9rem;
-          font-weight: 600;
-          color: var(--text-mid);
-          margin-bottom: 1rem;
-          text-transform: uppercase;
-          letter-spacing: 0.05em;
-        }
-
-        .viz-section {
-          max-width: 900px;
-        }
-
-        .viz-container {
-          background: var(--warm-white);
-          border: 1px solid var(--border-warm);
-          border-radius: 8px;
-          padding: 1.5rem;
-          margin: 2rem 0;
-          text-align: center;
-        }
-
-        .viz-caption {
-          font-size: 0.9rem;
-          color: var(--text-light);
-          font-style: italic;
-          text-align: center;
-          margin-top: 0;
-        }
-
-        .divergence-list {
-          margin: 2rem 0;
-        }
-
-        .divergence-item {
-          display: grid;
-          grid-template-columns: 4rem 5rem 1fr;
-          gap: 1rem;
-          align-items: center;
-          padding: 1rem;
-          border-bottom: 1px solid var(--border-warm);
-        }
-
-        .divergence-item.highlight {
-          background: linear-gradient(135deg, var(--sun-light) 0%, transparent 100%);
-          border-radius: 4px;
-          border: 1px solid var(--sun-gold);
-        }
-
-        .section-num {
-          font-family: var(--font-jetbrains), monospace;
-          font-size: 0.9rem;
-          color: var(--deep-wine);
-          font-weight: 600;
-        }
-
-        .variance {
-          font-family: var(--font-jetbrains), monospace;
-          font-size: 0.8rem;
-          color: var(--terra-cotta);
-        }
-
-        .divergence-item p {
-          font-size: 0.95rem;
-          color: var(--text-mid);
-          margin: 0;
-        }
-
-        .spelling-table {
-          margin: 2rem 0;
-          border: 1px solid var(--border-warm);
-          border-radius: 8px;
-          overflow: hidden;
-        }
-
-        .spell-row {
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
-          padding: 0.75rem 1.25rem;
-          border-bottom: 1px solid var(--border-warm);
-        }
-
-        .spell-row:last-child {
-          border-bottom: none;
-        }
-
-        .spell-row.header {
-          background: var(--warm-cream);
-          font-weight: 600;
-          font-size: 0.8rem;
-          text-transform: uppercase;
-          letter-spacing: 0.05em;
-          color: var(--text-mid);
-        }
-
-        .archaic {
-          font-family: var(--font-jetbrains), monospace;
-          color: var(--deep-wine);
-        }
-
-        .modern {
-          font-family: var(--font-jetbrains), monospace;
-          color: var(--text-dark);
-        }
-
-        .sim {
-          font-family: var(--font-jetbrains), monospace;
-          color: var(--terra-cotta);
-        }
-
-        .closing {
-          text-align: center;
-          padding-top: 3rem;
-          border-top: 1px solid var(--border-warm);
-        }
-
-        .closing h2 {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        .page-footer {
-          max-width: 720px;
-          margin: 0 auto;
-          padding: 2.5rem 2rem 4rem;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          border-top: 1px solid var(--border-warm);
-          position: relative;
-          z-index: 1;
-        }
-
-        .back-link, .github-link {
-          font-family: var(--font-jetbrains), monospace;
-          font-size: 0.85rem;
-          color: var(--terra-cotta);
-          text-decoration: none;
-          padding: 0.65rem 1.1rem;
-          border: 1px solid var(--terra-cotta);
-          border-radius: 4px;
-          transition: all 0.2s;
-        }
-
-        .back-link:hover, .github-link:hover {
-          background: var(--terra-cotta);
-          color: var(--warm-white);
-        }
-
-        @media (max-width: 768px) {
-          .hero {
-            padding: 4rem 1.5rem 3rem;
-          }
-
-          .stats {
-            flex-direction: column;
-            gap: 2rem;
-          }
-
-          .sun-decor {
-            width: 250px;
-            height: 250px;
-            top: -100px;
-            right: -100px;
-          }
-
-          .divergence-item {
-            grid-template-columns: 3rem 4rem 1fr;
-            gap: 0.5rem;
-          }
-
-          .page-footer {
-            flex-direction: column;
-            gap: 1rem;
-          }
-        }
-      `}</style>
     </div>
   )
 }
