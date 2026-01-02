@@ -7,6 +7,10 @@ const DivergenceChart = dynamic(() => import('../components/DivergenceChart'), {
 const HeatmapChart = dynamic(() => import('../components/HeatmapChart'), { ssr: false })
 const UMAPChart = dynamic(() => import('../components/UMAPChart'), { ssr: false })
 const MethodologyButton = dynamic(() => import('../components/MethodologyButton'), { ssr: false })
+const QuoteComparison = dynamic(() => import('../components/QuoteComparison'), { ssr: false })
+const AphorismExplorer = dynamic(() => import('../components/AphorismExplorer'), { ssr: false })
+const TranslatorClassifier = dynamic(() => import('../components/TranslatorClassifier'), { ssr: false })
+const KeyTermAnalysis = dynamic(() => import('../components/KeyTermAnalysis'), { ssr: false })
 
 export default function Home() {
   return (
@@ -17,8 +21,8 @@ export default function Home() {
         <span className="hero-tag">Computational Philology</span>
         <h1>Beyond Good and Evil,<br /><em>Beyond Translation</em></h1>
         <p className="subtitle">
-          Sentence embeddings, five translators, and a philosopher who predicted
-          his own untranslatability 140 years before I could measure it.
+          Sentence embeddings, five translators, and discovering that the patterns
+          you expect aren't always the patterns you find.
         </p>
       </header>
 
@@ -72,12 +76,13 @@ export default function Home() {
         </p>
 
         <p>
-          This aphorism showed the <em>third-highest divergence</em> among all five translators
-          in my analysis. The passage about untranslatability was itself one of the hardest to translate
-          consistently. A permutation test confirms this isn't cherry-picked: p=0.014, ranking 3rd
-          of 231 aphorisms. Either this is a beautiful confirmation or a suspicious coincidence.
-          I choose to find it beautiful.
+          As for whether §28 itself shows high divergence—Nietzsche's claim about tempo being
+          untranslatable, rendered by five translators with different tempos—the data is less
+          poetic than I'd hoped. The aphorisms that diverge most are those with embedded French
+          phrases, dense philosophical terms, or very short lengths that leave room for interpretation.
         </p>
+
+        <QuoteComparison />
       </section>
 
       <section className="stats">
@@ -90,7 +95,7 @@ export default function Home() {
           <span className="stat-label">Translators</span>
         </div>
         <div className="stat">
-          <span className="stat-value">0.833</span>
+          <span className="stat-value">0.806</span>
           <span className="stat-label">Max Fidelity</span>
         </div>
       </section>
@@ -135,7 +140,7 @@ export default function Home() {
             but a translator by trade. He rendered almost everything Nietzsche wrote. His approach
             was literary rather than academic: trust the reader to handle Nietzsche raw, without
             protective footnotes. The prose moves. He sits at the semantic center of all translations,
-            closest to the German (0.833) and closest to everyone else. Whether this makes him
+            closest to the German (0.806) and closest to everyone else. Whether this makes him
             "best" depends on what you want. It makes him the faithful middle, the point other
             interpretations orbit.
           </p>
@@ -213,6 +218,8 @@ export default function Home() {
           dimensionality reduction algorithm can separate them visually. Whatever
           "voice" means, it shows up in vector space.
         </p>
+
+        <TranslatorClassifier />
       </section>
 
       <section className="section">
@@ -225,30 +232,30 @@ export default function Home() {
         </p>
 
         <div className="divergence-list">
-          <div className="divergence-item">
+          <div className="divergence-item highlight">
             <span className="section-num">§35</span>
             <span className="variance">σ = 0.304</span>
-            <p>Voltaire, truth-seeking, embedded French phrases</p>
+            <p>Voltaire, truth-seeking, <em>embedded French phrases</em></p>
           </div>
           <div className="divergence-item">
             <span className="section-num">§59</span>
             <span className="variance">σ = 0.275</span>
             <p>Human superficiality as survival instinct</p>
           </div>
-          <div className="divergence-item highlight">
-            <span className="section-num">§28</span>
-            <span className="variance">σ = 0.265</span>
-            <p><em>The meta-aphorism on translation itself</em></p>
-          </div>
-          <div className="divergence-item">
-            <span className="section-num">§102</span>
-            <span className="variance">σ = 0.233</span>
-            <p>Discovering reciprocated love (very short)</p>
-          </div>
           <div className="divergence-item">
             <span className="section-num">§83</span>
-            <span className="variance">σ = 0.226</span>
+            <span className="variance">σ = 0.221</span>
             <p>Instinct and the house fire</p>
+          </div>
+          <div className="divergence-item">
+            <span className="section-num">§52</span>
+            <span className="variance">σ = 0.209</span>
+            <p>Very short, high ambiguity</p>
+          </div>
+          <div className="divergence-item">
+            <span className="section-num">§4</span>
+            <span className="variance">σ = 0.196</span>
+            <p>Falseness as condition of life</p>
           </div>
         </div>
 
@@ -262,6 +269,8 @@ export default function Home() {
         <div className="viz-container">
           <DivergenceChart />
         </div>
+
+        <AphorismExplorer />
       </section>
 
       <section className="section">
@@ -321,8 +330,8 @@ export default function Home() {
         </div>
 
         <p className="viz-caption">
-          Hover to see exact similarity scores. The Kaufmann-Hollingdale cluster (0.886)
-          is the tightest. Norman-Zimmern (0.806) are most distant from each other.
+          Hover to see exact similarity scores. The Kaufmann-Hollingdale cluster (0.887)
+          is the tightest. Norman-Zimmern (0.811) are most distant from each other.
         </p>
       </section>
 
@@ -346,9 +355,10 @@ export default function Home() {
         <p>
           So what am I actually measuring? Relative divergence patterns. Where translators
           cluster and where they scatter. The finding is not which translation is best.
-          It is that interpretive schools exist, that translator fingerprints are real,
-          and that §28's claim about untranslatable tempo shows up in the math.
+          It is that interpretive schools exist, and that translator fingerprints are real.
         </p>
+
+        <KeyTermAnalysis />
 
         <div className="epigraph small">
           <blockquote>
@@ -372,13 +382,15 @@ export default function Home() {
 
         <p>
           I started this project to see if embeddings could detect translation differences.
-          They can. The more interesting discovery was §28. I did not go looking for it.
-          The variance analysis surfaced it. Nietzsche's meta-commentary about the impossibility
-          of translation emerged as one of the hardest passages to translate consistently.
+          They can. Translators have fingerprints—consistent stylistic signatures that cluster
+          in embedding space. Hollingdale sits at the semantic center, closest to the German
+          and closest to everyone else. The machinery works.
         </p>
 
         <p>
-          The man was right. Some things resist translation. The embeddings agree.
+          And yes, I checked whether §28—Nietzsche's claim about the untranslatable—was itself
+          hard to translate consistently. It would have been poetically fitting. The data says
+          otherwise. Some ironies are too perfect to be true.
         </p>
       </section>
 
