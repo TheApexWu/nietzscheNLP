@@ -224,29 +224,29 @@ export default function Home() {
 
         <div className={styles.divergenceList}>
           <div className={styles.divergenceItemHighlight}>
-            <span className={styles.sectionNum}>§21</span>
-            <span className={styles.variance}>σ = 0.368</span>
-            <p>The <em>causa sui</em> paradox</p>
-          </div>
-          <div className={styles.divergenceItem}>
-            <span className={styles.sectionNum}>§1</span>
-            <span className={styles.variance}>σ = 0.331</span>
-            <p>The will to truth</p>
-          </div>
-          <div className={styles.divergenceItem}>
             <span className={styles.sectionNum}>§38</span>
             <span className={styles.variance}>σ = 0.319</span>
             <p>French phrases, cultural critique</p>
           </div>
           <div className={styles.divergenceItem}>
-            <span className={styles.sectionNum}>§82</span>
-            <span className={styles.variance}>σ = 0.276</span>
-            <p>Short aphorism, high ambiguity</p>
-          </div>
-          <div className={styles.divergenceItem}>
             <span className={styles.sectionNum}>§130</span>
             <span className={styles.variance}>σ = 0.250</span>
-            <p>Purpose of punishment</p>
+            <p>Talent reveals character</p>
+          </div>
+          <div className={styles.divergenceItem}>
+            <span className={styles.sectionNum}>§74</span>
+            <span className={styles.variance}>σ = 0.242</span>
+            <p>Genius requires gratitude</p>
+          </div>
+          <div className={styles.divergenceItem}>
+            <span className={styles.sectionNum}>§15</span>
+            <span className={styles.variance}>σ = 0.207</span>
+            <p>Sensualist philosophers</p>
+          </div>
+          <div className={styles.divergenceItem}>
+            <span className={styles.sectionNum}>§117</span>
+            <span className={styles.variance}>σ = 0.156</span>
+            <p>Will to overcome emotion</p>
           </div>
         </div>
 

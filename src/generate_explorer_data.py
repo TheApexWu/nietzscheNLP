@@ -62,22 +62,67 @@ def load_corpus(name: str) -> dict:
 
 
 def clean_ocr(text: str) -> str:
-    """Apply OCR artifact fixes"""
+    """Apply OCR artifact fixes and strip junk"""
     if not text:
         return text
+
+    # Apply word-level OCR fixes
     for pattern, replacement in OCR_FIXES:
         text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
-    return text
+
+    # Strip trailing page numbers and chapter headers
+    # e.g., "ERLUDES 83", "D EVIL 135", "IRTUBS 151"
+    text = re.sub(r'\s*\d{2,3}\s*$', '', text)
+    text = re.sub(r'\s*[A-Z]{2,}(?:\s+[A-Z]{2,})*\s*\d*\s*$', '', text)
+
+    # Strip stray footnotes at end (e.g., "* Apollo.")
+    text = re.sub(r'\s*\*\s*[A-Z][a-z]+\.?\s*$', '', text)
+
+    # Strip garbage OCR patterns (random chars/symbols) and preceding partial word
+    text = re.sub(r'\b\w{1,4}[)\]}\d]\s*[a-z]\s+[a-z]\s+[A-Z]\s*', '', text)
+    text = re.sub(r'[)\]}\d]\s*[a-z]\s+[a-z]\s+[A-Z]\s*', '', text)
+
+    # Strip footnote markers mid-text
+    text = re.sub(r'\s*\d+\s*$', '', text)  # trailing numbers
+
+    # Clean up multiple newlines
+    text = re.sub(r'\n{3,}', '\n\n', text)
+
+    return text.strip()
 
 
-def is_valid(text: str) -> bool:
-    """Check if text is valid (not garbage, not wrong aphorism)"""
+def is_valid(text: str, is_german: bool = False) -> bool:
+    """Check if text is valid (not garbage, not wrong aphorism, properly ended)"""
     if not text or len(text) < 50:
         return False
     if text.count('\\') > 5 or text.count('^') > 3:
         return False
     if any(h in text[:200] for h in HEADER_MARKERS):
         return False
+
+    # Skip ending check for German (different punctuation conventions)
+    if is_german:
+        return True
+
+    # Check for proper ending (sentence-final punctuation)
+    last_char = text.rstrip()[-1] if text.rstrip() else ''
+    if last_char not in '.!?"\'—–-':
+        return False
+
+    # Check for garbage patterns (OCR failures)
+    if re.search(r'[)\]}\d][a-z]{2,}', text):
+        return False
+
+    # Check for missing spaces (corrupted text)
+    if re.search(r'[a-z]{4,}[A-Z][a-z]', text):
+        return False
+
+    # Check for obvious word corruption (uncommon consonant clusters)
+    if re.search(r'[bcdfghjklmnpqrstvwxz]{4,}', text.lower()):
+        return False
+    if re.search(r'pitmy|tymy|tmy\b', text.lower()):
+        return False
+
     return True
 
 
@@ -131,7 +176,8 @@ def main():
 
         for name, corpus in corpora.items():
             text = clean_ocr(corpus.get(num, ''))
-            if is_valid(text):
+            is_german = (name == 'Gutenberg')
+            if is_valid(text, is_german=is_german):
                 translations[name] = text.strip()
                 valid_count += 1
             else:

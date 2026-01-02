@@ -4,16 +4,16 @@ import { useState } from 'react'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, ReferenceLine } from 'recharts'
 
 const data = [
-  { section: '§21', variance: 0.368, topic: 'The causa sui paradox' },
-  { section: '§1', variance: 0.331, topic: 'The will to truth' },
   { section: '§38', variance: 0.319, topic: 'French phrases, cultural critique' },
-  { section: '§82', variance: 0.276, topic: 'Short aphorism, high ambiguity' },
-  { section: '§130', variance: 0.250, topic: 'Purpose of punishment' },
-  { section: '§59', variance: 0.246, topic: 'Human superficiality as survival' },
-  { section: '§57', variance: 0.244, topic: 'Life as will to power' },
-  { section: '§74', variance: 0.242, topic: 'Very short, cryptic' },
-  { section: '§3', variance: 0.233, topic: 'Consciousness and instinct' },
-  { section: '§33', variance: 0.229, topic: 'Against immediate certainties' },
+  { section: '§130', variance: 0.250, topic: 'Talent reveals character' },
+  { section: '§74', variance: 0.242, topic: 'Genius requires gratitude' },
+  { section: '§15', variance: 0.207, topic: 'Sensualist philosophers' },
+  { section: '§117', variance: 0.156, topic: 'Will to overcome emotion' },
+  { section: '§119', variance: 0.152, topic: 'Disgust with dirt' },
+  { section: '§97', variance: 0.135, topic: 'Great man as actor' },
+  { section: '§76', variance: 0.134, topic: 'Self-contempt' },
+  { section: '§126', variance: 0.134, topic: 'Peoples and fatherlands' },
+  { section: '§160', variance: 0.134, topic: 'Instinct' },
 ]
 
 const CustomTooltip = ({ active, payload }) => {

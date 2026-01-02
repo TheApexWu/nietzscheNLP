@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 
 export default function AphorismExplorer() {
   const [data, setData] = useState(null)
-  const [selectedNum, setSelectedNum] = useState(1)
+  const [selectedNum, setSelectedNum] = useState(38)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
