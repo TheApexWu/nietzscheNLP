@@ -4,14 +4,14 @@ import { useState } from 'react'
 
 const translators = ['German', 'Hollingdale', 'Kaufmann', 'Faber', 'Norman', 'Zimmern']
 
-// Similarity matrix data (symmetric)
+// Similarity matrix data (symmetric) - updated with corrected corpus
 const matrix = [
-  [1.000, 0.833, 0.808, 0.813, 0.798, 0.798], // German
-  [0.833, 1.000, 0.886, 0.878, 0.842, 0.851], // Hollingdale
-  [0.808, 0.886, 1.000, 0.871, 0.839, 0.844], // Kaufmann
-  [0.813, 0.878, 0.871, 1.000, 0.845, 0.852], // Faber
-  [0.798, 0.842, 0.839, 0.845, 1.000, 0.806], // Norman
-  [0.798, 0.851, 0.844, 0.852, 0.806, 1.000], // Zimmern
+  [1.000, 0.806, 0.787, 0.791, 0.780, 0.779], // German
+  [0.806, 1.000, 0.887, 0.873, 0.849, 0.866], // Hollingdale
+  [0.787, 0.887, 1.000, 0.844, 0.837, 0.836], // Kaufmann
+  [0.791, 0.873, 0.844, 1.000, 0.844, 0.829], // Faber
+  [0.780, 0.849, 0.837, 0.844, 1.000, 0.811], // Norman
+  [0.779, 0.866, 0.836, 0.829, 0.811, 1.000], // Zimmern
 ]
 
 function getColor(value) {

@@ -58,9 +58,10 @@ export default function MethodologyButton() {
           <div className="method-section">
             <h4>Statistical Validation</h4>
             <p>
-              Permutation test (10,000 iterations) confirms §28's high divergence is not
-              cherry-picked. Observed rank: 3/231. P-value: 0.014. Z-score: 4.43 against
-              null distribution. Multiple comparison correction (Benjamini-Hochberg) applied.
+              Permutation test (10,000 iterations) with Benjamini-Hochberg FDR correction.
+              Top divergent passages: §35 (French phrases), §59 (short), §83 (ambiguous).
+              Divergence correlates with passage length (shorter = more ambiguous) and
+              presence of foreign language phrases.
             </p>
           </div>
 

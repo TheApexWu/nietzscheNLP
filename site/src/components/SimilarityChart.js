@@ -3,12 +3,13 @@
 import { useState } from 'react'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts'
 
+// Updated with corrected corpus data
 const data = [
-  { translator: 'Hollingdale', similarity: 0.833, fullName: 'R.J. Hollingdale (1973)' },
-  { translator: 'Faber', similarity: 0.813, fullName: 'Marion Faber (1998)' },
-  { translator: 'Kaufmann', similarity: 0.808, fullName: 'Walter Kaufmann (1966)' },
-  { translator: 'Zimmern', similarity: 0.798, fullName: 'Helen Zimmern (1906)' },
-  { translator: 'Norman', similarity: 0.798, fullName: 'Judith Norman (2002)' },
+  { translator: 'Hollingdale', similarity: 0.806, fullName: 'R.J. Hollingdale (1973)' },
+  { translator: 'Faber', similarity: 0.791, fullName: 'Marion Faber (1998)' },
+  { translator: 'Kaufmann', similarity: 0.787, fullName: 'Walter Kaufmann (1966)' },
+  { translator: 'Norman', similarity: 0.780, fullName: 'Judith Norman (2002)' },
+  { translator: 'Zimmern', similarity: 0.779, fullName: 'Helen Zimmern (1906)' },
 ]
 
 const CustomTooltip = ({ active, payload }) => {
@@ -45,7 +46,7 @@ export default function SimilarityChart() {
         >
           <XAxis
             type="number"
-            domain={[0.78, 0.85]}
+            domain={[0.76, 0.82]}
             tick={{ fill: '#5c4a37', fontSize: 12 }}
             tickLine={{ stroke: '#e6d5b8' }}
             axisLine={{ stroke: '#e6d5b8' }}
