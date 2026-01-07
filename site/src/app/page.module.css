@@ -125,6 +125,17 @@
   line-height: 1.75;
 }
 
+.translatorGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.translatorGrid .translatorCard {
+  margin: 0;
+}
+
 .epigraph {
   background: linear-gradient(135deg, var(--sun-light) 0%, var(--warm-cream) 100%);
   border-left: 4px solid var(--sun-gold);

@@ -21,37 +21,79 @@ export default function Home() {
         <span className={styles.heroTag}>Computational Philology</span>
         <h1>Beyond Good and Evil,<br /><em>Beyond Translation</em></h1>
         <p className={styles.subtitle}>
-          Sentence embeddings, five translators, and discovering that the patterns
-          you expect aren't always the patterns you find.
+          Measuring how five English translations diverge from Nietzsche's German
+          using sentence embeddings.
         </p>
       </header>
 
+      <section className={styles.stats}>
+        <div className={styles.stat}>
+          <span className={styles.statValue}>231</span>
+          <span className={styles.statLabel}>Aphorisms Aligned</span>
+        </div>
+        <div className={styles.stat}>
+          <span className={styles.statValue}>6</span>
+          <span className={styles.statLabel}>Versions Compared</span>
+        </div>
+        <div className={styles.stat}>
+          <span className={styles.statValue}>0.806</span>
+          <span className={styles.statLabel}>Max Fidelity</span>
+        </div>
+      </section>
+
+      {/* Interactive explorer first */}
       <section className={styles.section}>
+        <h2>Explore the Translations</h2>
+        <p>
+          Compare how different translators render the same aphorism. Search for keywords,
+          filter by divergence, or hit "Surprise me" for a random high-divergence passage.
+        </p>
+        <AphorismExplorer />
+      </section>
+
+      <section className={styles.vizSection}>
+        <h2>Translator Fingerprints</h2>
+        <p>
+          UMAP projection of 1,386 embeddings reveals distinct clusters.
+          Each translator leaves a stylistic signature the model can detect.
+        </p>
+        <div className={styles.vizContainer}>
+          <UMAPChart />
+        </div>
+        <p className={styles.vizCaption}>
+          Hover to isolate clusters. German sits at center. Kaufmann and Hollingdale cluster nearby.
+        </p>
+      </section>
+
+      <section className={`${styles.section} ${styles.findingHighlight}`}>
+        <h2>The Semantic Centroid</h2>
+        <p>
+          Pairwise cosine similarity reveals Hollingdale as the gravitational center—closest
+          to the German (0.806) and closest to every other translator.
+        </p>
+        <div className={styles.dataCard}>
+          <h3>Similarity to Original German</h3>
+          <SimilarityChart />
+        </div>
+      </section>
+
+      <section className={styles.vizSection}>
+        <h2>The Full Matrix</h2>
+        <div className={styles.vizContainer}>
+          <HeatmapChart />
+        </div>
+        <p className={styles.vizCaption}>
+          Hover for exact scores. Kaufmann-Hollingdale (0.887) cluster tightest.
+        </p>
+      </section>
+
+      {/* Context and methodology below the fold */}
+      <section className={styles.section}>
+        <h2>The Question</h2>
         <p className={styles.lead}>
-          I have read Beyond Good and Evil in four translations. Not because I am thorough,
-          but because I kept switching, unsatisfied. Kaufmann felt like a professor standing
-          between me and the text, footnoting away the danger. Hollingdale felt closer, rawer.
-          Zimmern, the Victorian, softened everything that should bite. Each version claimed
-          to be Nietzsche, yet none felt like the same book.
+          I kept switching translations—Kaufmann felt like a professor footnoting away the danger,
+          Hollingdale felt rawer, Zimmern softened everything. Could NLP quantify what I felt?
         </p>
-
-        <p>
-          This is not a complaint. Translation is impossible. Every translator knows this.
-          The question is what kind of impossibility you prefer: the careful academic who
-          explains the joke, or the literary stylist who rewrites it for a new audience.
-          Neither is wrong. Both are betrayals.
-        </p>
-
-        <p>
-          So I did what seemed natural: I ran the translations through sentence embeddings
-          to see if the machine could detect what I felt. Could NLP quantify the distance
-          between interpretations? Could it identify where translators diverge most?
-        </p>
-
-        <p>
-          What I found was stranger than I expected.
-        </p>
-
         <MethodologyButton />
       </section>
 
@@ -66,162 +108,20 @@ export default function Home() {
             "That which translates worst from one language into another is the <strong>tempo</strong> of its style..."
           </p>
         </div>
-
         <p>
-          In aphorism 28, Nietzsche argues that the tempo of a language, its rhythm and cadence,
-          is rooted in what he calls the "average tempo of its metabolism." This is not metaphor.
-          He means it literally: a language carries the physiological signature of its speakers.
-          German moves differently than French. The translator who captures the words but loses
-          the tempo has captured nothing.
+          Nietzsche argues that tempo is rooted in "the average tempo of its metabolism"—
+          a language carries the physiological signature of its speakers. The translator
+          who captures words but loses tempo has captured nothing.
         </p>
-
         <QuoteComparison />
       </section>
 
-      <section className={styles.stats}>
-        <div className={styles.stat}>
-          <span className={styles.statValue}>231</span>
-          <span className={styles.statLabel}>Aphorisms Aligned</span>
-        </div>
-        <div className={styles.stat}>
-          <span className={styles.statValue}>5</span>
-          <span className={styles.statLabel}>Translators</span>
-        </div>
-        <div className={styles.stat}>
-          <span className={styles.statValue}>0.806</span>
-          <span className={styles.statLabel}>Max Fidelity</span>
-        </div>
-      </section>
-
       <section className={styles.section}>
-        <h2>The Translators and Their Projects</h2>
-
+        <h2>Where They Diverge Most</h2>
         <p>
-          These are not interchangeable renderings. Each translator brought a theory of
-          what Nietzsche was doing and how to make it work in English. Understanding the
-          numbers requires understanding the people.
+          Some passages translate consistently. Others scatter wildly—where the German
+          underdetermines the English and translators must make choices no dictionary dictates.
         </p>
-
-        <div className={styles.translatorCard}>
-          <h3>Helen Zimmern, 1906</h3>
-          <p>
-            The first major English translation, and it shows. Zimmern knew Nietzsche personally,
-            which sounds impressive until you realize she was filtering him through Victorian sensibilities.
-            Her prose is stiff where his is vicious. She writes "one must consider" where Nietzsche spits.
-            The embedding model detects her as the most distant from the German, and from the other
-            English translators. A century of language evolution separates her from Norman, and
-            the machine sees every year.
-          </p>
-        </div>
-
-        <div className={styles.translatorCard}>
-          <h3>Walter Kaufmann, 1966</h3>
-          <p>
-            The academic standard for fifty years. Kaufmann's project was rehabilitation: rescuing
-            Nietzsche from the Nazis, proving he was a serious philosopher, not a proto-fascist lunatic.
-            The translation reflects this mission. Careful. Scholarly. Heavily footnoted. Sometimes
-            you feel Kaufmann interpreting before you can interpret for yourself. The embeddings
-            place him close to Hollingdale (0.887 similarity), which makes sense: same era, same
-            academic context, probably reading each other's work.
-          </p>
-        </div>
-
-        <div className={styles.translatorCard}>
-          <h3>R.J. Hollingdale, 1973</h3>
-          <p>
-            My favorite, and the embeddings agree. Hollingdale was self-taught, not a professor
-            but a translator by trade. He rendered almost everything Nietzsche wrote. His approach
-            was literary rather than academic: trust the reader to handle Nietzsche raw, without
-            protective footnotes. The prose moves. He sits at the semantic center of all translations,
-            closest to the German (0.806) and closest to everyone else. Whether this makes him
-            "best" depends on what you want. It makes him the faithful middle, the point other
-            interpretations orbit.
-          </p>
-        </div>
-
-        <div className={styles.translatorCard}>
-          <h3>Marion Faber, 1998</h3>
-          <p>
-            Oxford World's Classics. Faber aimed for accuracy over style. The result is reliable
-            but rarely surprising. Good for study, less good for feeling the text. She sits
-            between the academic Kaufmann and the literary Hollingdale, a sensible median.
-          </p>
-        </div>
-
-        <div className={styles.translatorCard}>
-          <h3>Judith Norman, 2002</h3>
-          <p>
-            The Cambridge edition, co-edited with Rolf-Peter Horstmann. Norman takes interpretive
-            risks the others avoid, updating dated references, modernizing idioms. The result
-            reads more easily but drifts further from the German. The embeddings detect this:
-            she clusters with Zimmern in interpretive distance, though a century apart in time.
-          </p>
-        </div>
-      </section>
-
-      <section className={`${styles.section} ${styles.findingHighlight}`}>
-        <h2>The Semantic Centroid</h2>
-
-        <p>
-          I computed pairwise cosine similarity across all translator embeddings. One name
-          emerged as the gravitational center: Hollingdale.
-        </p>
-
-        <div className={styles.dataCard}>
-          <h3>Similarity to Original German</h3>
-          <SimilarityChart />
-        </div>
-
-        <p>
-          Hollingdale is not just closest to the German. He is closest to everyone.
-          This does not mean he is "best." It means his translation occupies the semantic
-          middle ground. The others deviate from it in different directions: Zimmern toward
-          Victorian formality, Norman toward modern accessibility, Kaufmann toward academic precision.
-        </p>
-
-        <p>
-          What does it mean to be the centroid? Perhaps that Hollingdale made the fewest
-          interpretive choices, stayed closest to the literal while remaining readable.
-          Or perhaps he simply averaged out the possibilities. The machine cannot tell us
-          which. Only that the pattern exists.
-        </p>
-      </section>
-
-      <section className={styles.vizSection}>
-        <h2>The Fingerprint</h2>
-
-        <p>
-          UMAP projection of 1,386 aphorism embeddings (231 aphorisms across 6 sources)
-          reveals distinct clusters. Each translator leaves a signature. The model can
-          classify who translated what without being told.
-        </p>
-
-        <div className={styles.vizContainer}>
-          <UMAPChart />
-        </div>
-
-        <p className={styles.vizCaption}>
-          Hover over the legend to isolate each cluster. German sits at center.
-          Kaufmann and Hollingdale cluster nearby. Norman and Zimmern drift further.
-        </p>
-
-        <p>
-          This is perhaps the most striking result. Translators have fingerprints.
-          Their stylistic choices are consistent enough across 231 aphorisms that a
-          dimensionality reduction algorithm can separate them visually. Whatever
-          "voice" means, it shows up in vector space.
-        </p>
-      </section>
-
-      <section className={styles.section}>
-        <h2>Where They Diverge</h2>
-
-        <p>
-          Some passages translate consistently across all five versions. Others scatter wildly.
-          The variance tells you where the German underdetermines the English, where translators
-          had to make choices no dictionary could dictate.
-        </p>
-
         <div className={styles.divergenceList}>
           <div className={styles.divergenceItemHighlight}>
             <span className={styles.sectionNum}>§38</span>
@@ -238,45 +138,84 @@ export default function Home() {
             <span className={styles.variance}>σ = 0.242</span>
             <p>Genius requires gratitude</p>
           </div>
-          <div className={styles.divergenceItem}>
-            <span className={styles.sectionNum}>§15</span>
-            <span className={styles.variance}>σ = 0.207</span>
-            <p>Sensualist philosophers</p>
-          </div>
-          <div className={styles.divergenceItem}>
-            <span className={styles.sectionNum}>§117</span>
-            <span className={styles.variance}>σ = 0.156</span>
-            <p>Will to overcome emotion</p>
-          </div>
         </div>
-
         <p>
-          The pattern: short aphorisms diverge more. Less context means more ambiguity,
-          more room for interpretive freedom. Passages with embedded French scatter wildly
-          because translators handle code-switching differently. And self-referential passages,
-          where Nietzsche writes about language itself, prove hardest to render consistently.
+          Short aphorisms diverge more (less context = more ambiguity). Passages with
+          embedded French scatter wildly. Self-referential passages about language itself
+          prove hardest to render consistently.
         </p>
-
         <div className={styles.vizContainer}>
           <DivergenceChart />
         </div>
+      </section>
 
-        <AphorismExplorer />
+      <section className={styles.section}>
+        <h2>The Translators</h2>
+        <div className={styles.translatorGrid}>
+          <div className={styles.translatorCard}>
+            <h3>Hollingdale, 1973</h3>
+            <p>
+              Self-taught translator, literary over academic. Sits at the semantic center—
+              closest to German and everyone else. The faithful middle.
+            </p>
+          </div>
+          <div className={styles.translatorCard}>
+            <h3>Kaufmann, 1966</h3>
+            <p>
+              Academic standard. Careful, scholarly, heavily footnoted. Clusters tightly
+              with Hollingdale (0.887)—same era, same context.
+            </p>
+          </div>
+          <div className={styles.translatorCard}>
+            <h3>Faber, 1998</h3>
+            <p>
+              Oxford World's Classics. Accuracy over style. Reliable but rarely surprising.
+            </p>
+          </div>
+          <div className={styles.translatorCard}>
+            <h3>Norman, 2002</h3>
+            <p>
+              Cambridge edition. Takes interpretive risks, modernizes idioms. Drifts further
+              from German but reads more easily.
+            </p>
+          </div>
+          <div className={styles.translatorCard}>
+            <h3>Zimmern, 1906</h3>
+            <p>
+              First major translation. Victorian sensibilities filter the viciousness.
+              Most distant from all others—the machine sees every year of that century.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.section}>
+        <h2>Limitations</h2>
+        <p>
+          Sentence embeddings capture semantic similarity in web-text space, not philosophical
+          fidelity. The model learned "meaning" from Wikipedia, not <em>Zarathustra</em>.
+          A philosophy-tuned model was better at Nietzsche's concepts but worse at
+          cross-lingual alignment. You cannot optimize for both.
+        </p>
+        <p>
+          What I measure: relative divergence patterns. Where translators cluster and scatter.
+          Not which translation is "best"—but that interpretive schools exist and fingerprints are real.
+        </p>
+        <KeyTermAnalysis />
       </section>
 
       <section className={styles.section}>
         <h2>The Orthography Problem</h2>
-
         <p>
-          Nietzsche wrote before the 1901 German orthography reform. My source text uses
-          19th century spellings that modern embedding models do not fully recognize:
+          Nietzsche wrote before the 1901 spelling reform. The model sees "Werth" and "Wert"
+          as different words. I built a 95-rule normalizer that improved alignment by 0.002-0.003.
+          Small, but rankings stayed stable.
         </p>
-
         <div className={styles.spellingTable}>
           <div className={styles.spellRowHeader}>
             <span>Archaic</span>
             <span>Modern</span>
-            <span>Embedding Sim.</span>
+            <span>Sim.</span>
           </div>
           <div className={styles.spellRow}>
             <span className={styles.archaic}>giebt</span>
@@ -289,98 +228,19 @@ export default function Home() {
             <span className={styles.sim}>~0.53</span>
           </div>
           <div className={styles.spellRow}>
-            <span className={styles.archaic}>Theil</span>
-            <span className={styles.modern}>Teil</span>
-            <span className={styles.sim}>~0.55</span>
-          </div>
-          <div className={styles.spellRow}>
             <span className={styles.archaic}>seyn</span>
             <span className={styles.modern}>sein</span>
             <span className={styles.sim}>~0.48</span>
           </div>
         </div>
-
-        <p>
-          The model sees "Werth" and "Wert" as different words. I built a normalizer,
-          ninety-five substitution rules, that improved German-English alignment by 0.002-0.003
-          across all translators. Small, but the rankings stayed stable. Hollingdale still wins.
-        </p>
-
-        <p>
-          The "th" to "t" shift came in 1901. Words derived from Greek lost their classical
-          spellings. "Theater" kept its "th" because Germans still perceived it as foreign.
-          Language politics, then as now.
-        </p>
-      </section>
-
-      <section className={styles.vizSection}>
-        <h2>The Full Matrix</h2>
-
-        <div className={styles.vizContainer}>
-          <HeatmapChart />
-        </div>
-
-        <p className={styles.vizCaption}>
-          Hover to see exact similarity scores. The Kaufmann-Hollingdale cluster (0.887)
-          is the tightest. Norman-Zimmern (0.811) are most distant from each other.
-        </p>
-      </section>
-
-      <section className={styles.section}>
-        <h2>What This Actually Measures</h2>
-
-        <p>
-          I should be honest about the limitations. Sentence embeddings capture semantic
-          similarity in modern multilingual web-text space. They do not capture philosophical
-          fidelity to Nietzsche's conceptual framework. The model learned "meaning" from
-          Wikipedia and Reddit, not from <em>Thus Spoke Zarathustra</em>.
-        </p>
-
-        <p>
-          I tested a philosophy-tuned model, fine-tuned on Stanford Encyclopedia triplets.
-          It was better at distinguishing "das Vornehme" (the noble) from "das Gemeine" (the common),
-          concepts central to Nietzsche's aristocratic ethics. But worse at cross-lingual alignment.
-          You cannot optimize for both. The trade-off is real.
-        </p>
-
-        <p>
-          So what am I actually measuring? Relative divergence patterns. Where translators
-          cluster and where they scatter. The finding is not which translation is best.
-          It is that interpretive schools exist, and that translator fingerprints are real.
-        </p>
-
-        <KeyTermAnalysis />
-
-        <div className={styles.epigraphSmall}>
-          <blockquote>
-            "Der Wille zur Wahrheit... wer hat uns eigentlich diese Frage gestellt?"
-          </blockquote>
-          <cite>— BGE §1</cite>
-          <p className={styles.epigraphTranslation}>"The will to truth... who among us has actually posed this question?"</p>
-        </div>
-
-        <p>
-          There is something ironic about subjecting Nietzsche to computational analysis.
-          The philosopher who attacked "the faith in opposite values" now has his words
-          projected into a vector space where similarity is a cosine distance. He would
-          probably despise it. Or find it amusing that we keep trying to systematize
-          what resists systematization.
-        </p>
       </section>
 
       <section className={styles.closing}>
-        <h2>What I Learned</h2>
-
+        <h2>Takeaway</h2>
         <p>
-          I started this project to see if embeddings could detect translation differences.
-          They can. Translators have fingerprints—consistent stylistic signatures that cluster
-          in embedding space. Hollingdale sits at the semantic center, closest to the German
-          and closest to everyone else. The machinery works.
-        </p>
-
-        <p>
-          As for §28, where Nietzsche writes about tempo and the untranslatable, translators
-          largely agree. It ranks as one of the least divergent passages in the book (0.024), how poetically fitting.
+          Translators have fingerprints. Hollingdale sits at the semantic center.
+          And §28, where Nietzsche writes about tempo and the untranslatable?
+          One of the least divergent passages (σ = 0.024). Poetically fitting.
         </p>
       </section>
 
