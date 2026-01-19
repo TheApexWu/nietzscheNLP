@@ -1,0 +1,130 @@
+{
+  "passage_id": "BGE_013",
+  "section_title": "On the Prejudices of Philosophers",
+  "philosophical_significance": "Contains the foundational formulation 'Leben selbst ist Wille zur Macht' (Life itself is will to power)",
+  "german_original": "Die Physiologen sollten sich besinnen, den Selbsterhaltungstrieb als kardinalen Trieb eines organischen Wesens anzusetzen. Vor Allem will etwas Lebendiges seine Kraft auslassen — Leben selbst ist Wille zur Macht — die Selbsterhaltung ist nur eine der indirekten und häufigsten Folgen davon. — Kurz, hier wie überall, Vorsicht vor überflüssigen teleologischen Principien! — wie ein solches der Selbsterhaltungstrieb ist (man dankt ihn der Inconsequenz Spinoza's —). So nämlich gebietet es die Methode, die wesentlich Principien-Sparsamkeit sein muss.",
+  "key_terms": {
+    "Wille_zur_Macht": "will to power",
+    "Selbsterhaltungstrieb": "instinct of self-preservation",
+    "Kraft_auslassen": "discharge/release strength",
+    "teleologische_Principien": "teleological principles",
+    "Principien_Sparsamkeit": "economy of principles"
+  },
+  "translations": [
+    {
+      "translator": "Walter Kaufmann",
+      "year": 1966,
+      "publisher": "Random House/Vintage",
+      "text": "Physiologists should think before putting down the instinct of self-preservation as the cardinal instinct of an organic being. A living thing seeks above all to discharge its strength—life itself is will to power; self-preservation is only one of the indirect and most frequent results. In short, here as everywhere else, let us beware of superfluous teleological principles—one of which is the instinct of self-preservation (we owe it to Spinoza's inconsistency). Thus method, which must be essentially economy of principles, demands it.",
+      "scores": {
+        "philosophical_fidelity": 9,
+        "tonal_preservation": 8,
+        "interpretive_liberty": 4,
+        "semantic_divergence": 2
+      },
+      "justification": "Precise rendering; 'discharge its strength' captures Kraft auslassen excellently; no article before 'will to power' preserves predication structure; semicolon after 'will to power' maintains the appositive force.",
+      "flagged_terms": ["discharge its strength", "will to power"],
+      "notable_choices": {
+        "Kraft_auslassen": "discharge its strength",
+        "Wille_zur_Macht": "will to power (no article)",
+        "sich_besinnen": "think"
+      }
+    },
+    {
+      "translator": "Helen Zimmern",
+      "year": 1886,
+      "publisher": "Macmillan",
+      "text": "Psychologists should bethink themselves before putting down the instinct of self-preservation as the cardinal instinct of an organic being. A living thing seeks above all to discharge its strength—life itself is Will to Power; self-preservation is only one of the indirect and most frequent results thereof. In short, here, as everywhere else, let us beware of superfluous teleological principles!—one of which is the instinct of self-preservation (we owe it to Spinoza's inconsistency). It is thus, in effect, that method ordains, which must be essentially economy of principles.",
+      "scores": {
+        "philosophical_fidelity": 8,
+        "tonal_preservation": 7,
+        "interpretive_liberty": 3,
+        "semantic_divergence": 2
+      },
+      "justification": "As the earliest translation (1886), Zimmern established 'Will to Power' with capital letters—treating it as a formal concept. The capitalization is an interpretive choice that Nietzsche didn't make in German. Very literal, but 'thereof' and 'bethink' add Victorian formality that flattens Nietzsche's punch.",
+      "flagged_terms": ["Will to Power (capitalized)", "thereof", "bethink"],
+      "notable_choices": {
+        "Kraft_auslassen": "discharge its strength",
+        "Wille_zur_Macht": "Will to Power (capitalized, no article)",
+        "sich_besinnen": "bethink themselves"
+      }
+    },
+    {
+      "translator": "R.J. Hollingdale",
+      "year": 1973,
+      "publisher": "Penguin",
+      "text": "Physiologists should think again before postulating the drive to self-preservation as the cardinal drive in an organic being. A living thing desires above all to vent its strength—life as such is will to power—: self-preservation is only one of the indirect and most frequent consequences of it. — In short, here as everywhere, beware of superfluous teleological principles!—such as is the drive to self-preservation (we owe it to Spinoza's inconsistency). For this is a requirement of method, which has essentially to be economy of principles.",
+      "scores": {
+        "philosophical_fidelity": 8,
+        "tonal_preservation": 7,
+        "interpretive_liberty": 4,
+        "semantic_divergence": 3
+      },
+      "justification": "'Vent its strength' is slightly more aggressive than 'discharge'—a minor interpretive push toward physicality. The em-dash placement preserves Nietzsche's parenthetical style. 'As such' adds a quasi-technical register not present in the German 'selbst.'",
+      "flagged_terms": ["vent", "life as such", "drive"],
+      "notable_choices": {
+        "Kraft_auslassen": "vent its strength",
+        "Wille_zur_Macht": "will to power (no article)",
+        "Leben_selbst": "life as such",
+        "Trieb": "drive (not instinct)"
+      }
+    },
+    {
+      "translator": "Marion Faber",
+      "year": 1998,
+      "publisher": "Oxford World's Classics",
+      "text": "Physiologists should think twice before deciding that an organic being's primary instinct is the instinct for self-preservation. A living being wants above all else to release its strength; life itself is the will to power, and self-preservation is only one of its indirect and most frequent consequences. Here as everywhere, in short, we must beware of superfluous teleological principles! And this is what the instinct for self-preservation is (which we owe to the inconsistency of Spinoza). Such are the dictates of our method, which in essence demands that we be frugal with our principles.",
+      "scores": {
+        "philosophical_fidelity": 7,
+        "tonal_preservation": 6,
+        "interpretive_liberty": 5,
+        "semantic_divergence": 4
+      },
+      "justification": "'Release its strength' is softer than 'auslassen' (which has connotations of letting loose, discharging). Adding 'the' before 'will to power' subtly reifies the concept as a noun-thing rather than a verbal force. The comma and 'and' after 'will to power' breaks the appositive structure. Smooth contemporary prose but loses some rhetorical edge.",
+      "flagged_terms": ["release", "the will to power", "think twice"],
+      "notable_choices": {
+        "Kraft_auslassen": "release its strength",
+        "Wille_zur_Macht": "the will to power (with article)",
+        "sich_besinnen": "think twice"
+      }
+    },
+    {
+      "translator": "Judith Norman",
+      "year": 2002,
+      "publisher": "Cambridge",
+      "text": "Physiologists should think twice before deciding that an organic being's primary instinct is the instinct for self-preservation. A living thing wants above all else to release its strength; life itself is the will to power, and self-preservation is only one of its indirect and most frequent consequences. Here as everywhere, in short, we must beware of superfluous teleological principles! And this is what the instinct for self-preservation is (which we owe to the inconsistency of Spinoza). Such are the dictates of our method, which in essence demands that we be frugal with our principles.",
+      "scores": {
+        "philosophical_fidelity": 7,
+        "tonal_preservation": 6,
+        "interpretive_liberty": 5,
+        "semantic_divergence": 3
+      },
+      "justification": "Norman's translation is clear and readable but 'think twice' for 'sollten sich besinnen' loses the philosophical weight of Besinnung (contemplation/reflection). Like Faber, uses 'the will to power'—treating it as a definite noun phrase rather than an appositive predication.",
+      "flagged_terms": ["think twice", "the will to power", "release"],
+      "notable_choices": {
+        "Kraft_auslassen": "release its strength",
+        "Wille_zur_Macht": "the will to power (with article)",
+        "sich_besinnen": "think twice"
+      }
+    }
+  ],
+  "ranking": ["Kaufmann", "Hollingdale", "Zimmern", "Norman", "Faber"],
+  "critical_divergence": {
+    "issue": "Definite article before 'will to power'",
+    "description": "The phrase 'Leben selbst ist Wille zur Macht' allows two grammatical readings: (1) Predication/identity: 'Life itself IS will-to-power' — life and will-to-power are equated; (2) Attribution: 'Life itself is THE will to power' — life possesses or is characterized by this quality. Kaufmann, Hollingdale, and Zimmern preserve the predication structure (no article). Faber and Norman add 'the,' which shifts from identity claim to attributive claim.",
+    "philosophical_stakes": "Nietzsche appears to make an ontological identity claim: life = will-to-power. The article insertion softens this into a property attribution, which is philosophically weaker.",
+    "embedding_blindspot": "High cosine similarity between all translations masks this grammatical-philosophical divergence."
+  },
+  "overall_notes": "This aphorism demonstrates where LLM-as-Judge captures nuances that embedding-based similarity would flatten. All five translations would cluster tightly in embedding space due to shared vocabulary, but they diverge on: (1) article insertion, (2) verb intensity (discharge/vent/release), (3) register (bethink/think twice), (4) capitalization as conceptual reification.",
+  "methodology": {
+    "approach": "LLM-as-Judge per LLM_JUDGE_PRIMER.md",
+    "model": "Claude Opus 4.5",
+    "evaluation_date": "2026-01-18",
+    "dimensions": {
+      "philosophical_fidelity": "Does the translation preserve Nietzsche's conceptual meaning? (1-10)",
+      "tonal_preservation": "Does it capture Nietzsche's voice—ironic, aphoristic, provocative? (1-10)",
+      "interpretive_liberty": "How much did the translator impose their own interpretation? (1=literal, 10=heavily interpreted)",
+      "semantic_divergence": "How different is this translation from the consensus? (1=agrees, 10=outlier)"
+    }
+  }
+}
