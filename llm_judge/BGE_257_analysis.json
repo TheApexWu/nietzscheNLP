@@ -1,0 +1,111 @@
+{
+  "passage_id": "BGE_257",
+  "section_title": "What is Noble?",
+  "philosophical_significance": "Introduces 'Pathos der Distanz' (pathos of distance) as foundation for human enhancement; argues aristocracy and slavery are preconditions for elevation of type 'man'",
+  "key_terms": {
+    "Pathos_der_Distanz": "pathos of distance",
+    "Rangordnung": "order of rank / hierarchy",
+    "Selbst_Ueberwindung": "self-overcoming",
+    "Sklaverei": "slavery",
+    "Erhöhung_des_Typus_Mensch": "enhancement/elevation of the type 'man'"
+  },
+  "german_excerpt": "Jede Erhöhung des Typus 'Mensch' war bisher das Werk einer aristokratischen Gesellschaft... Ohne das Pathos der Distanz... könnte auch jenes andre geheimnissvollere Pathos gar nicht erwachsen... die fortgesetzte 'Selbst-Überwindung des Menschen', um eine moralische Formel in einem übermoralischen Sinne zu nehmen.",
+  "translations": [
+    {
+      "translator": "Walter Kaufmann",
+      "scores": {
+        "philosophical_fidelity": 9,
+        "tonal_preservation": 8,
+        "interpretive_liberty": 4,
+        "semantic_divergence": 2
+      },
+      "key_renderings": {
+        "Pathos_der_Distanz": "pathos of distance",
+        "Erhöhung": "enhancement",
+        "Selbst_Ueberwindung": "self-overcoming",
+        "übermoralisch": "supra-moral"
+      },
+      "justification": "Kaufmann's 'enhancement' for Erhöhung is precise and preserves the biological/breeding undertones. 'Supra-moral' accurately captures übermoralisch. The phrase 'keeping down and keeping at a distance' nicely renders Nieder- und Fernhalten.",
+      "flagged_terms": ["enhancement", "supra-moral", "pathos of distance"]
+    },
+    {
+      "translator": "Helen Zimmern",
+      "scores": {
+        "philosophical_fidelity": 7,
+        "tonal_preservation": 7,
+        "interpretive_liberty": 5,
+        "semantic_divergence": 3
+      },
+      "key_renderings": {
+        "Pathos_der_Distanz": "pathos of distance",
+        "Erhöhung": "elevation",
+        "Selbst_Ueberwindung": "self-surmounting",
+        "übermoralisch": "supermoral"
+      },
+      "justification": "'Elevation' is acceptable but less dynamic than 'enhancement.' 'Self-surmounting' is slightly awkward compared to the now-standard 'self-overcoming.' 'Supermoral' (without hyphen) reads oddly.",
+      "flagged_terms": ["elevation", "self-surmounting", "supermoral"]
+    },
+    {
+      "translator": "R.J. Hollingdale",
+      "scores": {
+        "philosophical_fidelity": 8,
+        "tonal_preservation": 7,
+        "interpretive_liberty": 4,
+        "semantic_divergence": 2
+      },
+      "key_renderings": {
+        "Pathos_der_Distanz": "pathos of distance",
+        "Erhöhung": "elevation",
+        "Selbst_Ueberwindung": "self-overcoming",
+        "übermoralisch": "supra-moral"
+      },
+      "justification": "Solid translation. 'Holding down and holding at a distance' is excellent for Nieder- und Fernhalten. Uses 'elevation' rather than 'enhancement'—less dynamic but acceptable.",
+      "flagged_terms": ["elevation", "self-overcoming"]
+    },
+    {
+      "translator": "Marion Faber",
+      "scores": {
+        "philosophical_fidelity": 7,
+        "tonal_preservation": 6,
+        "interpretive_liberty": 6,
+        "semantic_divergence": 4
+      },
+      "key_renderings": {
+        "Pathos_der_Distanz": "grand feeling of distance",
+        "Erhöhung": "elevation",
+        "Selbst_Ueberwindung": "self-overcoming of the human",
+        "übermoralisch": "supra-moral"
+      },
+      "justification": "'Grand feeling of distance' domesticates 'Pathos der Distanz'—loses the Greek-philosophical weight of 'pathos' (suffering/passion). 'The human' instead of 'man' is a modernizing choice that loses Nietzsche's deliberate use of Mensch.",
+      "flagged_terms": ["grand feeling", "the human", "underlings"]
+    },
+    {
+      "translator": "Judith Norman",
+      "scores": {
+        "philosophical_fidelity": 8,
+        "tonal_preservation": 7,
+        "interpretive_liberty": 5,
+        "semantic_divergence": 3
+      },
+      "key_renderings": {
+        "Pathos_der_Distanz": "pathos of distance",
+        "Erhöhung": "enhancement",
+        "Selbst_Ueberwindung": "self-overcoming",
+        "übermoralisch": "supra-moral"
+      },
+      "justification": "Norman uses 'enhancement' like Kaufmann—good choice. 'Subservient types and tools' for Unterthänige und Werkzeuge is accurate. Clean contemporary prose that preserves philosophical content.",
+      "flagged_terms": ["enhancement", "subservient types"]
+    }
+  ],
+  "ranking": ["Kaufmann", "Hollingdale", "Norman", "Zimmern", "Faber"],
+  "critical_divergence": {
+    "issue": "Translation of 'Pathos der Distanz'",
+    "description": "Faber translates as 'grand feeling of distance' rather than preserving the Greek-derived 'pathos.' This loses the philosophical weight: pathos in Greek means suffering, passion, experience—not merely 'feeling.' The term is quasi-technical for Nietzsche.",
+    "philosophical_stakes": "Pathos der Distanz is one of Nietzsche's key coinages. Domesticating it to 'grand feeling' makes it sound like an emotion rather than an existential-aesthetic condition.",
+    "embedding_blindspot": "Embeddings would cluster 'pathos of distance' and 'grand feeling of distance' closely due to semantic similarity, missing the philosophical register shift."
+  },
+  "additional_notes": {
+    "Erhöhung_vs_elevation": "Kaufmann and Norman use 'enhancement' (active, ongoing process); others use 'elevation' (static achievement). The German Erhöhung contains both senses, but 'enhancement' better captures the dynamic breeding/cultivation undertone.",
+    "Mensch_translation": "Faber's 'the human' is gender-neutral modernization but loses the universalist-singular force of Nietzsche's 'Mensch' (humanity as type)."
+  }
+}

@@ -33,7 +33,23 @@ This project sits at the intersection of:
 
 ## Files
 
-- `BGE_013_analysis.json` — Analysis of Aphorism 13 ("Leben selbst ist Wille zur Macht")
+| File | Aphorism | Key Concept |
+|------|----------|-------------|
+| `BGE_013_analysis.json` | 13 | "Leben selbst ist Wille zur Macht" (Life is will to power) |
+| `BGE_257_analysis.json` | 257 | "Pathos der Distanz" (Pathos of distance) |
+| `BGE_259_analysis.json` | 259 | Life as exploitation, appropriation, overpowering |
+| `BGE_260_analysis.json` | 260 | "Herren-Moral und Sklaven-Moral" (Master/slave morality) |
+| `BGE_287_analysis.json` | 287 | "Was ist vornehm?" (What is noble?) |
+
+## Key Findings
+
+### Patterns of Divergence Invisible to Embeddings
+
+1. **Article insertion** — "will to power" vs. "the will to power" (identity vs. attribution)
+2. **Noun vs. gerund** — "appropriation" vs. "appropriating" (essence vs. activity)
+3. **Singular vs. plural** — "master morality" vs. "master moralities" (ideal type vs. variations)
+4. **Register shifts** — "pathos of distance" vs. "grand feeling of distance" (philosophical vs. colloquial)
+5. **Verb vs. noun predication** — "has reverence for itself" vs. "reveres itself" (state vs. action)
 
 ## References
 

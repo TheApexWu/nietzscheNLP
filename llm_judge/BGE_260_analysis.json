@@ -1,0 +1,116 @@
+{
+  "passage_id": "BGE_260",
+  "section_title": "What is Noble?",
+  "philosophical_significance": "Introduces the famous distinction between Herren-Moral (master morality) and Sklaven-Moral (slave morality). Foundation of Nietzsche's moral genealogy.",
+  "key_terms": {
+    "Herren_Moral": "master morality",
+    "Sklaven_Moral": "slave morality",
+    "vornehm": "noble",
+    "Grundtypen": "basic types / fundamental types",
+    "Rangordnung": "order of rank / hierarchy",
+    "Werthunterscheidungen": "value distinctions / moral discriminations"
+  },
+  "german_excerpt": "Es giebt Herren-Moral und Sklaven-Moral; — ich füge sofort hinzu, dass in allen höheren und gemischteren Culturen auch Versuche der Vermittlung beider Moralen zum Vorschein kommen, noch öfter das Durcheinander derselben und gegenseitige Missverstehen, ja bisweilen ihr hartes Nebeneinander — sogar im selben Menschen, innerhalb Einer Seele.",
+  "translations": [
+    {
+      "translator": "Walter Kaufmann",
+      "scores": {
+        "philosophical_fidelity": 9,
+        "tonal_preservation": 8,
+        "interpretive_liberty": 4,
+        "semantic_divergence": 2
+      },
+      "key_renderings": {
+        "Herren_Moral": "master morality",
+        "Sklaven_Moral": "slave morality",
+        "Grundtypen": "basic types",
+        "Durcheinander": "interpenetration",
+        "innerhalb_Einer_Seele": "within a single soul"
+      },
+      "justification": "'Interpenetration and mutual misunderstanding' for Durcheinander und gegenseitiges Missverstehen is excellent—captures both mixture and confusion. 'Within a single soul' preserves the psychological force. Kaufmann adds extensive footnotes (referenced in text) providing scholarly context.",
+      "flagged_terms": ["interpenetration", "moral discrimination"]
+    },
+    {
+      "translator": "Helen Zimmern",
+      "scores": {
+        "philosophical_fidelity": 8,
+        "tonal_preservation": 7,
+        "interpretive_liberty": 4,
+        "semantic_divergence": 3
+      },
+      "key_renderings": {
+        "Herren_Moral": "master-morality",
+        "Sklaven_Moral": "slave-morality",
+        "Grundtypen": "primary types",
+        "Durcheinander": "confusion",
+        "Vermittlung": "reconciliation"
+      },
+      "justification": "Hyphenated 'master-morality' and 'slave-morality' is Zimmern's stylistic choice that became influential. 'Reconciliation' for Vermittlung is too positive—the German means 'mediation' or 'negotiation,' not successful reconciliation.",
+      "flagged_terms": ["master-morality (hyphenated)", "reconciliation", "radical distinction"]
+    },
+    {
+      "translator": "R.J. Hollingdale",
+      "scores": {
+        "philosophical_fidelity": 8,
+        "tonal_preservation": 8,
+        "interpretive_liberty": 3,
+        "semantic_divergence": 2
+      },
+      "key_renderings": {
+        "Herren_Moral": "master morality",
+        "Sklaven_Moral": "slave morality",
+        "Grundtypen": "basic types",
+        "Durcheinander": "confusion",
+        "hartes_Nebeneinander": "harsh juxtaposition"
+      },
+      "justification": "'Harsh juxtaposition' for hartes Nebeneinander is excellent—preserves both the violence (hart = hard/harsh) and the spatial metaphor. Very literal and accurate throughout.",
+      "flagged_terms": ["harsh juxtaposition", "basic distinction"]
+    },
+    {
+      "translator": "Marion Faber",
+      "scores": {
+        "philosophical_fidelity": 8,
+        "tonal_preservation": 7,
+        "interpretive_liberty": 5,
+        "semantic_divergence": 3
+      },
+      "key_renderings": {
+        "Herren_Moral": "master moralities",
+        "Sklaven_Moral": "slave moralities",
+        "Grundtypen": "basic types",
+        "innerhalb_Einer_Seele": "within one single breast"
+      },
+      "justification": "Faber uses plurals ('master moralities and slave moralities') where Nietzsche uses singular/generic. This is philosophically significant—Nietzsche posits two ideal types, not multiple variations. 'Breast' for Seele (soul) is an odd Victorian-ism.",
+      "flagged_terms": ["moralities (plural)", "breast", "violent juxtaposition"]
+    },
+    {
+      "translator": "Judith Norman",
+      "scores": {
+        "philosophical_fidelity": 8,
+        "tonal_preservation": 7,
+        "interpretive_liberty": 5,
+        "semantic_divergence": 3
+      },
+      "key_renderings": {
+        "Herren_Moral": "master morality",
+        "Sklaven_Moral": "slave morality",
+        "Grundtypen": "basic types",
+        "note": "Uses 'negotiate between' for Vermittlung"
+      },
+      "justification": "'Attempts to negotiate between these moralities' is good—'negotiate' captures Vermittlung better than 'reconcile.' 'Sharply juxtaposed' for hartes Nebeneinander is accurate.",
+      "flagged_terms": ["negotiate", "fundamental distinction"]
+    }
+  ],
+  "ranking": ["Kaufmann", "Hollingdale", "Norman", "Zimmern", "Faber"],
+  "critical_divergence": {
+    "issue": "Singular vs. Plural: 'morality' vs. 'moralities'",
+    "description": "Faber translates as 'master moralities and slave moralities' (plural), while others use singular. Nietzsche's German uses singular: Herren-Moral und Sklaven-Moral.",
+    "philosophical_stakes": "The singular implies two ideal types, two modes of valuation. The plural suggests multiple variations within each category, weakening the binary opposition Nietzsche is establishing.",
+    "embedding_blindspot": "Singular and plural forms would be nearly identical in embedding space, but the philosophical difference between 'ideal type' and 'category with variations' is significant."
+  },
+  "additional_notes": {
+    "hyphenation_history": "Zimmern's hyphenated 'master-morality' became common in early scholarship but modern translators drop the hyphen. The hyphen treats it as a compound noun; without hyphen, 'master' functions as adjective.",
+    "Vermittlung_translation": "Zimmern's 'reconciliation' implies success; Kaufmann's 'mediation' and Norman's 'negotiate' are neutral. Nietzsche's point is that attempts at synthesis fail.",
+    "Seele_vs_breast": "Faber's 'breast' for Seele is archaic. Seele = soul, with full philosophical weight. 'Breast' domesticates it to bodily/emotional register."
+  }
+}

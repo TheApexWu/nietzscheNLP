@@ -1,0 +1,115 @@
+{
+  "passage_id": "BGE_287",
+  "section_title": "What is Noble?",
+  "philosophical_significance": "Central meditation on 'vornehm' (noble/distinguished). Argues nobility cannot be proven by actions or works, only by 'Glaube' (faith/belief)—a fundamental self-certainty. Contains the key phrase 'Die vornehme Seele hat Ehrfurcht vor sich' (The noble soul has reverence for itself).",
+  "key_terms": {
+    "vornehm": "noble / distinguished",
+    "Pöbelherrschaft": "rule of the rabble / mob rule",
+    "Glaube": "faith / belief",
+    "Ehrfurcht": "reverence / awe",
+    "Grundgewissheit": "fundamental certainty",
+    "vornehme_Seele": "noble soul"
+  },
+  "german_excerpt": "Was ist vornehm? Was bedeutet uns heute noch das Wort 'vornehm'?... Es sind nicht die Werke, es ist der Glaube, der hier entscheidet... Die vornehme Seele hat Ehrfurcht vor sich.",
+  "translations": [
+    {
+      "translator": "Walter Kaufmann",
+      "scores": {
+        "philosophical_fidelity": 9,
+        "tonal_preservation": 9,
+        "interpretive_liberty": 3,
+        "semantic_divergence": 2
+      },
+      "key_renderings": {
+        "vornehm": "noble",
+        "Pöbelherrschaft": "rule of the plebs",
+        "Glaube": "belief",
+        "Ehrfurcht_vor_sich": "reverence for itself",
+        "Grundgewissheit": "fundamental certainty"
+      },
+      "justification": "Kaufmann's 'rule of the plebs' for Pöbelherrschaft preserves the Latin-classical register Nietzsche invokes (Pöbel from Latin populus via French peuple). 'The noble soul has reverence for itself' is perfect—maintains the reflexive structure and quasi-religious weight of Ehrfurcht.",
+      "flagged_terms": ["plebs", "reverence for itself", "opaque and leaden"]
+    },
+    {
+      "translator": "Helen Zimmern",
+      "scores": {
+        "philosophical_fidelity": 8,
+        "tonal_preservation": 8,
+        "interpretive_liberty": 4,
+        "semantic_divergence": 2
+      },
+      "key_renderings": {
+        "vornehm": "noble",
+        "Pöbelherrschaft": "commencing plebeianism",
+        "Glaube": "belief",
+        "Ehrfurcht_vor_sich": "reverence for itself",
+        "betray": "betray"
+      },
+      "justification": "'Commencing plebeianism' is more abstract than 'rule of the rabble' but captures the process-nature (beginnenden). The final sentence 'The noble soul has reverence for itself' is rendered identically to Kaufmann.",
+      "flagged_terms": ["plebeianism", "inscrutable", "eloquent and dangerous sign"]
+    },
+    {
+      "translator": "R.J. Hollingdale",
+      "scores": {
+        "philosophical_fidelity": 8,
+        "tonal_preservation": 8,
+        "interpretive_liberty": 3,
+        "semantic_divergence": 2
+      },
+      "key_renderings": {
+        "vornehm": "noble",
+        "Pöbelherrschaft": "rule of the rabble",
+        "Glaube": "faith",
+        "Ehrfurcht_vor_sich": "reverence for itself"
+      },
+      "justification": "'Rule of the rabble' is direct and punchy. Hollingdale uses 'faith' rather than 'belief' for Glaube—this is significant: 'faith' has stronger religious connotations, appropriate given Nietzsche's invocation of 'an old religious formula.'",
+      "flagged_terms": ["rabble", "faith", "unfathomable"]
+    },
+    {
+      "translator": "Marion Faber",
+      "scores": {
+        "philosophical_fidelity": 7,
+        "tonal_preservation": 6,
+        "interpretive_liberty": 5,
+        "semantic_divergence": 4
+      },
+      "key_renderings": {
+        "vornehm": "noble",
+        "Pöbelherrschaft": "rule of the rabble",
+        "Glaube": "faith",
+        "Ehrfurcht_vor_sich": "reveres itself"
+      },
+      "justification": "'The noble soul reveres itself' changes the grammar: German has reflexive 'Ehrfurcht vor sich' (reverence before/for itself), a nominalized self-relation. Faber's verb form 'reveres' loses the substantive weight. Also drops the em-dash before the final sentence, losing Nietzsche's dramatic pause.",
+      "flagged_terms": ["reveres (verb)", "cloudy sky", "its absence"]
+    },
+    {
+      "translator": "Judith Norman",
+      "scores": {
+        "philosophical_fidelity": 8,
+        "tonal_preservation": 7,
+        "interpretive_liberty": 4,
+        "semantic_divergence": 2
+      },
+      "key_renderings": {
+        "vornehm": "noble",
+        "Pöbelherrschaft": "incipient mob rule",
+        "Glaube": "faith",
+        "Ehrfurcht_vor_sich": "reverence for itself"
+      },
+      "justification": "'Incipient mob rule' nicely captures beginnenden Pöbelherrschaft—the rule is beginning, not yet complete. Preserves 'reverence for itself' with proper noun structure. 'Faith that establishes rank order' is excellent for Glaube der die Rangordnung feststellt.",
+      "flagged_terms": ["incipient", "testimony to the absence"]
+    }
+  ],
+  "ranking": ["Kaufmann", "Hollingdale", "Norman", "Zimmern", "Faber"],
+  "critical_divergence": {
+    "issue": "'Reverence for itself' vs. 'reveres itself'",
+    "description": "Most translators render 'Die vornehme Seele hat Ehrfurcht vor sich' as 'The noble soul has reverence for itself' (noun construction). Faber uses 'The noble soul reveres itself' (verb construction).",
+    "philosophical_stakes": "The noun construction emphasizes reverence as a possession, a state of being. The verb construction makes it an action. Nietzsche's point is that nobility is a mode of being, not an activity.",
+    "embedding_blindspot": "'Has reverence for itself' and 'reveres itself' would be nearly identical in embedding space, but the ontological vs. activity distinction is philosophically significant."
+  },
+  "additional_notes": {
+    "Glaube_translation": "Hollingdale, Faber, and Norman use 'faith'; Kaufmann and Zimmern use 'belief.' Given that Nietzsche explicitly invokes 'an old religious formula,' 'faith' may be more appropriate—it carries the weight of conviction beyond evidence.",
+    "Pöbelherrschaft_register": "Kaufmann's 'plebs' and Zimmern's 'plebeianism' maintain classical register. 'Rabble' and 'mob' are more colloquial. Nietzsche's Pöbel has both registers—derived from Latin but used colloquially in German.",
+    "dramatic_structure": "The aphorism ends with a standalone sentence after an em-dash: '— Die vornehme Seele hat Ehrfurcht vor sich. —' Faber drops the opening dash, losing the dramatic pause that sets up the aphoristic conclusion."
+  }
+}

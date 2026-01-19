@@ -1,0 +1,118 @@
+{
+  "passage_id": "BGE_259",
+  "section_title": "What is Noble?",
+  "philosophical_significance": "Contains Nietzsche's controversial claim that 'life itself is essentially appropriation, injury, overpowering... exploitation.' Extends the will-to-power doctrine to social/political realm.",
+  "key_terms": {
+    "Ausbeutung": "exploitation",
+    "Aneignung": "appropriation",
+    "Überwältigung": "overpowering",
+    "Verletzung": "injury/violation",
+    "Wille_zur_Verneinung_des_Lebens": "will to the denial of life",
+    "Auflösungs_und_Verfalls_Princip": "principle of dissolution and decay"
+  },
+  "german_excerpt": "Leben selbst ist wesentlich Aneignung, Verletzung, Überwältigung des Fremden und Schwächeren, Unterdrückung, Härte, Aufzwängung eigner Formen, Einverleibung und mindestens, mildestens, Ausbeutung",
+  "translations": [
+    {
+      "translator": "Walter Kaufmann",
+      "scores": {
+        "philosophical_fidelity": 9,
+        "tonal_preservation": 9,
+        "interpretive_liberty": 3,
+        "semantic_divergence": 2
+      },
+      "key_renderings": {
+        "Ausbeutung": "exploitation",
+        "Aneignung": "appropriation",
+        "Überwältigung": "overpowering",
+        "Verletzung": "injury",
+        "wesentlich": "essentially",
+        "empfindsamen_Schwächlichkeit": "sentimental weakness"
+      },
+      "justification": "Kaufmann preserves the brutal directness. 'Life itself is essentially appropriation, injury, overpowering' maintains the shock value. 'Sentimental weakness' for empfindsame Schwächlichkeit is perfect—captures both the emotional and physical connotation.",
+      "flagged_terms": ["essentially", "appropriation", "sentimental weakness"]
+    },
+    {
+      "translator": "Helen Zimmern",
+      "scores": {
+        "philosophical_fidelity": 8,
+        "tonal_preservation": 8,
+        "interpretive_liberty": 4,
+        "semantic_divergence": 2
+      },
+      "key_renderings": {
+        "Ausbeutung": "exploitation",
+        "Aneignung": "appropriation",
+        "Überwältigung": "conquest",
+        "Verletzung": "injury",
+        "wesentlich": "essentially",
+        "des_Fremden": "of the strange"
+      },
+      "justification": "'Conquest' for Überwältigung adds a military register not quite present in the German (which is more like 'overwhelming'). 'Of the strange and weak' for des Fremden und Schwächeren is good but 'strange' is slightly off—'foreign/alien' is closer.",
+      "flagged_terms": ["conquest", "strange", "obtrusion of peculiar forms"]
+    },
+    {
+      "translator": "R.J. Hollingdale",
+      "scores": {
+        "philosophical_fidelity": 8,
+        "tonal_preservation": 8,
+        "interpretive_liberty": 4,
+        "semantic_divergence": 2
+      },
+      "key_renderings": {
+        "Ausbeutung": "exploitation",
+        "Aneignung": "appropriation",
+        "Überwältigung": "overpowering",
+        "Verletzung": "injury",
+        "wesentlich": "essentially",
+        "des_Fremden": "of the strange and weaker"
+      },
+      "justification": "Very close to Kaufmann. 'Overpowering of the strange and weaker' is accurate. 'Severity' for Härte is slightly softer than 'hardness' but acceptable.",
+      "flagged_terms": ["strange", "severity"]
+    },
+    {
+      "translator": "Marion Faber",
+      "scores": {
+        "philosophical_fidelity": 7,
+        "tonal_preservation": 6,
+        "interpretive_liberty": 6,
+        "semantic_divergence": 4
+      },
+      "key_renderings": {
+        "Ausbeutung": "exploitation",
+        "Aneignung": "appropriating",
+        "Überwältigung": "overpowering",
+        "Verletzung": "injuring",
+        "wesentlich": "in its essence",
+        "des_Fremden": "those who are foreign and weaker"
+      },
+      "justification": "'Life itself in its essence' is wordier than 'life itself is essentially.' Using gerunds ('appropriating, injuring, overpowering') rather than nouns softens the ontological claim—makes it sound like activities rather than the nature of life itself.",
+      "flagged_terms": ["in its essence", "appropriating (gerund)", "those who are"]
+    },
+    {
+      "translator": "Judith Norman",
+      "scores": {
+        "philosophical_fidelity": 7,
+        "tonal_preservation": 6,
+        "interpretive_liberty": 5,
+        "semantic_divergence": 3
+      },
+      "key_renderings": {
+        "note": "Norman's text for 259 appears truncated in the corpus",
+        "observed_pattern": "Uses 'placing your will on par with the other's' which is more colloquial than other translations"
+      },
+      "justification": "The available portion shows colloquializing tendencies ('placing your will on par') that soften Nietzsche's severity. Full analysis limited by corpus truncation.",
+      "flagged_terms": ["placing your will on par", "crude sense"]
+    }
+  ],
+  "ranking": ["Kaufmann", "Hollingdale", "Zimmern", "Faber", "Norman"],
+  "critical_divergence": {
+    "issue": "Noun vs. Gerund construction",
+    "description": "German uses nouns (Aneignung, Verletzung, Überwältigung)—life IS these things. Faber's gerund construction ('appropriating, injuring, overpowering') makes them activities that life performs rather than its essence.",
+    "philosophical_stakes": "Nietzsche claims life is ontologically identical with exploitation, not merely that life does exploitative things. The noun construction is philosophically stronger.",
+    "embedding_blindspot": "Gerunds and nouns derived from same roots would cluster identically in embedding space, but the grammatical difference carries philosophical weight."
+  },
+  "additional_notes": {
+    "Fremden_translation": "Most translate as 'strange' or 'foreign.' The German Fremden means both 'alien/foreign' and 'other'—the stranger, the outsider. 'Strange' in English connotes oddity; 'foreign' or 'alien' is closer.",
+    "controversial_content": "This is one of Nietzsche's most politically controversial passages, used (wrongly) by fascists. Translators face a choice: preserve the brutal directness or soften it. Kaufmann and Hollingdale preserve; Faber softens slightly."
+  }
+}
