@@ -52,3 +52,4 @@ notebooks/
 
 # Large data files
 *.npy
+CORRUPTED_APHORISMS.md
