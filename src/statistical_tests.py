@@ -10,6 +10,9 @@ from sentence_transformers import SentenceTransformer
 from normalize import normalize_text
 from scipy import stats
 
+# Aphorisms with corrupted/empty text in some translations (detected by LLM-as-Judge)
+CORRUPTED_APHORISMS = {4, 24, 35, 59, 72, 113}
+
 
 def load_corpus():
     corpus = {}
@@ -22,7 +25,7 @@ def load_corpus():
 
 def get_aligned_embeddings(corpus, model, normalize_german=True):
     all_nums = [set(a['number'] for a in t['aphorisms']) for t in corpus.values()]
-    common = sorted(set.intersection(*all_nums))
+    common = sorted(set.intersection(*all_nums) - CORRUPTED_APHORISMS)
 
     embeddings = {}
     for name, data in corpus.items():

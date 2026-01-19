@@ -140,6 +140,9 @@ HEADER_MARKERS = ['BEYOND GOOD AND EVIL', 'CHAPTER', 'PART ONE', 'PART TWO',
                   'PART THREE', 'PART FOUR', 'Part Three', 'Part Four',
                   'Zarathustra', 'THE END']
 
+# Aphorisms with corrupted/empty text in some translations (detected by LLM-as-Judge)
+CORRUPTED_APHORISMS = {4, 24, 35, 59, 72, 113}
+
 
 def load_corpus(name: str) -> dict:
     """Load corpus JSON and return {aphorism_number: text}"""
@@ -240,13 +243,17 @@ def compute_divergences(n_aphorisms: int) -> list:
 
     divergences = []
     for i in range(n_aphorisms):
+        aph_num = i + 1
+        # Skip corrupted aphorisms (artificially inflate divergence due to empty text)
+        if aph_num in CORRUPTED_APHORISMS:
+            continue
         embs = [e[i] for e in embeddings]
         sims = []
         for j in range(6):
             for k in range(j + 1, 6):
                 sim = np.dot(embs[j], embs[k]) / (np.linalg.norm(embs[j]) * np.linalg.norm(embs[k]))
                 sims.append(float(sim))
-        divergences.append((i + 1, float(np.std(sims))))
+        divergences.append((aph_num, float(np.std(sims))))
 
     return sorted(divergences, key=lambda x: -x[1])
 

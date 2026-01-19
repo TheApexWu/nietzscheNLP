@@ -11,6 +11,9 @@ import umap
 import matplotlib.pyplot as plt
 from normalize import normalize_text
 
+# Aphorisms with corrupted/empty text in some translations (detected by LLM-as-Judge)
+CORRUPTED_APHORISMS = {4, 24, 35, 59, 72, 113}
+
 
 def load_corpus():
     """Load all translations."""
@@ -24,9 +27,9 @@ def load_corpus():
 
 def get_aligned_embeddings(corpus, model, normalize_german=True):
     """Get embeddings for all translators, aligned by aphorism number."""
-    # Find common aphorisms
+    # Find common aphorisms (excluding corrupted ones)
     all_nums = [set(a['number'] for a in t['aphorisms']) for t in corpus.values()]
-    common = sorted(set.intersection(*all_nums))
+    common = sorted(set.intersection(*all_nums) - CORRUPTED_APHORISMS)
 
     embeddings = {}
     aphorism_nums = common
@@ -37,9 +40,13 @@ def get_aligned_embeddings(corpus, model, normalize_german=True):
             for aph in data['aphorisms']:
                 if aph['number'] == num:
                     text = aph['text']
-                    if normalize_german and name == 'Gutenberg':
-                        text = normalize_text(text)
-                    texts.append(text)
+                    # Skip empty/corrupted texts
+                    if not text or len(text.strip()) < 20:
+                        texts.append('')  # Placeholder
+                    else:
+                        if normalize_german and name == 'Gutenberg':
+                            text = normalize_text(text)
+                        texts.append(text)
                     break
 
         embeddings[name] = model.encode(texts, normalize_embeddings=True, show_progress_bar=False)

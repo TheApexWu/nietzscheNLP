@@ -28,8 +28,8 @@ export default function Home() {
 
       <section className={styles.stats}>
         <div className={styles.stat}>
-          <span className={styles.statValue}>231</span>
-          <span className={styles.statLabel}>Aphorisms Aligned</span>
+          <span className={styles.statValue}>225</span>
+          <span className={styles.statLabel}>Aphorisms Analyzed</span>
         </div>
         <div className={styles.stat}>
           <span className={styles.statValue}>6</span>
@@ -54,7 +54,7 @@ export default function Home() {
       <section className={styles.vizSection}>
         <h2>Translator Fingerprints</h2>
         <p>
-          UMAP projection of 1,386 embeddings reveals distinct clusters.
+          UMAP projection of 1,356 embeddings reveals distinct clusters.
           Each translator leaves a stylistic signature the model can detect.
         </p>
         <div className={styles.vizContainer}>
@@ -125,7 +125,7 @@ export default function Home() {
         <div className={styles.divergenceList}>
           <div className={styles.divergenceItemHighlight}>
             <span className={styles.sectionNum}>§38</span>
-            <span className={styles.variance}>σ = 0.319</span>
+            <span className={styles.variance}>σ = 0.323</span>
             <p>French phrases, cultural critique</p>
           </div>
           <div className={styles.divergenceItem}>
@@ -135,7 +135,7 @@ export default function Home() {
           </div>
           <div className={styles.divergenceItem}>
             <span className={styles.sectionNum}>§74</span>
-            <span className={styles.variance}>σ = 0.242</span>
+            <span className={styles.variance}>σ = 0.251</span>
             <p>Genius requires gratitude</p>
           </div>
         </div>

@@ -30,7 +30,7 @@ export default function MethodologyButton() {
           <div className="method-section">
             <h4>Corpus Alignment</h4>
             <p>
-              231 aphorisms aligned across 6 sources (5 English translations + German original).
+              225 aphorisms analyzed across 6 sources (5 English translations + German original).
               Texts extracted from PDFs via regex on aphorism markers. Set intersection ensures
               only aphorisms present in all translations are compared.
             </p>
@@ -59,7 +59,7 @@ export default function MethodologyButton() {
             <h4>Statistical Validation</h4>
             <p>
               Permutation test (10,000 iterations) with Benjamini-Hochberg FDR correction.
-              Top divergent passages: §35 (French phrases), §59 (short), §83 (ambiguous).
+              Top divergent passages: §38 (French phrases), §50, §83 (ambiguous).
               Divergence correlates with passage length (shorter = more ambiguous) and
               presence of foreign language phrases.
             </p>

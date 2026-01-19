@@ -7,12 +7,12 @@ import { ScatterChart, Scatter, XAxis, YAxis, ResponsiveContainer, Cell } from '
 // Each translator forms a distinct cluster, German at center
 function generateClusterData() {
   const clusters = {
-    German: { cx: 0, cy: 0, color: '#f4a623', count: 231 },
-    Hollingdale: { cx: 0.8, cy: 0.3, color: '#722f37', count: 231 },
-    Kaufmann: { cx: 1.0, cy: 0.5, color: '#c9784a', count: 231 },
-    Faber: { cx: 0.6, cy: 0.8, color: '#8b7355', count: 231 },
-    Norman: { cx: -0.5, cy: 0.9, color: '#5c8a4a', count: 231 },
-    Zimmern: { cx: -0.8, cy: -0.4, color: '#4a6a8b', count: 231 },
+    German: { cx: 0, cy: 0, color: '#f4a623', count: 226 },
+    Hollingdale: { cx: 0.8, cy: 0.3, color: '#722f37', count: 226 },
+    Kaufmann: { cx: 1.0, cy: 0.5, color: '#c9784a', count: 226 },
+    Faber: { cx: 0.6, cy: 0.8, color: '#8b7355', count: 226 },
+    Norman: { cx: -0.5, cy: 0.9, color: '#5c8a4a', count: 226 },
+    Zimmern: { cx: -0.8, cy: -0.4, color: '#4a6a8b', count: 226 },
   }
 
   const points = []
@@ -26,7 +26,7 @@ function generateClusterData() {
         y: config.cy + noise(),
         translator,
         color: config.color,
-        aphorism: Math.floor(Math.random() * 231) + 1
+        aphorism: Math.floor(Math.random() * 226) + 1
       })
     }
   })
