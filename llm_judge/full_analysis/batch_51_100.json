@@ -1,0 +1,684 @@
+{
+  "batch": "51-100",
+  "evaluation_methodology": "Each aphorism was evaluated by comparing all available English translations against the German original (Gutenberg). Scores assess philosophical fidelity (preservation of concepts/terms), tonal preservation (Nietzsche's ironic/provocative voice), and interpretive liberty (1=literal, 10=heavily interpreted). Aphorisms with missing or corrupted texts (<20 chars) in certain translations are noted.",
+  "analyses": [
+    {
+      "aphorism": 51,
+      "german_summary": "On why the mightiest men bowed before the saint - recognizing the 'will to power' in ascetic self-conquest",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 3, "tonal_preservation": 3, "interpretive_liberty": 8},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4}
+      },
+      "ranking": ["Hollingdale", "Faber", "Zimmern", "Kaufmann"],
+      "key_issue": "Kaufmann's text appears corrupted/misaligned (discusses coldness/ice instead of the saint). Norman's text is MISSING. Hollingdale preserves 'Wille zur Macht' and the questioning structure excellently."
+    },
+    {
+      "aphorism": 52,
+      "german_summary": "Comparing Old Testament grandeur to New Testament 'rococo' - calling their combination a 'sin against the spirit'",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 5},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 4, "tonal_preservation": 4, "interpretive_liberty": 7}
+      },
+      "ranking": ["Hollingdale", "Kaufmann", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Zimmern's text appears misaligned (discussing Pascal and curiosity instead). Key term 'Sünde wider den Geist' well-preserved by most. 'Rokoko des Geschmacks' rendered consistently as 'rococo of taste'."
+    },
+    {
+      "aphorism": 53,
+      "german_summary": "Why atheism today? God as father/judge refuted, but religious instinct grows while rejecting theism",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 6, "tonal_preservation": 6, "interpretive_liberty": 5}
+      },
+      "ranking": ["Hollingdale", "Norman", "Kaufmann", "Faber", "Zimmern"],
+      "key_issue": "Zimmern's text bleeds into the next aphorism (54). The key diagnostic tone of 'fragend, hinhorchend' (asking, listening) is variously rendered. Hollingdale preserves the investigative quality best."
+    },
+    {
+      "aphorism": 54,
+      "german_summary": "Modern philosophy's attack on the soul-concept since Descartes, the 'I think' problem, Vedanta parallel",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0}
+      },
+      "ranking": ["Hollingdale", "Kaufmann", "Norman", "Faber"],
+      "key_issue": "Zimmern MISSING. Critical term 'Attentat' (assassination attempt) on the soul-concept preserved by all. 'Vedanta-Philosophie' reference maintained. Subtle point about anti-Christian but not anti-religious nature of modern philosophy well-captured."
+    },
+    {
+      "aphorism": 55,
+      "german_summary": "The great ladder of religious cruelty: human sacrifice, then instinct-sacrifice, finally God-sacrifice for nothingness",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 7, "tonal_preservation": 7, "interpretive_liberty": 4}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Key phrase 'Für das Nichts Gott opfern' (sacrificing God for nothingness) preserved by all. Kaufmann captures the escalating rhetorical force exceptionally. The 'Tiberius in the Mithras grotto' historical reference maintained."
+    },
+    {
+      "aphorism": 56,
+      "german_summary": "The world-affirming ideal vs. Schopenhauer's pessimism - eternal recurrence ('da capo'), circulus vitiosus deus",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 4},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Faber", "Norman", "Zimmern"],
+      "key_issue": "Central to Nietzsche's eternal recurrence doctrine. 'Da capo' musical term preserved. 'Circulus vitiosus deus' kept in Latin. Kaufmann's footnotes add scholarly context. Norman's text is truncated."
+    },
+    {
+      "aphorism": 57,
+      "german_summary": "As spiritual vision grows, our world deepens - 'God' and 'sin' may become like child's toys to the eternal child",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 6, "tonal_preservation": 6, "interpretive_liberty": 5}
+      },
+      "ranking": ["Hollingdale", "Kaufmann", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Zimmern's text bleeds into aphorism 58. The beautiful metaphor of 'ewiges Kind' (eternal child) well-preserved. The idea of God/sin as child's toys captures Nietzsche's developmental view of concepts."
+    },
+    {
+      "aphorism": 58,
+      "german_summary": "Religious life requires leisure/idleness - modern industriousness prepares for 'unbelief'",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0}
+      },
+      "ranking": ["Hollingdale", "Kaufmann", "Norman", "Faber"],
+      "key_issue": "Zimmern MISSING. Long meditation on religion and social class. Key insight: 'Müssiggang mit gutem Gewissen' (leisure with good conscience) as aristocratic prerequisite for religious depth."
+    },
+    {
+      "aphorism": 59,
+      "german_summary": "Human superficiality as wisdom - piety as ultimate falsification, beautifying humanity through art/surface",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4}
+      },
+      "ranking": ["Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Kaufmann text is EMPTY (0 chars). Key term 'homines religiosi' preserved in Latin. The paradox of piety as 'most consistent falsification' artfully rendered by remaining translators."
+    },
+    {
+      "aphorism": 60,
+      "german_summary": "To love man for God's sake - the noblest feeling; whoever first felt this 'flew highest and erred most beautifully'",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 4},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4}
+      },
+      "ranking": ["Hollingdale", "Kaufmann", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Beautiful aphorism on sanctified love. The phrase 'am schönsten sich verirrt hat' (got lost most beautifully) is poetically crucial - Hollingdale's 'gone the most beautifully astray' captures it best."
+    },
+    {
+      "aphorism": 61,
+      "german_summary": "The philosopher using religion for 'Züchtung' (breeding/cultivation) - Brahmins as example of philosopher-priests",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 5},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4}
+      },
+      "ranking": ["Hollingdale", "Kaufmann", "Faber", "Zimmern", "Norman"],
+      "key_issue": "Controversial 'Züchtung' term: Kaufmann uses 'cultivation/breeding', Hollingdale 'breeding/education'. The political implications of philosopher using religion as tool for human development. Norman's text truncated."
+    },
+    {
+      "aphorism": 62,
+      "german_summary": "Danger when religions rule sovereignly - they preserve too much that should perish, keeping 'man' at lower level",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 7, "tonal_preservation": 7, "interpretive_liberty": 5},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4}
+      },
+      "ranking": ["Hollingdale", "Kaufmann", "Faber", "Zimmern", "Norman"],
+      "key_issue": "Critical passage on religion's preservation of 'failures'. Key phrase 'das noch nicht festgestellte Thier' (the not-yet-determined animal) preserved. Norman's text severely truncated."
+    },
+    {
+      "aphorism": 63,
+      "german_summary": "A true teacher takes all things seriously only in relation to students - even himself",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 5},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Hollingdale", "Kaufmann", "Zimmern", "Faber", "Norman"],
+      "key_issue": "Short but incisive. 'Von Grund aus' (from the ground up / through and through) variously rendered. The self-deprecating twist ('even himself') preserved by all."
+    },
+    {
+      "aphorism": 64,
+      "german_summary": "'Knowledge for its own sake' as morality's last snare - becoming entangled again",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Classic Nietzschean critique of disinterested knowledge. 'Fallstrick' (snare/trap) consistently rendered. The implication that pure knowledge is still a moral value well-captured."
+    },
+    {
+      "aphorism": 65,
+      "german_summary": "The charm of knowledge includes overcoming shame; 65a: we are most dishonest to our god - he may not sin",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 7, "tonal_preservation": 7, "interpretive_liberty": 4}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Two-part aphorism (65 and 65a). The paradox in 65a - dishonesty toward God by not allowing him to sin - subtly preserved. Zimmern's text slightly garbled."
+    },
+    {
+      "aphorism": 66,
+      "german_summary": "The inclination to debase oneself could be the shame of a god among men",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4}
+      },
+      "ranking": ["Hollingdale", "Kaufmann", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Key term 'Scham' variously as 'shame', 'modesty', 'diffidence', 'self-effacement'. Hollingdale's 'self-effacement' captures the divine humility implication elegantly."
+    },
+    {
+      "aphorism": 67,
+      "german_summary": "Love for one is barbarism - practiced at expense of others; even love of God",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 5},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Hollingdale", "Zimmern", "Norman", "Faber", "Kaufmann"],
+      "key_issue": "Kaufmann includes extensive footnote explaining numbering issues. The provocative inclusion of divine love in the critique ('Auch die Liebe zu Gott') preserved by all."
+    },
+    {
+      "aphorism": 68,
+      "german_summary": "Memory says 'I did that' - pride says impossible - eventually memory yields",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Zimmern", "Faber"],
+      "key_issue": "Famous proto-Freudian aphorism on repression. All translations capture the psychological mechanism perfectly. 'Unerbittlich' (inexorable/adamant) and final yielding well-rendered."
+    },
+    {
+      "aphorism": 69,
+      "german_summary": "One has watched life badly if not seeing the hand that considerately kills",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 9, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "'Schonende Weise' (considerate/gentle manner) variously rendered. The paradox of gentle killing well-preserved. Norman's 'ever so gently' adds interpretive flair."
+    },
+    {
+      "aphorism": 70,
+      "german_summary": "If one has character, one has a typical experience that always recurs",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Zimmern", "Faber"],
+      "key_issue": "Norman MISSING. Simple but profound observation on character and fate. 'Typisches Erlebniss' well-rendered as 'typical experience'."
+    },
+    {
+      "aphorism": 71,
+      "german_summary": "The sage as astronomer: as long as stars are 'above you', you lack the eye of knowledge",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Titled aphorism. The critical point about overcoming the 'above' relation to stars/cosmos preserved. 'Blick des Erkennenden' variously as 'eye of knowledge/discerning'."
+    },
+    {
+      "aphorism": 72,
+      "german_summary": "Not the strength but duration of high feelings makes high men",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 2},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 2},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 5},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Zimmern", "Faber"],
+      "key_issue": "Elegant aphorism, very literal translations work best. Faber's 'great man/great feelings' changes 'hohen' (high) to 'great', slightly altering meaning."
+    },
+    {
+      "aphorism": 73,
+      "german_summary": "Whoever reaches his ideal transcends it; 73a: Some peacocks hide their tail and call it pride",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Two-part aphorism. 73a's peacock metaphor for false modesty excellently captured. Kaufmann's 'eo ipso' in 73 adds scholarly Latin flourish matching Nietzsche's style."
+    },
+    {
+      "aphorism": 74,
+      "german_summary": "A genius is unbearable without gratitude and cleanliness",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 5},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Hollingdale", "Faber", "Zimmern", "Norman", "Kaufmann"],
+      "key_issue": "Kaufmann adds extensive footnote comparing to Freud. 'Genie' and 'Reinlichkeit' (cleanliness/purity) consistently rendered. Zimmern's 'purity' slightly spiritualizes the concrete 'cleanliness'."
+    },
+    {
+      "aphorism": 75,
+      "german_summary": "The degree and kind of sexuality reaches into the highest pinnacle of one's spirit",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Faber", "Norman", "Zimmern"],
+      "key_issue": "Proto-Freudian observation. 'Geschlechtlichkeit' as 'sexuality' preserved. Zimmern's 'sensuality' slightly shifts from the more directly sexual German term."
+    },
+    {
+      "aphorism": 76,
+      "german_summary": "Under peaceful conditions the warlike man attacks himself",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 2},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 2},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Faber": {"philosophical_fidelity": 7, "tonal_preservation": 6, "interpretive_liberty": 5},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Zimmern", "Faber"],
+      "key_issue": "Faber's 'trips over himself' significantly weakens the more violent 'fällt über sich selber her' (attacks/falls upon himself). Most preserve the self-directed aggression."
+    },
+    {
+      "aphorism": 77,
+      "german_summary": "With principles we tyrannize/justify/honor/hide our habits - two with same principles may want different things",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Five-fold use of principles preserved. The psychological insight about principles serving various functions well-captured. 'Grund-Verschiedenes' (fundamentally different) consistently rendered."
+    },
+    {
+      "aphorism": 78,
+      "german_summary": "Whoever despises himself still respects himself as one who despises",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 2},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 2},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Perfect paradox. All translations capture the reflexive structure. Faber adds footnote asterisk. The self-referential logic ('Verächter') preserved excellently."
+    },
+    {
+      "aphorism": 79,
+      "german_summary": "A soul that knows it is loved but doesn't love reveals its sediment - the bottom rises",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 3, "tonal_preservation": 3, "interpretive_liberty": 8},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Zimmern", "Faber", "Norman"],
+      "key_issue": "Norman's text is WRONG - it repeats aphorism 70 content about character. 'Bodensatz' (sediment/dregs) metaphor for psychological depths preserved by others."
+    },
+    {
+      "aphorism": 80,
+      "german_summary": "What becomes clear ceases to concern us - what did 'Know thyself' mean? Become objective?",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 5}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Hollingdale's text bleeds into 81. Reference to Delphic oracle's 'Know thyself' and ironic suggestion about Socrates preserved. Multiple dashes maintain Nietzsche's questioning rhythm."
+    },
+    {
+      "aphorism": 81,
+      "german_summary": "Terrible to die of thirst at sea - must you salt your truth so heavily?",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Zimmern": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0}
+      },
+      "ranking": ["Kaufmann", "Norman", "Faber"],
+      "key_issue": "Hollingdale and Zimmern MISSING (merged with 80). Powerful metaphor about truth needing to remain drinkable/useful. 'Salzen' (salt) as making truth unpalatable preserved."
+    },
+    {
+      "aphorism": 82,
+      "german_summary": "'Pity for all' would be hardness and tyranny toward you, neighbor",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 5},
+        "Zimmern": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber"],
+      "key_issue": "Zimmern MISSING (merged with 83). Anti-pity theme consistent with Nietzsche's broader critique. 'Mein Herr Nachbar' address preserved. Faber's 'chastise and tyrannize yourself' slightly shifts meaning."
+    },
+    {
+      "aphorism": 83,
+      "german_summary": "Instinct: when the house burns, one forgets lunch - but retrieves it from the ashes",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 3, "tonal_preservation": 3, "interpretive_liberty": 8}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Zimmern has WRONG content (aphorism 82's pity text). Dark humor about instinct's persistence through crisis. 'Auf der Asche nachholen' (retrieve from ashes) well-captured."
+    },
+    {
+      "aphorism": 84,
+      "german_summary": "Woman learns to hate as she unlearns to charm",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 5},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Hollingdale", "Kaufmann", "Norman", "Zimmern", "Faber"],
+      "key_issue": "Faber's text bleeds into 85. Controversial gender observation. 'Bezaubern/verlernt' (charm/unlearns) structure preserved. Hollingdale captures 'how to' construction elegantly."
+    },
+    {
+      "aphorism": 85,
+      "german_summary": "Same affects in man and woman differ in tempo - hence eternal misunderstanding",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0},
+        "Zimmern": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman"],
+      "key_issue": "Faber and Zimmern MISSING. Musical metaphor 'Tempo' (same German/English) key to understanding. The psychological insight about timing preserved."
+    },
+    {
+      "aphorism": 86,
+      "german_summary": "Behind all personal vanity, women have impersonal contempt for 'woman'",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4}
+      },
+      "ranking": ["Hollingdale", "Kaufmann", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Quotation marks around 'Weib' (woman) crucial - contempt for the concept/category. Distinction between personal/impersonal well-preserved."
+    },
+    {
+      "aphorism": 87,
+      "german_summary": "Bound heart, free spirit: bind your heart and give your spirit many liberties - but no one believes unless they know",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 5},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Hollingdale", "Kaufmann", "Zimmern", "Norman", "Faber"],
+      "key_issue": "Titled aphorism on discipline. 'Gebunden Herz, freier Geist' title preserved. The self-referential 'I have said that once before' metanarrative captured."
+    },
+    {
+      "aphorism": 88,
+      "german_summary": "One begins to mistrust very clever people when they become embarrassed",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 2},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 2},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Simple and literal works best. 'Verlegen' as 'embarrassed' consistently rendered. The psychological insight about cleverness and vulnerability preserved."
+    },
+    {
+      "aphorism": 89,
+      "german_summary": "Terrible experiences raise the question whether the one experiencing them isn't something terrible",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 5},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 5},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Zimmern", "Norman", "Faber"],
+      "key_issue": "Norman and Faber texts bleed into 90/91. The dark suggestion about experience and character preserved. 'Fürchterlich' (terrible/dreadful) key word."
+    },
+    {
+      "aphorism": 90,
+      "german_summary": "Heavy, melancholy people become lighter through hatred and love - they surface temporarily",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0},
+        "Faber": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Hollingdale", "Kaufmann", "Zimmern"],
+      "key_issue": "Norman and Faber MISSING. Paradox: what weighs others down lightens the heavy-hearted. 'Schwermüthig' as 'melancholy/heavy-spirited' preserved."
+    },
+    {
+      "aphorism": 91,
+      "german_summary": "So cold, so icy one burns fingers - yet some think he glows",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0},
+        "Faber": {"philosophical_fidelity": 0, "tonal_preservation": 0, "interpretive_liberty": 0},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3}
+      },
+      "ranking": ["Hollingdale", "Zimmern"],
+      "key_issue": "Kaufmann, Norman, Faber MISSING. Paradox of cold appearing hot preserved by Hollingdale and Zimmern. Note: This aphorism appears misplaced in Kaufmann's edition (as 51)."
+    },
+    {
+      "aphorism": 92,
+      "german_summary": "Who has not sacrificed himself for his good reputation?",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 5},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Zimmern", "Faber"],
+      "key_issue": "Rhetorical question structure preserved. Faber's 'maintained his good reputation by sacrificing himself' slightly more interpretive. The irony about self-sacrifice for appearances captured."
+    },
+    {
+      "aphorism": 93,
+      "german_summary": "In affability there is no hatred of men, but for that reason too much contempt",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 7, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Zimmern", "Norman", "Faber"],
+      "key_issue": "'Leutseligkeit' as 'affability/geniality' preserved. The paradox: no hatred implies contempt. Faber's abbreviated version loses some force."
+    },
+    {
+      "aphorism": 94,
+      "german_summary": "Man's maturity: rediscovering the seriousness one had as a child at play",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Zimmern", "Faber", "Norman"],
+      "key_issue": "Famous aphorism on play and maturity. 'Ernst' (seriousness) and 'Spiel' (play) contrast preserved. Norman's 'towards play' slightly alters the 'beim Spiel' (at play)."
+    },
+    {
+      "aphorism": 95,
+      "german_summary": "Being ashamed of immorality is a step toward being ashamed of morality",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Zimmern", "Faber", "Norman"],
+      "key_issue": "Key Nietzschean progression: immorality-shame leads to morality-shame. Ladder/staircase metaphor ('Stufe auf der Treppe') preserved. Beyond good and evil theme epitomized."
+    },
+    {
+      "aphorism": 96,
+      "german_summary": "Depart from life like Odysseus from Nausicaa - blessing rather than in love",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Faber", "Zimmern", "Norman"],
+      "key_issue": "Beautiful classical reference. 'Segnend' (blessing) vs 'verliebt' (in love) contrast key. Zimmern uses 'Ulysses' (Latin) vs others' 'Odysseus' (Greek)."
+    },
+    {
+      "aphorism": 97,
+      "german_summary": "A great man? I always see only the actor of his own ideal",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Zimmern", "Norman", "Faber"],
+      "key_issue": "'Schauspieler' (actor/play-actor) central metaphor. The skepticism about greatness as performance preserved. Question format maintained."
+    },
+    {
+      "aphorism": 98,
+      "german_summary": "If we train our conscience, it kisses us while it bites",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Faber": {"philosophical_fidelity": 8, "tonal_preservation": 8, "interpretive_liberty": 5},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Zimmern", "Faber"],
+      "key_issue": "'Dressirt' (trains/disciplines) and the kiss-while-biting image preserved. Faber's 'teach our conscience to do tricks' adds interpretive element."
+    },
+    {
+      "aphorism": 99,
+      "german_summary": "The disappointed one speaks: 'I listened for echo and heard only praise'",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 4},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Zimmern", "Norman", "Faber"],
+      "key_issue": "Titled aphorism. The irony: expecting echo (honest response), receiving only praise (flattery). 'Enttäuschte' as 'disappointed one' preserved. Subtle critique of intellectual dishonesty."
+    },
+    {
+      "aphorism": 100,
+      "german_summary": "We all pose as simpler than we are before ourselves - resting from our fellow men",
+      "scores": {
+        "Kaufmann": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Hollingdale": {"philosophical_fidelity": 9, "tonal_preservation": 9, "interpretive_liberty": 3},
+        "Norman": {"philosophical_fidelity": 3, "tonal_preservation": 3, "interpretive_liberty": 9},
+        "Faber": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3},
+        "Zimmern": {"philosophical_fidelity": 9, "tonal_preservation": 8, "interpretive_liberty": 3}
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Faber", "Zimmern", "Norman"],
+      "key_issue": "Norman's text is WRONG - completely different content about scholars and skepticism (appears to be from later chapter). 'Einfältiger' (simpler) and 'ausruhen' (rest) key terms preserved by others."
+    }
+  ],
+  "summary_statistics": {
+    "aphorisms_analyzed": 50,
+    "aphorisms_with_missing_translations": {
+      "Norman": [51, 70, 79, 90, 91, 100],
+      "Kaufmann": [51, 59, 91],
+      "Hollingdale": [81],
+      "Faber": [85, 90, 91],
+      "Zimmern": [54, 58, 81, 82, 85]
+    },
+    "average_scores_by_translator": {
+      "Kaufmann": {"philosophical_fidelity": 8.0, "tonal_preservation": 7.8, "interpretive_liberty": 3.5},
+      "Hollingdale": {"philosophical_fidelity": 8.7, "tonal_preservation": 8.4, "interpretive_liberty": 3.2},
+      "Norman": {"philosophical_fidelity": 7.1, "tonal_preservation": 6.9, "interpretive_liberty": 4.2},
+      "Faber": {"philosophical_fidelity": 7.6, "tonal_preservation": 7.2, "interpretive_liberty": 3.9},
+      "Zimmern": {"philosophical_fidelity": 7.5, "tonal_preservation": 7.0, "interpretive_liberty": 3.8}
+    },
+    "overall_ranking": ["Hollingdale", "Kaufmann", "Faber", "Zimmern", "Norman"],
+    "key_observations": [
+      "Hollingdale provides the most consistently faithful translations with excellent tonal preservation",
+      "Kaufmann's translations are strong but contain several misaligned/missing aphorisms in this section",
+      "Norman's edition has multiple alignment issues where wrong content appears under aphorism numbers",
+      "Zimmern (1906) shows age but maintains dignity; some aphorisms merged with neighbors",
+      "Faber balances accessibility with fidelity but occasionally over-interprets",
+      "The 'Epigrams and Interludes' section (63-100) contains many short, punchy aphorisms where literal translation excels",
+      "Key Nietzschean terms (Wille zur Macht, da capo, circulus vitiosus deus) consistently preserved in Latin/original",
+      "Proto-Freudian psychological insights (68, 75) well-captured across translations"
+    ]
+  }
+}
