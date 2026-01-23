@@ -1,0 +1,45 @@
+{
+  "total_aphorisms": 290,
+  "translator_summary": {
+    "Kaufmann": {
+      "philosophical_fidelity_avg": 8.56,
+      "tonal_preservation_avg": 7.84,
+      "interpretive_liberty_avg": 3.75,
+      "top_ranking_count": 135,
+      "sample_size": 286
+    },
+    "Hollingdale": {
+      "philosophical_fidelity_avg": 8.51,
+      "tonal_preservation_avg": 8.15,
+      "interpretive_liberty_avg": 2.85,
+      "top_ranking_count": 117,
+      "sample_size": 288
+    },
+    "Faber": {
+      "philosophical_fidelity_avg": 7.71,
+      "tonal_preservation_avg": 7.4,
+      "interpretive_liberty_avg": 3.8,
+      "top_ranking_count": 0,
+      "sample_size": 275
+    },
+    "Norman": {
+      "philosophical_fidelity_avg": 7.51,
+      "tonal_preservation_avg": 7.48,
+      "interpretive_liberty_avg": 3.79,
+      "top_ranking_count": 1,
+      "sample_size": 271
+    },
+    "Zimmern": {
+      "philosophical_fidelity_avg": 7.19,
+      "tonal_preservation_avg": 6.43,
+      "interpretive_liberty_avg": 4.05,
+      "top_ranking_count": 0,
+      "sample_size": 263
+    }
+  },
+  "methodology": {
+    "philosophical_fidelity": "1-10: Preserves Nietzsche's philosophical concepts",
+    "tonal_preservation": "1-10: Captures ironic, provocative voice",
+    "interpretive_liberty": "1-10: 1=literal, 10=heavily interpreted"
+  }
+}

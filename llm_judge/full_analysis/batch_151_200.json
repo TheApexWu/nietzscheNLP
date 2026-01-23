@@ -1,0 +1,1769 @@
+{
+  "batch": "151-200",
+  "total_aphorisms_analyzed": 50,
+  "evaluation_methodology": {
+    "philosophical_fidelity": "How well does it preserve Nietzsche's philosophical concepts and technical terms (1-10, 10=perfect preservation)",
+    "tonal_preservation": "Does it capture Nietzsche's ironic, provocative, aphoristic voice (1-10, 10=perfect capture)",
+    "interpretive_liberty": "How much does the translator add/modify (1=very literal, 10=heavily interpreted)"
+  },
+  "available_aphorism_numbers": [151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200],
+  "missing_from_range": [],
+  "analyses": [
+    {
+      "aphorism_number": 151,
+      "german_excerpt": "Ein Talent haben ist nicht genug: man muss auch eure Erlaubniss dazu haben, - wie? meine Freunde?",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3,
+          "notes": "Excellent; preserves rhetorical direct address and ironic question"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Precise; maintains conversational tone"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "Victorian phrasing slightly stiff"
+        },
+        "Faber": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3,
+          "notes": "Clean; captures provocative playfulness"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "Contemporary; effective rendering"
+        }
+      },
+      "ranking": ["Kaufmann", "Faber", "Hollingdale", "Norman", "Zimmern"],
+      "key_issue": "Rhetorical address to 'friends' - variations in rendering 'eure Erlaubniss' (your permission)"
+    },
+    {
+      "aphorism_number": 152,
+      "german_excerpt": "\"Wo der Baum der Erkenntniss steht, ist immer das Paradies\": so reden die ältesten und die jüngsten Schlangen.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Faithful; preserves serpent imagery and ironic Biblical allusion"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Precise; close to original structure"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 6,
+          "notes": "Victorian; uses 'modem' for 'jüngsten', loses some irony"
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6,
+          "notes": "Modern; conversational 'that's what...will tell you'"
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 5,
+          "notes": "Contemporary; captures provocative tone"
+        }
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Biblical allusion to tree of knowledge; serpent imagery universally preserved"
+    },
+    {
+      "aphorism_number": 153,
+      "german_excerpt": "Was aus Liebe gethan wird, geschieht immer jenseits von Gut und Bose.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 10,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 1,
+          "notes": "Perfect; title-invoking aphorism precisely rendered"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 10,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 1,
+          "notes": "Excellent; 'beyond good and evil' preserved exactly"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 10,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 1,
+          "notes": "Effective; key phrase maintained"
+        },
+        "Faber": {
+          "philosophical_fidelity": 10,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 1,
+          "notes": "Clean; preserves philosophical precision"
+        },
+        "Norman": {
+          "philosophical_fidelity": 10,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 1,
+          "notes": "Precise; aphoristic form maintained"
+        }
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Title-invoking aphorism; 'jenseits von Gut und Bose' universally rendered as 'beyond good and evil'"
+    },
+    {
+      "aphorism_number": 154,
+      "german_excerpt": "Der Einwand, der Seitensprung, das fröhliche Misstrauen, die Spottlust sind Anzeichen der Gesundheit: alles Unbedingte gehört in die Pathologie.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Excellent; 'unconditional' preserves Kantian resonance"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Precise; 'happy distrust' slightly softens 'fröhliche'"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 5,
+          "notes": "'Absolute' loses Kantian nuance of 'Unbedingte'"
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "Modern; 'gay distrust' period-appropriate"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Cheerful mistrust' captures joyful skepticism"
+        }
+      },
+      "ranking": ["Kaufmann", "Norman", "Hollingdale", "Faber", "Zimmern"],
+      "key_issue": "'Seitensprung' (literally side-jump, meaning digression/infidelity) variously rendered; 'Unbedingte' (unconditional) has Kantian resonance"
+    },
+    {
+      "aphorism_number": 155,
+      "german_excerpt": "Der Sinn fur das Tragische nimmt mit der Sinnlichkeit ab und zu.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 2,
+          "notes": "'Sense for tragedy' and 'sensuality' well paired"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 2,
+          "notes": "Precise; maintains parallelism"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 2,
+          "notes": "Victorian phrasing; effective"
+        },
+        "Faber": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 2,
+          "notes": "Modern; clear rendering"
+        },
+        "Norman": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 2,
+          "notes": "Clean; preserves psychological insight"
+        }
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Brief aphorism on tragedy and sensuality; 'Sinnlichkeit' consistently rendered"
+    },
+    {
+      "aphorism_number": 156,
+      "german_excerpt": "Der Irrsinn ist bei Einzelnen etwas Seltenes, - aber bei Gruppen, Parteien, Völkern, Zeiten die Regel.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Clear; 'ages' for 'Zeiten' captures temporal scope"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Close translation; all key terms preserved"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4,
+          "notes": "'Insanity' slightly clinical vs 'Irrsinn'"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "Adds 'political' to 'parties' - slight interpretation"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Clean; preserves aphoristic punch"
+        }
+      },
+      "ranking": ["Kaufmann", "Norman", "Hollingdale", "Faber", "Zimmern"],
+      "key_issue": "Famous aphorism on collective madness; 'Irrsinn' consistently as 'madness' or 'insanity'"
+    },
+    {
+      "aphorism_number": 157,
+      "german_excerpt": "Der Gedanke an den Selbstmord ist ein starkes Trostmittel: mit ihm kommt man gut über manche böse Nacht hinweg.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 4,
+          "notes": "Excellent; 'powerful comfort' captures dark irony"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Powerful solace' effective; preserves structure"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Great consolation' slightly softer"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Powerful solace' effective rendering"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 4,
+          "notes": "'Strong means of comfort' + 'evil night' preserves darkness"
+        }
+      },
+      "ranking": ["Kaufmann", "Norman", "Hollingdale", "Faber", "Zimmern"],
+      "key_issue": "Provocative aphorism on suicide as comfort; 'Trostmittel' variously as comfort/consolation/solace"
+    },
+    {
+      "aphorism_number": 158,
+      "german_excerpt": "Unserm stärksten Triebe, dem Tyrannen in uns, unterwirft sich nicht nur unsre Vernunft, sondern auch unser Gewissen.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Preserves 'Trieb' as 'drive'; psychological accuracy"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Clear; maintains drive/tyrant relationship"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 6,
+          "notes": "'Impulse' and 'truckles to' - Victorian; loses precision"
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Instinct' acceptable; clear prose"
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "Pluralizes 'drives/tyrants' - interpretive choice"
+        }
+      }
+    },
+    {
+      "aphorism_number": 159,
+      "german_excerpt": "Man muss vergelten, Gutes und Schlimmes: aber warum gerade an der Person, die uns Gutes oder Schlimmes that?",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Clear; preserves questioning structure"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Requite' slightly archaic but accurate"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "Clear rendering; functional"
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'Especially must it be' adds emphasis"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "Conversational; captures questioning tone"
+        }
+      }
+    },
+    {
+      "aphorism_number": 160,
+      "german_excerpt": "Man hebt seine Erkenntniss nicht genug mehr, sobald man sie mittheilt.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Insight' for 'Erkenntniss' - good choice"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Knowledge' standard; preserves meaning"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "Functional; 'sufficiently' slightly formal"
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "Uses 'we' - collective vs impersonal 'man'"
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 5,
+          "notes": "'You' direct address; modern but shifts register"
+        }
+      }
+    },
+    {
+      "aphorism_number": 161,
+      "german_excerpt": "Die Dichter sind gegen ihre Erlebnisse schamlos: sie beuten sie aus.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Shamelessly' and 'exploit' - precise"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Impudently' slight shift from 'schamlos'"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Direct; effective translation"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Clean; captures irony"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Identical to Faber; effective"
+        }
+      }
+    },
+    {
+      "aphorism_number": 162,
+      "german_excerpt": "\"Unser Nächster ist nicht unser Nachbar, sondern dessen Nachbar\" - so denkt jedes Volk.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "Trademark symbol distracting; loses Biblical resonance"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Preserves Nächster/Nachbar wordplay effectively"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'Fellow-creature' Victorian; loses precision"
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6,
+          "notes": "'Thy neighbour' adds Biblical register"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 5,
+          "notes": "Explanatory; loses wordplay but clear"
+        }
+      }
+    },
+    {
+      "aphorism_number": 163,
+      "german_excerpt": "Die Liebe bringt die hohen und verborgenen Eigenschaften eines Liebenden an's Licht, - sein Seltenes, Ausnahmsweises: insofern täuscht sie leicht über Das, was Regel an ihm ist.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Normality' for 'Regel' - functional"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Precise; 'normal in him' effective"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 5,
+          "notes": "'Noble' for 'hohen' - adds moral valence"
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'Ordinary' for 'Regel' - acceptable shift"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Ordinary traits' clear rendering"
+        }
+      }
+    },
+    {
+      "aphorism_number": 164,
+      "german_excerpt": "Jesus sagte zu seinen Juden: \"das Gesetz war für Knechte, - liebt Gott, wie ich ihn liebe, als sein Sohn! Was geht uns Söhne Gottes die Moral an!\"",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Preserves provocative claim about Jesus and morality"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Clear; 'What have we...to do with morality' effective"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "Victorian capitalization; functional"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'What do we...care' captures dismissive tone"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Why should we care' - conversational; effective"
+        }
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Provocative theological reinterpretation of Jesus; 'Knechte' (servants/slaves) and antinomian claim preserved"
+    },
+    {
+      "aphorism_number": 165,
+      "german_excerpt": "Angesichts jeder Partei. - Ein Hirt hat immer auch noch einen Leithammel nothig, - oder er muss selbst gelegentlich Hammel sein.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 2,
+          "notes": "'Bellwether' and 'wether' preserves sheep metaphor"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 2,
+          "notes": "'Bell-wether' with hyphen; effective"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Victorian phrasing; captures shepherd imagery"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Modern; 'lead sheep' clear but loses wordplay"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Contemporary; effective rendering"
+        }
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Political metaphor with sheep/shepherd wordplay; 'Leithammel/Hammel' (bellwether/wether) partially lost"
+    },
+    {
+      "aphorism_number": 166,
+      "german_excerpt": "Man lugt wohl mit dem Munde; aber mit dem Maule, das man dabei macht, sagt man doch noch die Wahrheit.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3,
+          "notes": "'Mouth' and 'grimace' captures face truth-telling"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Face one makes' effective; loses Mund/Maul wordplay"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Mow' archaic for grimace; Victorian"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Expression' for 'Maule' - loses animal connotation"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Face you make' contemporary; clear"
+        }
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Norman", "Faber", "Zimmern"],
+      "key_issue": "Wordplay on Mund (mouth) and Maule (maw/grimace) entirely lost in translation"
+    },
+    {
+      "aphorism_number": 167,
+      "german_excerpt": "Bei harten Menschen ist die Innigkeit eine Sache der Scham - und etwas Kostbares.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Hard men' and 'precious' - effective"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Close to original; preserves structure"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 6,
+          "notes": "'Vigourous' for 'harten' - loses hardness connotation"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Harsh people, tender feeling' - effective contrast"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Source of shame' clear; preserves meaning"
+        }
+      },
+      "ranking": ["Kaufmann", "Norman", "Faber", "Hollingdale", "Zimmern"],
+      "key_issue": "'Innigkeit' (intimacy/tenderness) variously rendered; 'harten Menschen' (hard people) key psychological insight"
+    },
+    {
+      "aphorism_number": 168,
+      "german_excerpt": "Das Christenthum gab dem Eros Gift zu trinken: - er starb zwar nicht daran, aber entartete, zum Laster.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 10,
+          "tonal_preservation": 10,
+          "interpretive_liberty": 2,
+          "notes": "Excellent; 'Eros was poisoned...degenerated into vice'"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 10,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 2,
+          "notes": "Precise; preserves causality and metaphor"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 2,
+          "notes": "'Vice' capitalized; Victorian style"
+        },
+        "Faber": {
+          "philosophical_fidelity": 10,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 2,
+          "notes": "Clean; captures poisoning metaphor"
+        },
+        "Norman": {
+          "philosophical_fidelity": 10,
+          "tonal_preservation": 10,
+          "interpretive_liberty": 2,
+          "notes": "Excellent; preserves ironic distance"
+        }
+      },
+      "ranking": ["Kaufmann", "Norman", "Hollingdale", "Faber", "Zimmern"],
+      "key_issue": "Powerful image of Christianity poisoning Eros; 'entartete' (degenerated) and 'Laster' (vice) consistently rendered"
+    },
+    {
+      "aphorism_number": 169,
+      "german_excerpt": "Viel von sich reden kann auch ein Mittel sein, sich zu verbergen.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Precise; captures psychological insight"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Clear; functional translation"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Effective; standard rendering"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Hiding' simpler than 'concealing'"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Frequently' and 'hiding' - contemporary"
+        }
+      }
+    },
+    {
+      "aphorism_number": 170,
+      "german_excerpt": "Im Lobe ist mehr Zudringlichkeit, als im Tadel.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Obtrusive' captures 'Zudringlichkeit'"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Importunity' precise but archaic"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4,
+          "notes": "'Obtrusiveness' effective"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Intrusive' modern; effective"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Intrusiveness' and 'censure' - effective"
+        }
+      }
+    },
+    {
+      "aphorism_number": 171,
+      "german_excerpt": "Mitleiden wirkt an einem Menschen der Erkenntniss beinahe zum Lachen, wie zarte Hände an einem Cyklopen.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Man devoted to knowledge' - adds devotion; 'delicate hands' good"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Sensitive hands' slight shift from 'zarte'"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Tender hands' precise; effective"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Comical' for 'zum Lachen' - slight shift"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Laughable' and 'tender hands' - effective"
+        }
+      }
+    },
+    {
+      "aphorism_number": 172,
+      "german_excerpt": "Man umarmt aus Menschenliebe bisweilen einen Beliebigen (weil man nicht Alle umarmen kann): aber gerade Das darf man dem Beliebigen nicht verrathen.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'From love of man' - preserves 'Menschenliebe'"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Anyone' for 'Beliebigen' - effective"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'Out of love to mankind' - Victorian phrasing"
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6,
+          "notes": "'Arbitrary person' and 'brotherly love' - interpretive"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 5,
+          "notes": "'Love of humanity' effective; preserves irony"
+        }
+      }
+    },
+    {
+      "aphorism_number": 173,
+      "german_excerpt": "Man hasst nicht, so lange man noch gering schätzt, sondern erst, wenn man gleich oder höher schätzt.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Despises' for 'gering schätzt' - strong but effective"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Rate low/equal/higher' - precise"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Disesteems' archaic; 'esteems equal or superior' clear"
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Esteem lightly' vs 'equally or highly' - clear"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Accord little value' - clear rendering"
+        }
+      }
+    },
+    {
+      "aphorism_number": 174,
+      "german_excerpt": "Ihr Utilitarier, auch ihr liebt alles utile nur als ein Fuhrwerk eurer Neigungen, - auch ihr findet eigentlich den Lärm seiner Räder unausstehlich?",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "Preserves direct address; 'vehicle' for 'Fuhrwerk'"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Inclinations' preserves philosophical register"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 5,
+          "notes": "'Ye Utilitarians' Victorian; 'insupportable' archaic"
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'Predilections' precise; italicizes 'utile'"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "Maintains questioning irony effectively"
+        }
+      }
+    },
+    {
+      "aphorism_number": 175,
+      "german_excerpt": "Man liebt zuletzt seine Begierde, und nicht das Begehrte.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Desire' and 'desired' - preserves wordplay"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Desires' and 'desired' - effective"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Clean rendering; preserves aphoristic form"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "Restructured but effective"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Clean; preserves psychological insight"
+        }
+      }
+    },
+    {
+      "aphorism_number": 176,
+      "german_excerpt": "Die Eitelkeit Andrer geht uns nur dann wider den Geschmack, wenn sie wider unsre Eitelkeit geht.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Offends our taste' and 'vanity' - precise"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Identical to Kaufmann; effective"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Counter to' slightly different register"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Contrary to' - functional"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Clean; preserves reflexive structure"
+        }
+      }
+    },
+    {
+      "aphorism_number": 177,
+      "german_excerpt": "Über Das, was \"Wahrhaftigkeit\" ist, war vielleicht noch Niemand wahrhaftig genug.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Truthfulness' and 'truthful' - preserves wordplay"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Sufficiently truthful' - precise"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Effective; preserves self-referential paradox"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'In speaking about' adds framing"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Clean; maintains paradoxical structure"
+        }
+      }
+    },
+    {
+      "aphorism_number": 178,
+      "german_excerpt": "Klugen Menschen glaubt man ihre Thorheiten nicht: welche Einbusse an Menschenrechten!",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Follies' and 'human rights' - captures irony"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Deprivation' for 'Einbusse' - effective"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'Forfeiture' Victorian; 'rights of man' period"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Foolish acts' slightly different from 'Thorheiten'"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Stupidities' stronger than 'follies'"
+        }
+      }
+    },
+    {
+      "aphorism_number": 179,
+      "german_excerpt": "Die Folgen unsrer Handlungen fassen uns am Schopfe, sehr gleichgültig dagegen, dass wir uns inzwischen \"gebessert\" haben.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Take hold of us' loses 'Schopfe' (forelock) image"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'By the scruff of the neck' vivid; effective"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'By the forelock' preserves image; 'reformed' adequate"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Scruff of the neck' vivid; 'mended our ways' modern"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'By the hair' vivid; captures bodily metaphor"
+        }
+      }
+    },
+    {
+      "aphorism_number": 180,
+      "german_excerpt": "Es giebt eine Unschuld in der Lüge, welche das Zeichen des guten Glaubens an eine Sache ist.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Innocence in lying' and 'good faith' - precise"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Nearly identical to Kaufmann; effective"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Standard rendering; effective"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Signals' for 'Zeichen' - slight modernization"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Clean; preserves meaning effectively"
+        }
+      }
+    },
+    {
+      "aphorism_number": 181,
+      "german_excerpt": "Es ist unmenschlich, da zu segnen, wo Einem geflucht wird.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Inhuman to bless where one is cursed' - precise"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Identical to Kaufmann; effective"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Being cursed' - passive; effective"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'We are being cursed' - first person plural"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'You' direct address; contemporary"
+        }
+      }
+    },
+    {
+      "aphorism_number": 182,
+      "german_excerpt": "Die Vertraulichkeit des überlegenen erbittert, weil sie nicht zurückgegeben werden darf.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Familiarity' and 'embitters' - effective"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'May not be returned' - preserves prohibition"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Superiors' plural; 'may not be retumed' effective"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Intimacy' and 'cannot be returned' - slight shift"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 5,
+          "notes": "'Confidences' and 'enrage' - stronger than 'erbittert'"
+        }
+      }
+    },
+    {
+      "aphorism_number": 183,
+      "german_excerpt": "\"Nicht dass du mich belogst, sondern dass ich dir nicht mehr glaube, hat mich erschüttert.\"",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Shaken' for 'erschüttert' - effective"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Distressed' softer than 'erschüttert'"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 6,
+          "notes": "'Affected' and 'deceived' - loses directness"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "Good structure; captures emotional impact"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 5,
+          "notes": "'Upset' colloquial; captures conversational tone"
+        }
+      }
+    },
+    {
+      "aphorism_number": 184,
+      "german_excerpt": "Es giebt einen Übermuth der Güte, welcher sich wie Bosheit ausnimmt.",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'High spirits' for 'Übermuth' - loses excess dimension"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Wild spirit of good-naturedness' - interpretive but effective"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'Haughtiness of kindness' - captures pride element"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Wantonness of goodness' - effective rendering"
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 5,
+          "notes": "'High-spiritedness' - modern; clear"
+        }
+      },
+      "ranking": ["Faber", "Hollingdale", "Kaufmann", "Norman", "Zimmern"],
+      "key_issue": "'Ubermuth' (exuberance/wantonness/high spirits) variously rendered; captures goodness appearing as malice"
+    },
+    {
+      "aphorism_number": 185,
+      "german_excerpt": "\"Er missfallt mir.\" - Warum? - \"Ich bin ihm nicht gewachsen.\" - Hat je ein Mensch so geantwortet?",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 2,
+          "notes": "'I am not equal to him' captures honest self-assessment"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 2,
+          "notes": "'Not up to him' - effective; honest tone"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Not a match for him' - effective rendering"
+        },
+        "Faber": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 2,
+          "notes": "Clean; captures psychological honesty"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "Contemporary; effective dialogue form"
+        }
+      },
+      "ranking": ["Kaufmann", "Hollingdale", "Faber", "Norman", "Zimmern"],
+      "key_issue": "'nicht gewachsen' (not a match for/not up to) captures rare admission of inadequacy"
+    },
+    {
+      "aphorism_number": 186,
+      "german_excerpt": "Die moralische Empfindung ist jetzt in Europa ebenso fein, spät, vielfach, reizbar, raffinirt, als die dazu gehörige \"Wissenschaft der Moral\" noch jung, anfängerhaft, plump und grobfingrig ist...",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Science of morals' and 'butterfingered' - excellent contrast"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Coarse-fingered' for 'grobfingrig' - precise"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Coarse-fingered' effective; Victorian style"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Crude' for 'grobfingrig' - modern equivalent"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Clumsy, and crude' - effective pairing"
+        }
+      }
+    },
+    {
+      "aphorism_number": 187,
+      "german_excerpt": "Abgesehn noch vom Werthe solcher Behauptungen wie \"es giebt in uns einen kategorischen Imperativ\", kann man immer noch fragen: was sagt eine solche Behauptung von dem sie Behauptenden aus?",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Categorical imperative' preserved; excellent Kant context"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Preserves philosophical terminology precisely"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "Victorian phrasing but accurate content"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "Modern; preserves philosophical inquiry"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "Contemporary; maintains critical tone"
+        }
+      }
+    },
+    {
+      "aphorism_number": 189,
+      "german_excerpt": "Die arbeitsamen Rassen finden eine grosse Beschwerde darin, den Müssiggang zu ertragen: es war ein Meisterstück des englischen Instinktes, den Sonntag in dem Maasse zu heiligen...",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Industrious races' and 'masterpiece of English instinct'"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "Precise; preserves ironic critique of English Sabbath"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Hallow and begloom' - creative rendering"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Holy and humdrum' - captures boring sanctity"
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'Tedium with a Te Deum' - interpretive wordplay"
+        }
+      }
+    },
+    {
+      "aphorism_number": 190,
+      "german_excerpt": "Es giebt Etwas in der Moral Plato's, das nicht eigentlich zu Plato gehört, sondern sich nur an seiner Philosophie vorfindet, man könnte sagen, trotz Plato: nämlich der Sokratismus...",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'In spite of Plato' and 'Socratism' - philosophically precise"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'In spite of Plato' - preserves paradox"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Socratism, for which he himself was too noble'"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Despite Plato' - effective; 'too noble' preserved"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'In spite of him' - clear philosophical reading"
+        }
+      }
+    },
+    {
+      "aphorism_number": 192,
+      "german_excerpt": "Wer der Geschichte einer einzelnen Wissenschaft nachgegangen ist, der findet in ihrer Entwicklung einen Leitfaden zum Verständniss der ältesten und gemeinsten Vorgänge alles \"Wissens und Erkennens\"...",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Knowledge and cognition' for 'Wissens und Erkennens'"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Knowledge and understanding' - effective"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Knowledge and cognisance' - Victorian spelling"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "Modern; 'knowledge and cognition' effective"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Most secret' for 'gemeinsten' - slight intensification"
+        }
+      }
+    },
+    {
+      "aphorism_number": 193,
+      "german_excerpt": "Quidquid luce fuit, tenebris agit: aber auch umgekehrt. Was wir im Traume erleben, vorausgesetzt, dass wir es oftmals erleben, gehört zuletzt so gut zum Gesammt-Haushalt unsrer Seele...",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Overall economy of our soul' - excellent for 'Gesammt-Haushalt'"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Total economy of our soul' - precise"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 5,
+          "notes": "'General belonging of our soul' - loses economic metaphor"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Overall economy of our soul' - effective"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Total economy of our soul' - preserves metaphor"
+        }
+      }
+    },
+    {
+      "aphorism_number": 194,
+      "german_excerpt": "Die Verschiedenheit der Menschen zeigt sich nicht nur in der Verschiedenheit ihrer Gütertafeln, also darin, dass sie verschiedene Güter für erstrebenswerth halten...",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Tablets of goods' for 'Gütertafeln' - philosophical precision"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Tables of what they find good' - interpretive but clear"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 5,
+          "notes": "'Lists of desirable things' - loses tablet/law imagery"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Table of goods' - preserves key metaphor"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Tables of goods' - effective"
+        }
+      }
+    },
+    {
+      "aphorism_number": 195,
+      "german_excerpt": "Die Juden - ein Volk \"geboren zur Sklaverei\", wie Tacitus und die ganze antike Welt sagt, \"das auserwählte Volk unter den Völkern\", wie sie selbst sagen und glauben...",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Inversion of values' for 'Umkehrung der Werthe' - key concept"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Inversion of values' preserved; historically grounded"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Inversion of valuations' - effective"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'Reversal of values' - acceptable variant"
+        },
+        "Norman": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Inversion of values' - philosophically precise"
+        }
+      }
+    },
+    {
+      "aphorism_number": 196,
+      "german_excerpt": "Es giebt unzählige dunkle Körper neben der Sonne zu erschliessen, - solche die wir nie sehen werden. Das ist, unter uns gesagt, ein Gleichniss...",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Parable' for 'Gleichniss' - captures Biblical resonance"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Parable' and 'sign-language' - effective"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'Allegory' for 'Gleichniss' - slightly different register"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Metaphor' - modern; 'confidentially' nice touch"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Parable' and 'between you and me' - intimate"
+        }
+      }
+    },
+    {
+      "aphorism_number": 197,
+      "german_excerpt": "Man missversteht das Raubthier und den Raubmenschen (zum Beispiele Cesare Borgia) gründlich, man missversteht die \"Natur\", so lange man noch nach einer \"Krankhaftigkeit\" im Grunde dieser gesündesten aller tropischen Unthiere...",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Beast of prey' and 'man of prey' - precise; scholarly notes"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Beast of prey and man of prey' - effective"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'Caesar Borgia' spelling variant; 'morbidness' acceptable"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Predatory animals and predatory people' - modern"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 5,
+          "notes": "'You utterly fail to understand' - direct address; provocative"
+        }
+      }
+    },
+    {
+      "aphorism_number": 198,
+      "german_excerpt": "Alle diese Moralen, die sich an die einzelne Person wenden, zum Zwecke ihres \"Glückes\", wie es heisst, - was sind sie Anderes, als Verhaltungs-Vorschläge im Verhältniss zum Grade der Gefährlichkeit...",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Counsels for behavior' for 'Verhaltungs-Vorschläge'"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Prescriptions for behaviour' - precise"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'Suggestions for behaviour' - slightly weaker"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Behavioural guides' - modern rendering"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'Recommendations for constraint' - interpretive"
+        }
+      }
+    },
+    {
+      "aphorism_number": 199,
+      "german_excerpt": "Insofern es zu allen Zeiten, so lange es Menschen giebt, auch Menschenheerden gegeben hat (Geschlechts-Verbände, Gemeinden, Stämme, Völker, Staaten, Kirchen) und immer sehr viel Gehorchende im Verhältniss zu der kleinen Zahl Befehlender...",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Herds of men' and 'those who obeyed/commanded' - excellent"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Human herds' effective; comprehensive list preserved"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Human herds' and 'family alliances' - Victorian phrasing"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Human herds' and 'followers' - modern"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Herds of people' and 'racial groups' - contemporary"
+        }
+      }
+    },
+    {
+      "aphorism_number": 200,
+      "german_excerpt": "Der Mensch aus einem Auflösungs-Zeitalter, welches die Rassen durch einander wirft, der als Solcher die Erbschaft einer vielfältigen Herkunft im Leibe hat...",
+      "translator_scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3,
+          "notes": "'Age of disintegration' and 'heritage of multiple origins' - excellent"
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 3,
+          "notes": "'Era of dissolution' and 'diversified descent' - precise"
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5,
+          "notes": "'Diversified descent' effective; Victorian construction"
+        },
+        "Faber": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4,
+          "notes": "'Age of disintegration' and 'multifarious origins' - modern"
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4,
+          "notes": "'Age of disintegration' and 'multiple lineages' - contemporary"
+        }
+      }
+    }
+  ]
+}

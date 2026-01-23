@@ -1,0 +1,130 @@
+{
+  "title": "Full Corpus Comparison: LLM-as-Judge vs Embedding Divergence",
+  "date": "2026-01-19",
+  "corpus_analyzed": 290,
+
+  "llm_judge_summary": {
+    "methodology": "LLM-as-Judge analysis using Claude Opus 4.5 evaluating philosophical_fidelity, tonal_preservation, and interpretive_liberty across 5 translators",
+    "translators_evaluated": ["Walter Kaufmann", "RJ Hollingdale", "Helen Zimmern", "Marion Faber", "Judith Norman"],
+
+    "final_rankings": {
+      "1_Kaufmann": {
+        "philosophical_fidelity": 8.56,
+        "tonal_preservation": 7.84,
+        "interpretive_liberty": 3.75,
+        "top_ranking_count": 135,
+        "sample_size": 286,
+        "profile": "Scholarly standard. Best philosophical precision. Combines fidelity with readability. Excellent handling of technical German philosophical terms. Ranked first in 135 aphorisms."
+      },
+      "2_Hollingdale": {
+        "philosophical_fidelity": 8.51,
+        "tonal_preservation": 8.15,
+        "interpretive_liberty": 2.85,
+        "top_ranking_count": 117,
+        "sample_size": 288,
+        "profile": "Most literal translator. Second highest top-ranking count (117). Excellent structural fidelity to German. Highest tonal preservation score. Best choice for literal accuracy."
+      },
+      "3_Faber": {
+        "philosophical_fidelity": 7.71,
+        "tonal_preservation": 7.4,
+        "interpretive_liberty": 3.8,
+        "top_ranking_count": 0,
+        "sample_size": 275,
+        "profile": "Moderately interpretive translator. Modern accessibility prioritized. Some philosophical terms weakened (e.g., 'trips over' vs 'attacks' for aggressive German verbs)."
+      },
+      "4_Norman": {
+        "philosophical_fidelity": 7.51,
+        "tonal_preservation": 7.48,
+        "interpretive_liberty": 3.79,
+        "top_ranking_count": 1,
+        "sample_size": 271,
+        "profile": "Contemporary scholarly voice. Some corpus alignment issues detected in early aphorisms. Strong when text is complete."
+      },
+      "5_Zimmern": {
+        "philosophical_fidelity": 7.19,
+        "tonal_preservation": 6.43,
+        "interpretive_liberty": 4.05,
+        "top_ranking_count": 0,
+        "sample_size": 263,
+        "profile": "Historical first translation (1906). Victorian language. Some corpus corruption. Variable quality across aphorisms."
+      }
+    }
+  },
+
+  "embedding_comparison": {
+    "methodology": "paraphrase-multilingual-MiniLM-L12-v2 embeddings, divergence = 1 - mean_cosine_similarity across translator pairs",
+    "corpus_statistics": {
+      "mean_divergence": 0.1691,
+      "std_divergence": 0.0865,
+      "high_threshold": 0.2556
+    },
+
+    "key_finding": "Embedding divergence is a POOR predictor of philosophical translation quality differences",
+
+    "evidence": {
+      "case_1_high_embedding_low_llm": {
+        "example": "Aphorism 38 (French Revolution)",
+        "embedding_divergence": 0.3171,
+        "embedding_verdict": "HIGH - 99th percentile",
+        "llm_verdict": "All translators score 8-9 on philosophical fidelity. High embedding divergence driven by text length variation, not philosophical divergence."
+      },
+      "case_2_low_embedding_high_llm": {
+        "example": "Aphorism 67 (Love as barbarism)",
+        "embedding_divergence": 0.1195,
+        "embedding_verdict": "LOW - 33rd percentile",
+        "llm_finding": "Norman's 'barbaric to love one thing alone' expands German structure significantly. Kaufmann missing from corpus. Philosophical interpretation varies despite lexical similarity."
+      },
+      "case_3_grammatical_invisible": {
+        "example": "Aphorisms with noun/verb distinctions",
+        "finding": "Embeddings cluster 'reverence for itself' (noun) and 'reveres itself' (verb) closely despite different philosophical implications. Grammatical-philosophical nuance invisible to vector space."
+      }
+    }
+  },
+
+  "synthesis": {
+    "primary_insight": "Embedding similarity measures lexical overlap, not philosophical fidelity. High embedding similarity does NOT mean philosophical equivalence.",
+    "agreement_rate": "Approximately 30% agreement between methods",
+    "recommendation": "Use embeddings for detecting OCR errors and corpus anomalies. Use LLM-as-Judge for translation quality assessment.",
+
+    "what_embeddings_detect": [
+      "Text length variations",
+      "Major vocabulary differences",
+      "OCR errors and corpus corruption",
+      "Missing/truncated translations"
+    ],
+
+    "what_embeddings_miss": [
+      "Grammatical distinctions (noun vs verb, singular vs plural)",
+      "Philosophical register shifts (technical vs colloquial)",
+      "Article insertion affecting identity claims",
+      "Subtle ontological distinctions in syntax",
+      "Translator interpretive choices that preserve semantic similarity"
+    ]
+  },
+
+  "corpus_quality_issues_identified": {
+    "Norman_misalignment": "Aphorisms 8, 13, 14, 24-27, 29, 79, 100, 102 show text misalignment",
+    "Zimmern_corruption": "Aphorisms 4, 52, 72, 83 show corpus corruption",
+    "Kaufmann_missing": "Several aphorisms in explorer_data show Kaufmann as null",
+    "recommendation": "Investigate Norman/Zimmern corpus assembly process"
+  },
+
+  "key_philosophical_terms_analysis": {
+    "Wille_zur_Macht": {
+      "best_handling": "Hollingdale",
+      "issue": "Some translators add article ('THE will to power') changing philosophical claim structure"
+    },
+    "vornehm": {
+      "best_handling": "Kaufmann (noble/aristocratic)",
+      "issue": "Zimmern's 'distinguished' loses genealogical dimension"
+    },
+    "Uebermensch": {
+      "best_handling": "Kaufmann preserves with explanation",
+      "issue": "Various renderings: overman, superman, higher man"
+    },
+    "Heerde": {
+      "best_handling": "Kaufmann (herd)",
+      "issue": "Consistently rendered but surrounding critique varies"
+    }
+  }
+}

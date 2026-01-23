@@ -1,31 +1,32 @@
 {
   "title": "Embedding Divergence vs LLM-as-Judge: Comparative Analysis",
   "hypothesis": "LLM-as-Judge captures philosophical nuances that embedding cosine similarity misses",
+  "version": "2.0 - Updated after OCR fix",
   "corpus_statistics": {
-    "mean_divergence": 0.0480,
-    "std_divergence": 0.0466,
-    "high_threshold": 0.0946,
+    "mean_divergence": 0.1691,
+    "std_divergence": 0.0865,
+    "high_threshold": 0.2556,
     "total_aphorisms": 231
   },
   "comparison": [
     {
       "aphorism": 13,
       "title": "Leben selbst ist Wille zur Macht",
-      "embedding_divergence": 0.1725,
-      "embedding_percentile": 97,
+      "embedding_divergence": 0.2821,
+      "embedding_percentile": 91,
       "embedding_verdict": "HIGH",
       "llm_judge_issues": [
         "Article insertion: 'will to power' vs 'THE will to power'",
         "Verb intensity: 'discharge' vs 'release' vs 'vent'"
       ],
       "agreement": "AGREE - Both methods detect high divergence",
-      "interpretation": "Embeddings likely caught lexical variation in the surrounding text, not just the key philosophical term. The phrase 'will to power' itself is consistent across translators."
+      "interpretation": "Embeddings caught lexical variation. LLM additionally identified the article insertion issue which changes the philosophical claim structure."
     },
     {
       "aphorism": 257,
       "title": "Pathos der Distanz",
-      "embedding_divergence": 0.0255,
-      "embedding_percentile": 42,
+      "embedding_divergence": 0.1166,
+      "embedding_percentile": 32,
       "embedding_verdict": "LOW",
       "llm_judge_issues": [
         "Faber's 'grand feeling of distance' loses Greek 'pathos'",
@@ -33,13 +34,13 @@
         "'The human' vs 'man' (modernizing gender-neutral shift)"
       ],
       "agreement": "DISAGREE - LLM finds significant divergence, embeddings miss it",
-      "interpretation": "Embeddings cluster 'pathos of distance' and 'grand feeling of distance' closely due to semantic overlap. But philosophical register (Greek-derived vs colloquial) is invisible to embeddings."
+      "interpretation": "Embeddings cluster 'pathos of distance' and 'grand feeling of distance' closely due to semantic overlap. Philosophical register shift invisible to vectors."
     },
     {
       "aphorism": 259,
       "title": "Life as Exploitation",
-      "embedding_divergence": 0.0217,
-      "embedding_percentile": 35,
+      "embedding_divergence": 0.1362,
+      "embedding_percentile": 43,
       "embedding_verdict": "LOW",
       "llm_judge_issues": [
         "Noun vs gerund: 'appropriation' vs 'appropriating'",
@@ -47,35 +48,35 @@
         "Ontological claim (life IS exploitation) vs activity (life does exploitation)"
       ],
       "agreement": "DISAGREE - LLM finds significant divergence, embeddings miss it",
-      "interpretation": "Gerunds and nouns from same root have nearly identical embeddings. The grammatical difference carrying philosophical weight is invisible to vector similarity."
+      "interpretation": "Gerunds and nouns from same root have nearly identical embeddings. Grammatical difference carrying philosophical weight is invisible."
     },
     {
       "aphorism": 260,
       "title": "Herren-Moral und Sklaven-Moral",
-      "embedding_divergence": 0.0918,
-      "embedding_percentile": 87,
-      "embedding_verdict": "MEDIUM-HIGH",
+      "embedding_divergence": 0.1440,
+      "embedding_percentile": 47,
+      "embedding_verdict": "LOW",
       "llm_judge_issues": [
         "Singular vs plural: 'morality' vs 'moralities'",
         "'Breast' for 'Seele' (soul) - register error",
         "Hyphenation: 'master-morality' vs 'master morality'"
       ],
-      "agreement": "PARTIAL AGREE - Both detect elevated divergence",
-      "interpretation": "Longer passage with more lexical variation. Embeddings likely caught surface-level differences. LLM additionally caught grammatical-philosophical issues (singular/plural ideal types)."
+      "agreement": "DISAGREE - LLM finds significant divergence, embeddings miss it",
+      "interpretation": "After OCR fix, embedding divergence dropped to average. LLM still catches singular/plural distinction affecting ideal-type structure."
     },
     {
       "aphorism": 287,
       "title": "Was ist vornehm?",
-      "embedding_divergence": 0.0246,
-      "embedding_percentile": 39,
-      "embedding_verdict": "LOW",
+      "embedding_divergence": 0.1889,
+      "embedding_percentile": 66,
+      "embedding_verdict": "MEDIUM",
       "llm_judge_issues": [
         "'Has reverence for itself' (noun) vs 'reveres itself' (verb)",
         "'Faith' vs 'belief' for 'Glaube'",
         "'Rule of the plebs' vs 'mob rule' vs 'incipient mob rule'"
       ],
-      "agreement": "DISAGREE - LLM finds significant divergence, embeddings miss it",
-      "interpretation": "'Reverence' (noun) and 'reveres' (verb) have virtually identical embeddings. But the ontological difference (state of being vs activity) is philosophically significant."
+      "agreement": "PARTIAL - Embeddings show medium, LLM finds high philosophical divergence",
+      "interpretation": "Some lexical variation detected, but the critical noun/verb distinction for 'reverence' is still underweighted by embeddings."
     }
   ],
   "summary": {
@@ -86,13 +87,14 @@
       "Article insertion changing identity claims to attributions",
       "Subtle ontological distinctions encoded in syntax"
     ],
-    "agreement_rate": "2/5 (40%) - embeddings and LLM-as-Judge agree on divergence level",
+    "agreement_rate": "1.5/5 (30%) - Only Aph 13 shows clear agreement, Aph 287 partial",
     "key_insight": "Embedding divergence is a 'precise calculation of a vague proxy' (Pieter Maes). High embedding similarity does NOT mean philosophical equivalence."
   },
   "methodology_notes": {
     "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
-    "divergence_metric": "1 - cosine_similarity",
+    "divergence_metric": "1 - mean_cosine_similarity (pairwise across 6 translators)",
     "llm_judge_model": "Claude Opus 4.5",
-    "evaluation_dimensions": ["philosophical_fidelity", "tonal_preservation", "interpretive_liberty", "semantic_divergence"]
+    "evaluation_dimensions": ["philosophical_fidelity", "tonal_preservation", "interpretive_liberty", "semantic_divergence"],
+    "ocr_status": "Corpus cleaned - 2974 OCR errors fixed"
   }
 }

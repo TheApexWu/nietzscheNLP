@@ -1,0 +1,3569 @@
+{
+  "batch": "201-296",
+  "analyses": [
+    {
+      "aphorism": 201,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Faber"
+      ],
+      "key_issue": "Noble/base (vornehm/gemein) value distinctions"
+    },
+    {
+      "aphorism": 202,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 5,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Herd concept (Heerde/Heerden-Moral)"
+    },
+    {
+      "aphorism": 203,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Herd concept (Heerde/Heerden-Moral)"
+    },
+    {
+      "aphorism": 204,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Noble/base (vornehm/gemein) value distinctions"
+    },
+    {
+      "aphorism": 205,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 206,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 5,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Noble/base (vornehm/gemein) value distinctions"
+    },
+    {
+      "aphorism": 207,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 208,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 209,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 210,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 211,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Will to power (Wille zur Macht) concept"
+    },
+    {
+      "aphorism": 212,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Noble/base (vornehm/gemein) value distinctions"
+    },
+    {
+      "aphorism": 213,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Order of rank (Rangordnung) terminology"
+    },
+    {
+      "aphorism": 214,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 215,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 216,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Kaufmann",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 217,
+      "scores": {
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 218,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 219,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 220,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 221,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Order of rank (Rangordnung) terminology"
+    },
+    {
+      "aphorism": 222,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Kaufmann",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Pity (Mitleid) - compassion critique"
+    },
+    {
+      "aphorism": 223,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 224,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Order of rank (Rangordnung) terminology"
+    },
+    {
+      "aphorism": 225,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 5,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Pity (Mitleid) - compassion critique"
+    },
+    {
+      "aphorism": 226,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 227,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Free spirit (freier Geist) concept"
+    },
+    {
+      "aphorism": 228,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Order of rank (Rangordnung) terminology"
+    },
+    {
+      "aphorism": 229,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 5,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Pity (Mitleid) - compassion critique"
+    },
+    {
+      "aphorism": 230,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Free spirit (freier Geist) concept"
+    },
+    {
+      "aphorism": 231,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 232,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 233,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 234,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 235,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 236,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 237,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 238,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Kaufmann",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 239,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 5,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Pity (Mitleid) - compassion critique"
+    },
+    {
+      "aphorism": 240,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 241,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Kaufmann",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 242,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Herd concept (Heerde/Heerden-Moral)"
+    },
+    {
+      "aphorism": 243,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 244,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 245,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Noble/base (vornehm/gemein) value distinctions"
+    },
+    {
+      "aphorism": 246,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Kaufmann",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 247,
+      "scores": {
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 248,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Kaufmann",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 249,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 250,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Kaufmann",
+        "Faber"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 251,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Kaufmann",
+        "Faber"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 252,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Kaufmann",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 253,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Norman",
+        "Faber"
+      ],
+      "key_issue": "Noble/base (vornehm/gemein) value distinctions"
+    },
+    {
+      "aphorism": 254,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 255,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 256,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Noble/base (vornehm/gemein) value distinctions"
+    },
+    {
+      "aphorism": 257,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 10,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Pathos of distance (Pathos der Distanz)"
+    },
+    {
+      "aphorism": 258,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 259,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Will to power (Wille zur Macht) concept"
+    },
+    {
+      "aphorism": 260,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Master/slave morality terminology (Herren-Moral/Sklaven-Moral)"
+    },
+    {
+      "aphorism": 261,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Noble/base (vornehm/gemein) value distinctions"
+    },
+    {
+      "aphorism": 262,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Noble/base (vornehm/gemein) value distinctions"
+    },
+    {
+      "aphorism": 263,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Order of rank (Rangordnung) terminology"
+    },
+    {
+      "aphorism": 264,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Kaufmann",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 265,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber"
+      ],
+      "key_issue": "Noble/base (vornehm/gemein) value distinctions"
+    },
+    {
+      "aphorism": 266,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 267,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 268,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Order of rank (Rangordnung) terminology"
+    },
+    {
+      "aphorism": 269,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Pity (Mitleid) - compassion critique"
+    },
+    {
+      "aphorism": 270,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Order of rank (Rangordnung) terminology"
+    },
+    {
+      "aphorism": 271,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Noble/base (vornehm/gemein) value distinctions"
+    },
+    {
+      "aphorism": 272,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Noble/base (vornehm/gemein) value distinctions"
+    },
+    {
+      "aphorism": 273,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 274,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Kaufmann",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 275,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 276,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Noble/base (vornehm/gemein) value distinctions"
+    },
+    {
+      "aphorism": 277,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 278,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Kaufmann",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 279,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 280,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 281,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 282,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 283,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Noble/base (vornehm/gemein) value distinctions"
+    },
+    {
+      "aphorism": 284,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Kaufmann",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 285,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber"
+      ],
+      "key_issue": "Order of rank (Rangordnung) terminology"
+    },
+    {
+      "aphorism": 286,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 287,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Order of rank (Rangordnung) terminology"
+    },
+    {
+      "aphorism": 288,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 289,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 290,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Faber",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 291,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Norman",
+        "Kaufmann",
+        "Zimmern"
+      ],
+      "key_issue": "Short aphorism - stylistic precision"
+    },
+    {
+      "aphorism": 292,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 293,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 9,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 5,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Norman",
+        "Faber",
+        "Zimmern"
+      ],
+      "key_issue": "Pity (Mitleid) - compassion critique"
+    },
+    {
+      "aphorism": 294,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 9,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Order of rank (Rangordnung) terminology"
+    },
+    {
+      "aphorism": 295,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 6
+        },
+        "Hollingdale": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 8,
+          "interpretive_liberty": 3
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Hollingdale",
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    },
+    {
+      "aphorism": 296,
+      "scores": {
+        "Kaufmann": {
+          "philosophical_fidelity": 8,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 5
+        },
+        "Norman": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 6,
+          "interpretive_liberty": 4
+        },
+        "Faber": {
+          "philosophical_fidelity": 7,
+          "tonal_preservation": 7,
+          "interpretive_liberty": 4
+        },
+        "Zimmern": {
+          "philosophical_fidelity": 6,
+          "tonal_preservation": 5,
+          "interpretive_liberty": 5
+        }
+      },
+      "ranking": [
+        "Kaufmann",
+        "Faber",
+        "Norman",
+        "Zimmern"
+      ],
+      "key_issue": "Complex argument - fidelity and clarity balance"
+    }
+  ]
+}
